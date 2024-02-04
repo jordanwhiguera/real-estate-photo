@@ -4,10 +4,10 @@ import Container from "./Container";
 import { useRouter } from "next/navigation";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
-import Image from "next/image";
 
 const Navbar: React.FC = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [shouldTransition, setShouldTransition] = useState(true);
   const router = useRouter();
 
   const handleNavigation = (path: string) => {
@@ -15,92 +15,119 @@ const Navbar: React.FC = () => {
     router.push(path);
   };
 
-  const scrollToSection = (
-    e: React.MouseEvent<HTMLAnchorElement>,
-    sectionId: string
-  ) => {
-    setIsDrawerOpen(false);
-    const section = document.getElementById(sectionId);
-    if (window.location.pathname === "/" && section) {
-      e.preventDefault(); // Need this for scroll effect to work
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
-    } else {
-      router.push("/#" + sectionId);
-    }
-  };
+  React.useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setIsDrawerOpen(false);
+        setShouldTransition(false); // Disable transitions on md screens and above
+      } else {
+        setShouldTransition(true); // Enable transitions on smaller screens
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Initial check
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <>
-      <nav className="fixed w-full bg-[#1e251f] text-white z-50">
-        <Container className="py-3">
+      <nav className="fixed w-full bg-[#C5B49E] text-[#1e251f] z-50">
+        <Container className="py-4">
           <div className="flex justify-between items-center">
+            {/* Logo */}
             <h2
-              className="text-lg font-bold cursor-pointer hover:text-[#feac7c] flex"
+              className="text-2xl font-bold cursor-pointer"
               onClick={() => handleNavigation("/")}
             >
-              Jordy Web Development & Design
+              PHOTOGRAPHY
             </h2>
+            {/* Menu for larger screens */}
+            <div className="hidden md:flex space-x-4">
+              <button
+                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
+                onClick={() => handleNavigation("/about")}
+              >
+                About
+              </button>
+              <button
+                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
+                onClick={() => handleNavigation("/gallery")}
+              >
+                Gallery
+              </button>
+              <button
+                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
+                onClick={() => handleNavigation("/project")}
+              >
+                Project
+              </button>
+              <button
+                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
+                onClick={() => handleNavigation("/contact")}
+              >
+                Contact
+              </button>
+            </div>
+            {/* Hamburger Icon */}
             {isDrawerOpen ? (
               <IoMdClose
                 size={24}
-                className="cursor-pointer hover:text-[#feac7c]"
+                className="cursor-pointer md:hidden hover:text-[#feac7c]"
                 onClick={() => setIsDrawerOpen(false)}
               />
             ) : (
               <IoMenu
                 size={24}
-                className="cursor-pointer hover:text-[#feac7c]"
+                className="cursor-pointer md:hidden hover:text-[#feac7c]"
                 onClick={() => setIsDrawerOpen(true)}
               />
             )}
           </div>
         </Container>
       </nav>
-      {/* Drawer */}
+      {/* Drawer for smaller screens */}
       <div
-        className={`fixed top-0 right-0 w-64 h-full bg-[#1e251f] transform ${
+        className={`fixed top-0 right-0 w-64 h-full bg-[#C5B49E] transform ${
           isDrawerOpen ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-300 ease-in-out z-40 flex flex-col`}
+        } ${
+          shouldTransition
+            ? "transition-transform duration-300 ease-in-out"
+            : ""
+        } z-40 flex flex-col p-4`}
       >
         {/* Close button */}
-        <button
-          className="text-white hover:text-[#feac7c] p-4 self-end"
+        <IoMdClose
+          size={24}
+          className="cursor-pointer text-[#1e251f] mb-4"
           onClick={() => setIsDrawerOpen(false)}
+        />
+        {/* Drawer Links */}
+        <button
+          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
+          onClick={() => handleNavigation("/about")}
         >
-          Close
+          About
         </button>
-        {/* Navigation Links */}
-        <nav className="flex flex-col mt-8 space-y-4 ">
-          <a
-            href="/#home"
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f] "
-            onClick={(e) => scrollToSection(e, "home")}
-          >
-            Home
-          </a>
-          <a
-            href="/#pricing"
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f] "
-            onClick={(e) => scrollToSection(e, "pricing")}
-          >
-            Pricing
-          </a>
-          <a
-            href="/portfolio"
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f]"
-            onClick={() => handleNavigation("/portfolio")}
-          >
-            Portfolio
-          </a>
-
-          <a
-            href="/contact"
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f]"
-            onClick={() => handleNavigation("/contact")}
-          >
-            Contact
-          </a>
-        </nav>
+        <button
+          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
+          onClick={() => handleNavigation("/gallery")}
+        >
+          Gallery
+        </button>
+        <button
+          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
+          onClick={() => handleNavigation("/project")}
+        >
+          Project
+        </button>
+        <button
+          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
+          onClick={() => handleNavigation("/contact")}
+        >
+          Contact
+        </button>
       </div>
       {/* Overlay to close drawer */}
       {isDrawerOpen && (
