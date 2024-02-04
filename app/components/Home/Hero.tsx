@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* About Us & Image Section */}
-      <div className="flex flex-col md:flex-row items-stretch md:space-x-4">
+      <div className="flex flex-col md:flex-row items-stretch md:space-x-4 pb-8">
         {/* About Us Section */}
         <div className="bg-black text-white p-4 flex flex-col justify-between md:w-1/3">
           <p className="mb-4">
@@ -35,6 +35,7 @@ const Hero: React.FC = () => {
           />
         </div>
       </div>
+      <hr />
     </Container>
   );
 };
