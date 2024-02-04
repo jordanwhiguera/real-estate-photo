@@ -3,6 +3,7 @@ import Navbar from "@/app/components/Navbar";
 import Hero from "./components/Home/Hero";
 import InfoSection from "./components/Home/InfoSection";
 import PhotoSection from "./components/Home/PhotoSection";
+import FeaturedWorks from "./components/Home/FeaturedWorks";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <InfoSection />
       <PhotoSection />
+      <FeaturedWorks />
     </>
   );
 }
