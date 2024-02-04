@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="fixed w-full bg-[#C5B49E] text-[#1e251f] z-50">
+      <nav className=" w-full bg-[#C5B49E] text-[#1e251f] z-50 border-b-4">
         <Container className="py-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
