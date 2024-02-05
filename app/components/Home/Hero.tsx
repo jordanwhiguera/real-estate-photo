@@ -7,7 +7,11 @@ const Hero: React.FC = () => {
     <Container>
       {/* Text Section */}
       <div className="py-8 md:py-16">
-        <h1 className="text-5xl font-bold mb-4">CAPTURING</h1>
+        <img
+          src="/images/capturing 2.png" // Replace with the actual path to the capturing image
+          alt="Capturing"
+          className="w-full object-contain " // Adjust the height as needed
+        />
         <p className="text-2xl mb-4">THE MOMENTS THAT CAPTIVATE YOUR HEART</p>
       </div>
 
