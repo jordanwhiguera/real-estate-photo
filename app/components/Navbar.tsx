@@ -59,9 +59,9 @@ const Navbar: React.FC = () => {
               </button>
               <button
                 className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
-                onClick={() => handleNavigation("/project")}
+                onClick={() => handleNavigation("/projects")}
               >
-                Project
+                Projects
               </button>
               <button
                 className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
@@ -118,9 +118,9 @@ const Navbar: React.FC = () => {
         </button>
         <button
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
-          onClick={() => handleNavigation("/project")}
+          onClick={() => handleNavigation("/projects")}
         >
-          Project
+          Projects
         </button>
         <button
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
