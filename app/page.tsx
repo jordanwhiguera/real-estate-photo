@@ -6,6 +6,7 @@ import PhotoSection from "./components/Home/PhotoSection";
 import FeaturedWorks from "./components/Home/FeaturedWorks";
 import ProjectHeader from "./components/Home/ProjectHeader";
 import ArtisticGallery from "./components/Home/ArtisticGallary";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <FeaturedWorks />
       <ProjectHeader />
       <ArtisticGallery />
+      <Footer />
     </>
   );
 }
