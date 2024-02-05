@@ -4,6 +4,7 @@ import Hero from "./components/Home/Hero";
 import InfoSection from "./components/Home/InfoSection";
 import PhotoSection from "./components/Home/PhotoSection";
 import FeaturedWorks from "./components/Home/FeaturedWorks";
+import ProjectHeader from "./components/Home/ProjectHeader";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <InfoSection />
       <PhotoSection />
       <FeaturedWorks />
+      <ProjectHeader />
     </>
   );
 }
