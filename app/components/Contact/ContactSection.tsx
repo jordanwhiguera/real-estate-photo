@@ -51,8 +51,9 @@ const ContactSection: React.FC = () => {
             <p className="mb-6 text-black">
               Hello! I&apos;m Jordan Higuera, and I&apos;m here to assist you.
               Below, you&apos;ll find all the ways you can reach me. Whether you
-              have questions, need advice, or need a website for your business,
-              I&apos;m just a message away. Don&apos;t hesitate to get in touch.
+              have questions, need advice, or need me to take photos or videos
+              of your real estate listing, I&apos;m just a message away.
+              Don&apos;t hesitate to get in touch.
             </p>
             {/* Contact details and social icons */}
             <div className="space-y-4">
@@ -80,10 +81,6 @@ const ContactSection: React.FC = () => {
         <div className="flex-1 bg-black   w-full min-h-full rounded-3xl">
           {/* Form content */}
           <div className="p-6 relative">
-            {/* Background styling circles */}
-            {/* <div className=" absolute z-10 w-40 h-40 bg-[#feac7c] rounded-full -right-28 -top-40"></div>
-            <div className=" absolute -z-10 w-40 h-40 bg-[#feac7c] rounded-full -left-28 -bottom-28"></div> */}
-
             <h3 className="text-lg mb-4 text-white font-bold">
               Fill out this and I will get back to you ASAP!
             </h3>

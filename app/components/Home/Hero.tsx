@@ -22,8 +22,11 @@ const Hero: React.FC = () => {
         {/* About Us Section */}
         <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
           <p className="mb-4">
-            Amelia Allen is a lifestyle, portrait and documentary photographer
-            from Somerset who now lives and works in London.
+            Jordan Higuera is a professional photographer and videographer based
+            in Port Saint Lucie. He specializes in real estate photography and
+            videography, and understands the importance of capturing the essence
+            of a property. He is dedicated to providing the best service to his
+            clients.
           </p>
           <button
             onClick={() => router.push("/contact")}
