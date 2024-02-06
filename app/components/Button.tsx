@@ -28,11 +28,11 @@ const Button: React.FC<ButtonProps> = ({
   disabled:opacity-50
   disabled:cursor-not-allowed
   
-  hover:bg-neutral-800
+  hover:bg-[#ac9b84]
   transition
 
   border-black
-  hover:border-neutral-800
+ 
   text-md
   border-2
   rounded-full

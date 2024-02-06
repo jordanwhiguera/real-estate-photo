@@ -43,11 +43,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
             </div>
           ))}
         </div>
-        <Button
-          smallWidth
-          label="Contact me"
-          onClick={() => router.push("/contact")}
-        />
+        <Button label="Contact me" onClick={() => router.push("/contact")} />
       </div>
     </div>
   );

@@ -1,8 +1,11 @@
 "use client";
 import React from "react";
 import Container from "../Container";
+import { useRouter } from "next/navigation";
+import { FaArrowUp } from "react-icons/fa";
 
 const Hero: React.FC = () => {
+  const router = useRouter();
   return (
     <Container className="">
       {/* Text Section */}
@@ -22,9 +25,16 @@ const Hero: React.FC = () => {
             Amelia Allen is a lifestyle, portrait and documentary photographer
             from Somerset who now lives and works in London.
           </p>
-          <button className="flex items-center mt-4">
-            <span className="font-semibold mr-2">ABOUT US</span>
-            <span className="text-xl">↑</span>{" "}
+          <button
+            onClick={() => router.push("/contact")}
+            className="flex items-center mt-4"
+          >
+            <span className=" text-xl font-bold hover:underline">
+              Contact me
+            </span>
+            <div className="ml-2 text-[white] hover:text-[#c5b49e] rotate-45">
+              <FaArrowUp /> {/* Icon itself is white, background is black */}
+            </div>
             {/* Replace with an actual arrow icon */}
           </button>
         </div>
