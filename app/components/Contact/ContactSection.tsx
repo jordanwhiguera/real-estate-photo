@@ -57,19 +57,19 @@ const ContactSection: React.FC = () => {
             {/* Contact details and social icons */}
             <div className="space-y-4">
               <div className="flex items-center text-black">
-                <span className=" mr-2 text-black p-2 bg-[#445044] rounded-full">
+                <span className=" mr-2 text-black p-2 bg-black rounded-full">
                   <FaMapMarkerAlt className="text-white" />
                 </span>
                 Port Saint Lucie, FL
               </div>
               <div className="flex items-center text-black">
-                <span className=" mr-2 text-black p-2 bg-[#445044] rounded-full">
+                <span className=" mr-2 text-black p-2 bg-black rounded-full">
                   <FaPhoneAlt className="text-white" />
                 </span>
                 (772) 607-0620
               </div>
               <div className="flex items-center text-black">
-                <span className=" mr-2 text-black p-2 bg-[#445044] rounded-full">
+                <span className=" mr-2 text-black p-2 bg-black rounded-full">
                   <MdEmail className="text-white" />
                 </span>
                 jordanwhiguera@gmail.com
@@ -77,7 +77,7 @@ const ContactSection: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#445044]   w-full min-h-full">
+        <div className="flex-1 bg-black   w-full min-h-full rounded-3xl">
           {/* Form content */}
           <div className="p-6 relative">
             {/* Background styling circles */}
@@ -96,28 +96,28 @@ const ContactSection: React.FC = () => {
                 type="text"
                 name="name" // The 'name' attributes are important for Formspree to identify the form fields
                 placeholder="Name"
-                className="p-2  bg-[#1e251f]  text-white"
+                className="p-2  bg-white  text-black rounded-lg"
                 required
               />
               <input
                 type="tel"
                 name="phone" // Changed to type "tel" for better semantics
                 placeholder="Phone number"
-                className="p-2  bg-[#1e251f]  text-white"
+                className="p-2  bg-white  text-black  rounded-lg"
                 required
               />
               <input
                 type="email"
                 name="email"
                 placeholder="Email address"
-                className="p-2  bg-[#1e251f]  text-white"
+                className="p-2  bg-white  text-black rpunded-lg"
                 required
               />
 
               <textarea
                 name="message"
                 placeholder="How can I help?"
-                className="p-2  bg-[#1e251f] text-white"
+                className="p-2  bg-white  text-black  rounded-lg"
                 rows={10}
                 required
               ></textarea>

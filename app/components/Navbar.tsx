@@ -58,37 +58,43 @@ const Navbar: React.FC = () => {
               style={{ maxHeight: "40px" }} // Set a maximum height for your logo image if necessary
             />
             {/* Menu for larger screens */}
-            <div className="hidden md:flex space-x-4">
-              <button
-                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
-                onClick={() => handleNavigation("pricing")}
+            <nav className="hidden md:flex space-x-4">
+              <a
+                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-bold py-2 px-4 border-2 border-black rounded-full "
+                onClick={() => handleNavigation("/")}
+              >
+                Home
+              </a>
+              <a
+                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
+                onClick={(e) => scrollToSection(e, "pricing")}
               >
                 Pricing
-              </button>
-              <button
-                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
+              </a>
+              <a
+                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
                 onClick={() => handleNavigation("/projects")}
               >
                 Projects
-              </button>
-              <button
-                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
+              </a>
+              <a
+                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
                 onClick={() => handleNavigation("/contact")}
               >
                 Contact
-              </button>
-            </div>
+              </a>
+            </nav>
             {/* Hamburger Icon */}
             {isDrawerOpen ? (
               <IoMdClose
-                size={24}
-                className="cursor-pointer md:hidden hover:text-[#feac7c]"
+                size={28}
+                className="cursor-pointer md:hidden hover:text-white self-end"
                 onClick={() => setIsDrawerOpen(false)}
               />
             ) : (
               <IoMenu
-                size={24}
-                className="cursor-pointer md:hidden hover:text-[#feac7c]"
+                size={28}
+                className="cursor-pointer md:hidden hover:text-white "
                 onClick={() => setIsDrawerOpen(true)}
               />
             )}
@@ -107,30 +113,35 @@ const Navbar: React.FC = () => {
       >
         {/* Close button */}
         <IoMdClose
-          size={24}
-          className="cursor-pointer text-[#1e251f] mb-4"
+          size={28}
+          className="cursor-pointer hover:text-white mb-4 self-end "
           onClick={() => setIsDrawerOpen(false)}
         />
         {/* Drawer Links */}
-
-        <button
-          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
-          onClick={() => handleNavigation("/pricing")}
+        <a
+          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center "
+          onClick={() => handleNavigation("/")}
+        >
+          Home
+        </a>
+        <a
+          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
+          onClick={(e) => scrollToSection(e, "pricing")}
         >
           Pricing
-        </button>
-        <button
-          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
+        </a>
+        <a
+          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
           onClick={() => handleNavigation("/projects")}
         >
           Projects
-        </button>
-        <button
-          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
+        </a>
+        <a
+          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
           onClick={() => handleNavigation("/contact")}
         >
           Contact
-        </button>
+        </a>
       </div>
       {/* Overlay to close drawer */}
       {isDrawerOpen && (

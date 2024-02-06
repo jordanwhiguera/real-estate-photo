@@ -35,8 +35,9 @@ const Button: React.FC<ButtonProps> = ({
   hover:border-neutral-800
   text-md
   border-2
+  rounded-full
 
-  ${outline ? "bg-white" : "bg-black"}
+  ${outline ? "bg-white" : "bg-[#c5b49e]"}
 
   ${outline ? "text-black" : "text-white"}
   ${small ? "py-1" : "py-3"}
