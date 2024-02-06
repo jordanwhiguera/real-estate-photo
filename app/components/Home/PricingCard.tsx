@@ -20,22 +20,22 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
   const router = useRouter();
   const IconComponent = plan.icon;
   return (
-    <div className="bg-white shadow-2xl overflow-hidden border-2  flex flex-col items-center lg:my-8">
+    <div className="bg-black shadow-2xl overflow-hidden   flex flex-col items-center lg:my-8">
       <div className="p-4 flex flex-col items-center">
         {IconComponent && (
-          <div className="bg-[#445044] p-4 rounded-full my-4 inline-block">
+          <div className="bg-[#c5b49e] p-4 rounded-full my-4 inline-block">
             <IconComponent size={32} className="text-white" />
           </div>
         )}
-        <div className="font-bold text-xl mb-2 text-black">{plan.name}</div>
-        <p className="text-black text-4xl mb-4 font-bold">{plan.price}</p>
+        <div className="font-bold text-xl mb-2 text-white">{plan.name}</div>
+        <p className="text-white text-4xl mb-4 font-bold">{plan.price}</p>
         <div className="w-full px-4 mb-2">
           {plan.features.map((feature, index) => (
             <div
               key={index}
-              className="flex items-center text-black text-sm mb-2"
+              className="flex items-center text-white text-sm mb-2"
             >
-              <span className=" mr-2 text-black p-1 bg-[#445044] rounded-full">
+              <span className=" mr-2 text-black p-1 bg-[#c5b49e] rounded-full">
                 <FaCheck className="text-white " size={10} />
               </span>
 
