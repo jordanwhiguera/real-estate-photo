@@ -20,7 +20,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
   const router = useRouter();
   const IconComponent = plan.icon;
   return (
-    <div className="bg-black shadow-2xl overflow-hidden   flex flex-col items-center lg:my-8">
+    <div className="bg-black shadow-2xl overflow-hidden rounded-3xl   flex flex-col items-center lg:my-8">
       <div className="p-4 flex flex-col items-center">
         {IconComponent && (
           <div className="bg-[#c5b49e] p-4 rounded-full my-4 inline-block">

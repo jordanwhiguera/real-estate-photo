@@ -12,14 +12,14 @@ const ArtisticGallery: React.FC = () => {
           <img
             src="/images/home.webp" // Replace with actual paths to your images
             alt="Interior"
-            className="w-full object-cover pb-2"
+            className="w-full object-cover pb-2 rounded-3xl"
             style={{ height: "50vh" }}
           />
           {/* Bottom image */}
           <img
             src="/images/home.webp" // Replace with actual paths to your images
             alt="Exterior"
-            className="w-full object-cover"
+            className="w-full object-cover rounded-3xl"
             style={{ height: "50vh" }}
           />
         </div>
@@ -28,7 +28,7 @@ const ArtisticGallery: React.FC = () => {
           <img
             src="/images/home.webp" // Replace with actual paths to your images
             alt="Long view"
-            className="w-full object-cover"
+            className="w-full object-cover rounded-3xl"
             style={{ height: "100vh" }}
           />
         </div>

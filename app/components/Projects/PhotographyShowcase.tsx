@@ -12,32 +12,32 @@ const PhotographyShowcase: React.FC = () => {
           <img
             src="/images/home.webp"
             alt="Home exterior"
-            className="w-full h-auto object-cover rounded-md"
+            className="w-full h-auto object-cover rounded-3xl"
           />
           <img
             src="/images/home.webp"
             alt="Living room"
-            className="w-full h-auto object-cover rounded-md"
+            className="w-full h-auto object-cover rounded-3xl"
           />
           <img
             src="/images/home.webp"
             alt="Kitchen"
-            className="w-full h-auto object-cover rounded-md"
+            className="w-full h-auto object-cover rounded-3xl"
           />
           <img
             src="/images/home.webp"
             alt="Backyard pool"
-            className="w-full h-auto object-cover rounded-md"
+            className="w-full h-auto object-cover rounded-3xl"
           />
           <img
             src="/images/home.webp"
             alt="House interior"
-            className="w-full h-auto object-cover rounded-md"
+            className="w-full h-auto object-cover rounded-3xl"
           />
           <img
             src="/images/home.webp"
             alt="Sunset view"
-            className="w-full h-auto object-cover rounded-md"
+            className="w-full h-auto object-cover rounded-3xl"
           />
         </div>
       </div>

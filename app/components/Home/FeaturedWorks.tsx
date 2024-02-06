@@ -33,7 +33,7 @@ const FeaturedWorks: React.FC = () => {
               <img
                 src={work.imageUrl}
                 alt={work.title}
-                className="w-full object-cover"
+                className="w-full object-cover rounded-3xl"
                 style={{ height: "25vh" }} // Set image height to 50% of the viewport height
               />
               <div

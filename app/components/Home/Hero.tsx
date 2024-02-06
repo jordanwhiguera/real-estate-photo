@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
       {/* About Us & Image Section */}
       <div className="flex flex-col md:flex-row items-stretch md:space-x-4 pb-8">
         {/* About Us Section */}
-        <div className="bg-black text-white p-4 flex flex-col justify-between md:w-1/3">
+        <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
           <p className="mb-4">
             Amelia Allen is a lifestyle, portrait and documentary photographer
             from Somerset who now lives and works in London.
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
           <img
             src="/images/home.webp" // Replace with the actual path to your image
             alt="Photographer"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-3xl"
           />
         </div>
       </div>
