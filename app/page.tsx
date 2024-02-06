@@ -7,6 +7,7 @@ import FeaturedWorks from "./components/Home/FeaturedWorks";
 import ProjectHeader from "./components/Home/ProjectHeader";
 import ArtisticGallery from "./components/Home/ArtisticGallary";
 import Footer from "./components/Footer";
+import PricingTable from "./components/Home/PrricingTable";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <FeaturedWorks />
       <ProjectHeader />
       <ArtisticGallery />
+      <PricingTable />
       <Footer />
     </>
   );

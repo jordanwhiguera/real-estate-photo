@@ -9,24 +9,22 @@ const FeaturedWorks: React.FC = () => {
       id: 1,
       title: "ART DIRECTOR",
 
-      imageUrl: "/images/stowbasepreview.png", // Replace with your image path
+      imageUrl: "/images/home.webp", // Replace with your image path
     },
     {
       id: 2,
       title: "PHOTOGRAPHER",
-
-      imageUrl: "/images/stowbasepreview.png", // Replace with your image path
+      imageUrl: "/images/home.webp", // Replace with your image path
     },
     {
       id: 3,
       title: "VIDEOGRAPHER",
-
-      imageUrl: "/images/stowbasepreview.png", // Replace with your image path
+      imageUrl: "/images/home.webp", // Replace with your image path
     },
   ];
 
   return (
-    <Container className="bg-slate-500">
+    <Container className="bg-black">
       <div className="py-8">
         <h2 className="text-5xl font-bold text-white mb-10">FEATURED WORKS</h2>
         <div className="grid grid-cols-1 gap-4">

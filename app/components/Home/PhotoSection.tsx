@@ -9,21 +9,21 @@ const PhotoSection: React.FC = () => {
         {/* Assuming you have 3 images */}
         <div className="w-full">
           <img
-            src="/images/stowbasepreview.png" // Replace with actual paths to your images
+            src="/images/home.webp" // Replace with actual paths to your images
             alt="First"
             className="w-full h-auto object-cover"
           />
         </div>
         <div className="w-full">
           <img
-            src="/images/stowbasepreview.png"
+            src="/images/home.webp"
             alt="Second"
             className="w-full h-auto object-cover"
           />
         </div>
         <div className="w-full">
           <img
-            src="/images/stowbasepreview.png"
+            src="/images/home.webp"
             alt="Third"
             className="w-full h-auto object-cover"
           />

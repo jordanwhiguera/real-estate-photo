@@ -47,15 +47,9 @@ const Navbar: React.FC = () => {
             <div className="hidden md:flex space-x-4">
               <button
                 className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
-                onClick={() => handleNavigation("/about")}
+                onClick={() => handleNavigation("pricing")}
               >
-                About
-              </button>
-              <button
-                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
-                onClick={() => handleNavigation("/gallery")}
-              >
-                Gallery
+                Pricing
               </button>
               <button
                 className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border border-[#1e251f] rounded"
@@ -104,17 +98,12 @@ const Navbar: React.FC = () => {
           onClick={() => setIsDrawerOpen(false)}
         />
         {/* Drawer Links */}
+
         <button
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
-          onClick={() => handleNavigation("/about")}
+          onClick={() => handleNavigation("/pricing")}
         >
-          About
-        </button>
-        <button
-          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
-          onClick={() => handleNavigation("/gallery")}
-        >
-          Gallery
+          Pricing
         </button>
         <button
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6]"
