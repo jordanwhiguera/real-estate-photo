@@ -25,8 +25,8 @@ const FeaturedWorks: React.FC = () => {
 
   return (
     <Container className="bg-black">
-      <div className="py-8">
-        <h2 className="text-5xl font-bold text-white mb-10">FEATURED WORKS</h2>
+      <div className="py-16">
+        <h2 className="text-5xl font-bold text-white pb-8">FEATURED WORKS</h2>
         <div className="grid grid-cols-1 gap-4">
           {works.map((work) => (
             <div key={work.id} className="relative text-white">

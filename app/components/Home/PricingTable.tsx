@@ -49,8 +49,8 @@ const PricingTable: React.FC = () => {
 
   return (
     <Container>
-      <div id="pricing" className="pb-6">
-        <div className="flex justify-between items-center mb-4 lg:-mb-3">
+      <div id="pricing" className="pb-16">
+        <div className="flex justify-between items-center">
           <h2 className="text-5xl font-bold text-black ">Pricing</h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">

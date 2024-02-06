@@ -7,7 +7,7 @@ import FeaturedWorks from "./components/Home/FeaturedWorks";
 import ProjectHeader from "./components/Home/ProjectHeader";
 import ArtisticGallery from "./components/Home/ArtisticGallary";
 import Footer from "./components/Footer";
-import PricingTable from "./components/Home/PrricingTable";
+import PricingTable from "./components/Home/PricingTable";
 
 export default function Home() {
   return (

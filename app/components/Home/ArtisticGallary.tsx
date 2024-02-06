@@ -4,7 +4,7 @@ import Container from "../Container"; // Ensure the correct path
 
 const ArtisticGallery: React.FC = () => {
   return (
-    <Container>
+    <Container className="pb-16">
       <div className="flex flex-wrap md:flex-nowrap gap-2">
         {/* Left side: two images stacked */}
         <div className="md:w-1/2 w-full">

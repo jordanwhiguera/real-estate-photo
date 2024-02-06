@@ -5,7 +5,7 @@ import { FaArrowUp } from "react-icons/fa"; // Import the icon
 
 const ProjectsHeader: React.FC = () => {
   return (
-    <Container className="flex justify-between items-center py-4 bg-[#C5B49E]">
+    <Container className="flex justify-between items-center pt-16 pb-8 bg-[#C5B49E]">
       <h1 className="text-5xl font-bold text-[#1e251f]">PROJECTS</h1>
       <button className="flex items-center text-[#1e251f]">
         <span className=" text-2xl font-bold hover:underline">SHOW ALL</span>

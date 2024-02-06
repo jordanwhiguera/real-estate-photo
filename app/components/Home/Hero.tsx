@@ -4,7 +4,7 @@ import Container from "../Container";
 
 const Hero: React.FC = () => {
   return (
-    <Container>
+    <Container className="">
       {/* Text Section */}
       <div className="py-8 md:py-16">
         <img
@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* About Us & Image Section */}
-      <div className="flex flex-col md:flex-row items-stretch md:space-x-4 pb-8">
+      <div className="flex flex-col md:flex-row items-stretch md:space-x-4 pb-16">
         {/* About Us Section */}
         <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
           <p className="mb-4">
@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Image Section */}
-        <div className="md:w-2/3">
+        <div className="md:w-2/3 pt-4 md:pt-0">
           <img
             src="/images/home.webp" // Replace with the actual path to your image
             alt="Photographer"
