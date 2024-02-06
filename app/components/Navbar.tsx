@@ -46,16 +46,17 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className=" w-full bg-[#C5B49E] text-[#1e251f] z-50 border-b-4">
+      <nav className=" w-full bg-[#C5B49E] text-[#1e251f] z-50 ">
         <Container className="py-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <h2
-              className="text-2xl font-bold cursor-pointer"
+            <img
+              src="/images/jordy (1).png" // Replace with the path to your logo image
+              alt="Company Logo"
+              className="cursor-pointer"
               onClick={() => handleNavigation("/")}
-            >
-              PHOTOGRAPHY
-            </h2>
+              style={{ maxHeight: "40px" }} // Set a maximum height for your logo image if necessary
+            />
             {/* Menu for larger screens */}
             <div className="hidden md:flex space-x-4">
               <button
