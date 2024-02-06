@@ -41,7 +41,7 @@ const FeaturedWorks: React.FC = () => {
                   work.id === 2 ? "right-4" : "left-4"
                 }`}
               >
-                <p className="text-xl font-bold">{work.title}</p>
+                <p className="text-3xl font-bold">{work.title}</p>
               </div>
             </div>
           ))}
