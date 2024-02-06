@@ -5,14 +5,14 @@ import Container from "../Container"; // Ensure the correct path
 const ArtisticGallery: React.FC = () => {
   return (
     <Container className="pb-16">
-      <div className="flex flex-wrap md:flex-nowrap gap-2">
+      <div className="flex flex-wrap md:flex-nowrap gap-4">
         {/* Left side: two images stacked */}
         <div className="md:w-1/2 w-full">
           {/* Top image */}
           <img
             src="/images/home.webp" // Replace with actual paths to your images
             alt="Interior"
-            className="w-full object-cover pb-2 rounded-3xl"
+            className="w-full object-cover pb-4 rounded-3xl"
             style={{ height: "50vh" }}
           />
           {/* Bottom image */}
