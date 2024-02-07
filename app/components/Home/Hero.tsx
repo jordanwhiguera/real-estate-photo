@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           className="w-full object-contain " // Adjust the height as needed
         /> */}
         <h1 className="text-3xl md:text-6xl font-bold text-black">
-          Capturing Every Home In Their Best Light
+          CAPTURING EVEY HOME IN THEIR BEST LIGHT
         </h1>
       </div>
 

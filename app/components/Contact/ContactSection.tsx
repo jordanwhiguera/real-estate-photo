@@ -45,7 +45,7 @@ const ContactSection: React.FC = () => {
         {/* Text */}
         <div className="flex-1 space-y-4">
           <div className="md:pr-24">
-            <h2 className="text-5xl font-bold mb-4 text-black ">
+            <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-black ">
               GET IN TOUCH
             </h2>
             <p className="mb-6 text-black">
