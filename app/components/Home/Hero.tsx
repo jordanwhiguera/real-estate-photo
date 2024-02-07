@@ -10,11 +10,14 @@ const Hero: React.FC = () => {
     <Container className="">
       {/* Text Section */}
       <div className="py-8 md:py-16">
-        <img
+        {/* <img
           src="/images/capture-big.png" // Replace with the actual path to the capturing image
           alt="Capturing"
           className="w-full object-contain " // Adjust the height as needed
-        />
+        /> */}
+        <h1 className="text-3xl md:text-6xl font-bold text-black">
+          Capturing Every Home In Their Best Light
+        </h1>
       </div>
 
       {/* About Us & Image Section */}

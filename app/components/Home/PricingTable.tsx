@@ -51,7 +51,9 @@ const PricingTable: React.FC = () => {
     <Container>
       <div id="pricing" className="pb-16">
         <div className="flex justify-between items-center">
-          <h2 className="text-5xl font-bold text-black ">Pricing</h2>
+          <h2 className="text-3xl lg:text-5xl font-bold text-black ">
+            Pricing
+          </h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 pt-8 lg:pt-0">
           {plans.map((plan, index) => (
