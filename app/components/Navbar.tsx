@@ -51,11 +51,11 @@ const Navbar: React.FC = () => {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <img
-              src="/images/jordy (1).png" // Replace with the path to your logo image
+              src="/images/pixo.png" // Replace with the path to your logo image
               alt="Company Logo"
               className="cursor-pointer"
               onClick={() => handleNavigation("/")}
-              style={{ maxHeight: "40px" }} // Set a maximum height for your logo image if necessary
+              style={{ maxHeight: "50px" }} // Set a maximum height for your logo image if necessary
             />
             {/* Menu for larger screens */}
             <nav className="hidden md:flex space-x-4">
