@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import { FaTwitter, FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube, FaTiktok, FaInstagram } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 import Container from "./Container";
 
 const Footer = () => {
@@ -13,9 +14,9 @@ const Footer = () => {
       </div>
       <div className="flex space-x-4">
         {/* Social icons */}
-        <FaTwitter size="24" aria-label="Twitter" />
-        <FaYoutube size="24" aria-label="YouTube" />
-        <FaFacebook size="24" aria-label="Facebook" />
+        <AiFillInstagram size="28" aria-label="Twitter" />
+        <FaTiktok size="24" aria-label="YouTube" />
+        <FaYoutube size="28" aria-label="Facebook" />
       </div>
     </Container>
   );
