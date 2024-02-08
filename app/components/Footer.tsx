@@ -15,8 +15,8 @@ const Footer = () => {
       <div className="flex space-x-4">
         {/* Social icons */}
         <AiFillInstagram size="28" aria-label="Twitter" />
-        <FaTiktok size="24" aria-label="YouTube" />
-        <FaYoutube size="28" aria-label="Facebook" />
+        {/* <FaTiktok size="24" aria-label="YouTube" />
+        <FaYoutube size="28" aria-label="Facebook" /> */}
       </div>
     </Container>
   );
