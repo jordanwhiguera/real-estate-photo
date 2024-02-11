@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "REAL ESTATE PHOTOGRAPHY & VIDEOGRAPHY SERVICES IN PORT ST. LUCIE",
   description: "Real estate photography and videography services in the PSL",
 };
 
