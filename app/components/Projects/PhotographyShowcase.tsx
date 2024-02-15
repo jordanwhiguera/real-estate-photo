@@ -15,7 +15,7 @@ const PhotographyShowcase: React.FC = () => {
             className="w-full h-auto object-cover rounded-3xl"
           />
           <img
-            src="/images/home.webp"
+            src="/images/home-1.jpg"
             alt="Living room"
             className="w-full h-auto object-cover rounded-3xl"
           />
