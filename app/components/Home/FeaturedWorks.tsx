@@ -9,17 +9,17 @@ const FeaturedWorks: React.FC = () => {
       id: 1,
       title: "Photographer",
 
-      imageUrl: "/images/home.webp", // Replace with your image path
+      imageUrl: "/images/1.png", // Replace with your image path
     },
     {
       id: 2,
       title: "Videographer",
-      imageUrl: "/images/home.webp", // Replace with your image path
+      imageUrl: "/images/2.png", // Replace with your image path
     },
     {
       id: 3,
       title: "Drone Services",
-      imageUrl: "/images/home.webp", // Replace with your image path
+      imageUrl: "/images/3.png", // Replace with your image path
     },
   ];
 
@@ -31,7 +31,7 @@ const FeaturedWorks: React.FC = () => {
         </h2>
         <div className="grid grid-cols-1 gap-4">
           {works.map((work) => (
-            <div key={work.id} className="relative text-white">
+            <div key={work.id} className="relative ">
               <img
                 src={work.imageUrl}
                 alt={work.title}

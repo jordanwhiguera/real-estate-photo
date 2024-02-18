@@ -12,30 +12,92 @@ const PhotographyShowcase: React.FC = () => {
           <img
             src="/images/home-2.jpg"
             alt="Home exterior"
-            className="w-full h-auto object-cover rounded-3xl"
+            className="w-full h-full object-cover rounded-3xl"
           />
           <img
-            src="/images/home-1.jpg"
+            src="/images/home-reserve-1.jpg"
             alt="Living room"
+            className="w-full h-full object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Lofgren-HD-1.jpg"
+            alt="Kitchen"
             className="w-full h-auto object-cover rounded-3xl"
           />
           <img
-            src="/images/home.webp"
+            src="/images/Deville-HD-1.jpg"
             alt="Kitchen"
             className="w-full h-auto object-cover rounded-3xl"
           />
           <img
             src="/images/lake-1.jpg"
             alt="Backyard pool"
-            className="w-full h-auto object-cover rounded-3xl"
+            className="w-full h-full object-cover rounded-3xl"
           />
-          <img
-            src="/images/home.webp"
-            alt="House interior"
-            className="w-full h-auto object-cover rounded-3xl"
-          />
+
           <img
             src="/images/lake-2.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+
+          <img
+            src="/images/Lofgren-HD-2.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Lofgren-HD-3.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Lofgren-HD-6.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Lofgren-HD-7.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Lofgren-HD-8.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Deville-HD-2.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Deville-HD-3.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Deville-HD-4.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Deville-HD-5.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Deville-HD-6.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Deville-HD-9.jpg"
+            alt="Sunset view"
+            className="w-full h-auto object-cover rounded-3xl"
+          />
+          <img
+            src="/images/Deville-HD-8.jpg"
             alt="Sunset view"
             className="w-full h-auto object-cover rounded-3xl"
           />
