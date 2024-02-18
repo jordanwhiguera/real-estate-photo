@@ -13,9 +13,9 @@ const InfoSection: React.FC = () => {
       {/* Text Block Section */}
       <div className="lg:w-2/3">
         <p className="text-base lg:text-lg mb-4 lg:pl-2">
-          At PixoHome, we specialize in bringing properties to life through
-          high-definition photography and cinematographic videography. Our
-          mission is to capture the essence and unique qualities of each
+          At Lumina Home Media, we specialize in bringing properties to life
+          through high-definition photography and cinematographic videography.
+          Our mission is to capture the essence and unique qualities of each
           property, ensuring it stands out in today's competitive real estate
           market. Here's an overview of the services we offer:
         </p>
