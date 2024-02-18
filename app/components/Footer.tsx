@@ -9,7 +9,7 @@ const Footer = () => {
     <Container className=" py-4 bg-footer flex flex-col md:flex-row justify-between items-center ">
       <div className="mb-4 md:mb-0">
         <span className=" font-semibold">
-          Copyright © 2024 - Jordy Web Development & Design
+          Copyright © 2024 - Lumina Home Media
         </span>
       </div>
       <div className="flex space-x-4">

@@ -15,7 +15,7 @@ const PricingTable: React.FC = () => {
       name: "Houses < 2500 sqft",
       price: "$150",
       features: [
-        "Unlimited photos",
+        "30-40 photos",
         "Edits to photos included",
         "24 hour turnaround",
         "24/7 support",
@@ -26,7 +26,7 @@ const PricingTable: React.FC = () => {
       name: "Houses > 2500 sqft",
       price: "$200",
       features: [
-        "Unlimited photos",
+        "30-40 photos",
         "Edits to photos included",
         "24 hour turnaround",
         "24/7 support",
