@@ -13,7 +13,7 @@ const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
       name: "Houses < 2500 sqft",
-      price: "$150",
+      price: "$175",
       features: [
         "30-40 photos",
         "Edits to photos included",
@@ -24,7 +24,7 @@ const PricingTable: React.FC = () => {
     },
     {
       name: "Houses > 2500 sqft",
-      price: "$200",
+      price: "$225",
       features: [
         "30-40 photos",
         "Edits to photos included",
