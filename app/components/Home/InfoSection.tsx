@@ -16,8 +16,8 @@ const InfoSection: React.FC = () => {
           At Lumina Home Media, we specialize in bringing properties to life
           through high-definition photography and cinematographic videography.
           Our mission is to capture the essence and unique qualities of each
-          property, ensuring it stands out in today's competitive real estate
-          market. Here's an overview of the services we offer:
+          property, ensuring it stands out in today&apos;s competitive real
+          estate market. Here&apos;s an overview of the services we offer:
         </p>
         <ul className="list-disc pl-4 lg:pl-8 space-y-2">
           <li>
@@ -32,9 +32,9 @@ const InfoSection: React.FC = () => {
             <strong>Cinematic Property Videography:</strong> Elevate your
             listings with our videography service. We create cinematic videos
             that offer potential buyers a dynamic and immersive experience of
-            the property. Our videos are not just walkthroughs; they're engaging
-            narratives that highlight the property's best features and give
-            viewers a sense of what makes it special.
+            the property. Our videos are not just walkthroughs; they&apos;re
+            engaging narratives that highlight the property&apos;s best features
+            and give viewers a sense of what makes it special.
           </li>
           <li>
             <strong>Aerial Drone Photography & Videography:</strong> Gain a new
@@ -47,9 +47,10 @@ const InfoSection: React.FC = () => {
             <strong>Virtual Tours & 360 Photography:</strong> Allow potential
             buyers to explore properties from the comfort of their home. Our
             virtual tours and 360 photography services create an interactive
-            experience, giving viewers a detailed look at the property's layout
-            and features. It's a convenient and effective tool for engaging
-            distant buyers or those who prefer a preliminary digital viewing.
+            experience, giving viewers a detailed look at the property&apos;s
+            layout and features. It&apos;s a convenient and effective tool for
+            engaging distant buyers or those who prefer a preliminary digital
+            viewing.
           </li>
           <li>
             <strong>Editing & Post-Production:</strong> Every photo and video
@@ -61,7 +62,7 @@ const InfoSection: React.FC = () => {
           <li>
             <strong>Custom Packages:</strong> Understanding that every property
             is unique, we offer customizable packages tailored to meet your
-            specific needs. Whether you're listing a single-family home, a
+            specific needs. Whether you&apos;re listing a single-family home, a
             luxury estate, or a commercial property, we work with you to select
             the services that will best showcase your property.
           </li>
