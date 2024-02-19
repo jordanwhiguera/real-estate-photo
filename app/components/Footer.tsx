@@ -14,9 +14,13 @@ const Footer = () => {
       </div>
       <div className="flex space-x-4">
         {/* Social icons */}
-        <AiFillInstagram size="28" aria-label="Twitter" />
-        {/* <FaTiktok size="24" aria-label="YouTube" />
-        <FaYoutube size="28" aria-label="Facebook" /> */}
+        <a
+          href="https://wwww.luminahomemedia.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiFillInstagram size="28" aria-label="Instagram" />
+        </a>
       </div>
     </Container>
   );
