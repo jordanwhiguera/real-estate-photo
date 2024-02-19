@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="flex space-x-4">
         {/* Social icons */}
         <a
-          href="https://wwww.luminahomemedia.com"
+          href="https://www.instagram.com/luminahomemedia/"
           target="_blank"
           rel="noopener noreferrer"
         >
