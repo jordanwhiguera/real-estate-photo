@@ -10,7 +10,7 @@ const PhotoSection: React.FC = () => {
         <div className="w-full">
           <img
             src="/images/home-2.jpg" // Replace with actual paths to your images
-            alt="First"
+            alt="home"
             className="w-full h-full object-cover rounded-3xl"
           />
         </div>
