@@ -13,23 +13,25 @@ const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
       name: "Houses < 2500 sqft",
-      price: "$175",
+      price: "$150",
       features: [
-        "30-40 photos",
+        "Unlimited photos",
         "Edits to photos included",
+        "MLS photos",
+        "High resolution photos",
         "24 hour turnaround",
-        "24/7 support",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
     {
       name: "Houses > 2500 sqft",
-      price: "$225",
+      price: "$200",
       features: [
-        "30-40 photos",
+        "Unlimited photos",
         "Edits to photos included",
+        "MLS photos",
+        "High resolution photos",
         "24 hour turnaround",
-        "24/7 support",
       ],
       icon: GiFamilyHouse, // And here, if you want the same icon for all plans
     },
