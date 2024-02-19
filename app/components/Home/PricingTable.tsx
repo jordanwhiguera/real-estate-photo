@@ -39,7 +39,7 @@ const PricingTable: React.FC = () => {
       name: "Optional Add-On",
       price: "Varies",
       features: [
-        "Drone photography - $50",
+        "5-10 drone photos - $60",
         "Zillow 3D tour w/ floor plan- $100",
         "30-60s TikTok / IG video - $100",
         "2 minute video tour - $200",

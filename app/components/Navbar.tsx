@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
               alt="Company Logo"
               className="cursor-pointer"
               onClick={() => handleNavigation("/")}
-              style={{ maxHeight: "35px" }} // Set a maximum height for your logo image if necessary
+              style={{ maxHeight: "25px" }} // Set a maximum height for your logo image if necessary
             />
             {/* Menu for larger screens */}
 
