@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
   return (
     <Container className="">
       {/* Text Section */}
-      <div className="py-8 md:py-16">
+      <div className="pb-8  md:py-16">
         {/* <img
           src="/images/capture-big.png" // Replace with the actual path to the capturing image
           alt="Capturing"
@@ -25,8 +25,8 @@ const Hero: React.FC = () => {
         {/* About Us Section */}
         <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
           <p className="mb-4">
-            Jordan Higuera is a professional photographer and videographer based
-            in Port Saint Lucie. He specializes in real estate photography and
+            Jordan is a professional photographer and videographer based in Port
+            Saint Lucie. He specializes in real estate photography and
             videography, and understands the importance of capturing the essence
             of a property. He is dedicated to providing the best service to his
             clients.
