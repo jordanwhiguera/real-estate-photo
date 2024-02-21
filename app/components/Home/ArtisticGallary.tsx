@@ -10,7 +10,7 @@ const ArtisticGallery: React.FC = () => {
         <div className="md:w-1/2 w-full">
           {/* Top image */}
           <img
-            src="/images/Lofgren-HD-2.jpg" // Replace with actual paths to your images
+            src="/images/Lofgren-HD-7.jpg" // Replace with actual paths to your images
             alt="Interior"
             className="w-full pb-4 rounded-3xl "
             style={{ height: "50vh" }}
