@@ -12,23 +12,23 @@ const ArtisticGallery: React.FC = () => {
           <img
             src="/images/Deville-HD-2.jpg" // Replace with actual paths to your images
             alt="Interior"
-            className="w-full object-cover pb-4 rounded-3xl"
+            className="w-full pb-4 rounded-3xl"
             style={{ height: "50vh" }}
           />
           {/* Bottom image */}
           <img
             src="/images/Lofgren-HD-6.jpg" // Replace with actual paths to your images
             alt="Exterior"
-            className="w-full object-cover rounded-3xl"
+            className="w-full  rounded-3xl"
             style={{ height: "50vh" }}
           />
         </div>
         {/* Right side: one long image */}
         <div className="md:w-1/2 w-full">
           <img
-            src="/images/Lofgren-HD-2.jpg" // Replace with actual paths to your images
+            src="/images/IG-2.jpg" // Replace with actual paths to your images
             alt="Long view"
-            className="w-full object-cover rounded-3xl"
+            className="w-full  rounded-3xl"
             style={{ height: "100vh" }}
           />
         </div>

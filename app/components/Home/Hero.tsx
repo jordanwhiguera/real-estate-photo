@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
           <img
             src="/images/IG-7.jpg" // Replace with the actual path to your image
             alt="Photographer"
-            className="w-full h-full object-cover rounded-3xl"
+            className="w-full h-full  rounded-3xl"
           />
         </div>
       </div>
