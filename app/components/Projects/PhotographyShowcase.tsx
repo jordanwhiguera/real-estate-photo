@@ -10,33 +10,33 @@ const PhotographyShowcase: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {/* Replace the src attribute with the actual paths to your images */}
           <img
-            src="/images/home-2.jpg"
+            src="/images/IG-7.jpg"
             alt="Home exterior"
             className="w-full h-full object-cover rounded-3xl"
           />
           <img
-            src="/images/home-reserve-1.jpg"
+            src="/images/IG-6.jpg"
             alt="Living room"
             className="w-full h-full object-cover rounded-3xl"
           />
           <img
-            src="/images/Lofgren-HD-1.jpg"
+            src="/images/IG-3.jpg"
+            alt="Kitchen"
+            className="w-full h-full object-cover rounded-3xl"
+          />
+          <img
+            src="/images/IG-5.jpg"
             alt="Kitchen"
             className="w-full h-auto object-cover rounded-3xl"
           />
           <img
-            src="/images/Deville-HD-1.jpg"
-            alt="Kitchen"
-            className="w-full h-auto object-cover rounded-3xl"
-          />
-          <img
-            src="/images/lake-1.jpg"
+            src="/images/IG-1.jpg"
             alt="Backyard pool"
             className="w-full h-full object-cover rounded-3xl"
           />
 
           <img
-            src="/images/lake-2.jpg"
+            src="/images/IG-2.jpg"
             alt="Sunset view"
             className="w-full h-auto object-cover rounded-3xl"
           />
