@@ -10,16 +10,16 @@ const ArtisticGallery: React.FC = () => {
         <div className="md:w-1/2 w-full">
           {/* Top image */}
           <img
-            src="/images/Deville-HD-2.jpg" // Replace with actual paths to your images
+            src="/images/Lofgren-HD-2.jpg" // Replace with actual paths to your images
             alt="Interior"
-            className="w-full pb-4 rounded-3xl object-cover object-fit"
+            className="w-full pb-4 rounded-3xl "
             style={{ height: "50vh" }}
           />
           {/* Bottom image */}
           <img
             src="/images/Lofgren-HD-6.jpg" // Replace with actual paths to your images
             alt="Exterior"
-            className="w-full  rounded-3xl object-cover object-fit"
+            className="w-full  rounded-3xl "
             style={{ height: "50vh" }}
           />
         </div>
@@ -28,7 +28,7 @@ const ArtisticGallery: React.FC = () => {
           <img
             src="/images/IG-2.jpg" // Replace with actual paths to your images
             alt="Long view"
-            className="w-full  rounded-3xl object-cover object-fit"
+            className="w-full  rounded-3xl "
             style={{ height: "100vh" }}
           />
         </div>
