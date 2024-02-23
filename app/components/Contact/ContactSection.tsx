@@ -73,7 +73,7 @@ const ContactSection: React.FC = () => {
                 <span className=" mr-2 text-black p-2 bg-black rounded-full">
                   <MdEmail className="text-white" />
                 </span>
-                luminahomemedia@outlook.com
+                openhomemedia@outlook.com
               </div>
             </div>
           </div>
