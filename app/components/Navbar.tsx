@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <img
-              src="/images/open-2.png"
+              src="/images/open-3.png"
               alt="Company Logo"
               className="cursor-pointer h-20 md:h-36" // Adjust the h-24 to your preferred size on small screens and md:h-32 for medium screens and above
               onClick={() => handleNavigation("/")}
