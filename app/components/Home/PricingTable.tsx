@@ -7,46 +7,72 @@ import Container from "../Container";
 import { FaHome } from "react-icons/fa";
 import { GiFamilyHouse } from "react-icons/gi";
 import { BsFillBuildingsFill } from "react-icons/bs";
+import { FaBuilding } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
 
 import { Plan } from "./PricingCard";
 const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
-      name: "Houses < 2500 sqft",
-      price: "$150",
+      name: "Base Package",
+      price: "$195",
       features: [
-        "Unlimited photos",
-        "Edits to photos included",
-        "MLS photos",
-        "High resolution photos",
-        "24 hour turnaround",
+        "25 Photos of the Interior and Exterior",
+        "6 Drone Photos",
+        "Floor Plan w/ Measurements",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
     {
-      name: "Houses > 2500 sqft",
-      price: "$200",
+      name: "Pro Package",
+      price: "$275",
       features: [
-        "Unlimited photos",
-        "Edits to photos included",
-        "MLS photos",
-        "High resolution photos",
-        "24 hour turnaround",
+        "Unlimited Photos of the Interior and Exterior",
+        "6 Drone Photos",
+        "Floor Plan w/ Measurements",
+        "Property Website",
       ],
       icon: GiFamilyHouse, // And here, if you want the same icon for all plans
     },
     {
-      name: "Optional Add-On",
-      price: "Varies",
+      name: "Plus Package",
+      price: "$375",
       features: [
-        "5-10 drone photos - $60",
-        "Zillow 3D tour w/ floor plan- $100",
-        "30-60s TikTok / IG video - $100",
-        "2 minute video tour - $200",
+        "Unlimited Photos of the Interior and Exterior",
+        "6 Drone Photos",
+        "Floor Plan w/ Measurements",
+        "Property Website",
+        "1 Social Media Vertical Video",
+      ],
+      icon: FaBuilding, // Repeat for each plan as needed
+    },
+    {
+      name: "Ultimate Package",
+      price: "$575",
+      features: [
+        "Unlimited Photos of the Interior and Exterior",
+        "6 Drone Photos",
+        "Floor Plan w/ Measurements",
+        "Property Website",
+        "2 Social Media Vertical Videos (1 Video w/ Drone Footage)",
+        "Matterport 3D Virtual Tour",
+        "1 Virtual Twilight Photo",
       ],
       icon: BsFillBuildingsFill, // Repeat for each plan as needed
     },
     // ... include other plans if any
+  ];
+  const additionalServices = [
+    "25 Photos of Interior and Exterior - $155",
+    "40 Photos of Interior and Exterior - $175",
+    "6 Drone Photos - $90",
+    "Vertical Social Media Drone Video - $145",
+    "Vertical Social Media Walkthrough Video - $120",
+    "Vertical Social Media Walkthrough Video - $120",
+    "3D Matterport Virtual Tour - $150",
+    "Floor Plan w/ Measurements - $75",
+
+    // Add more services as needed
   ];
 
   return (
@@ -57,9 +83,29 @@ const PricingTable: React.FC = () => {
             PRICING
           </h2>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 pt-8 lg:pt-0">
+        <div className="flex justify-between items-center pt-4">
+          <h3 className="text-2xl lg:text-3xl font-bold text-black ">
+            Package Pricing:
+          </h3>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 pt-8 lg:pt-0">
           {plans.map((plan, index) => (
             <PricingCard key={index} plan={plan} />
+          ))}
+        </div>
+        <div className="flex justify-between items-center pt-4">
+          <h3 className="text-2xl lg:text-3xl font-bold text-black ">
+            Stand-Alone Service Pricing:
+          </h3>
+        </div>
+        <div className="pt-4">
+          {additionalServices.map((service, index) => (
+            <div key={index} className="flex items-center text-black mb-2">
+              <span className="mr-2 text-black p-1 bg-black rounded-full">
+                <FaCheck className="text-white" size={10} />
+              </span>
+              <p className="flex-grow">{service}</p>
+            </div>
           ))}
         </div>
       </div>

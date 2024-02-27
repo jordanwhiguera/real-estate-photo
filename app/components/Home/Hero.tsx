@@ -31,12 +31,12 @@ const Hero: React.FC = () => {
             He is dedicated to providing the best service to his clients.
           </p>
           <button
-            onClick={() => router.push("/contact")}
+            onClick={() =>
+              window.open("https://openhomemedia.hd.pics/order", "_blank")
+            }
             className="flex items-center mt-4"
           >
-            <span className=" text-xl font-bold hover:underline">
-              Contact me
-            </span>
+            <span className=" text-xl font-bold hover:underline">Book Now</span>
             <div className="ml-2 text-[white] hover:text-[#c5b49e] rotate-45">
               <FaArrowUp /> {/* Icon itself is white, background is black */}
             </div>

@@ -84,6 +84,14 @@ const Navbar: React.FC = () => {
               >
                 Contact
               </a>
+              <a
+                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
+                onClick={() =>
+                  window.open("https://openhomemedia.hd.pics/order", "_blank")
+                }
+              >
+                Book Online
+              </a>
             </nav>
             {/* Hamburger Icon */}
             {isDrawerOpen ? (
@@ -142,6 +150,14 @@ const Navbar: React.FC = () => {
           onClick={() => handleNavigation("/contact")}
         >
           Contact
+        </a>
+        <a
+          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
+          onClick={() =>
+            window.open("https://openhomemedia.hd.pics/order", "_blank")
+          }
+        >
+          Book Online
         </a>
       </div>
       {/* Overlay to close drawer */}
