@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
             {/* Menu for larger screens */}
 
             {/* <h1 className="text-5xl font-bold">Lumina Home Media</h1> */}
-            <nav className="hidden md:flex space-x-4">
+            <nav className="hidden md:flex space-x-4 hover:cursor-pointer">
               <a
                 className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-bold py-2 px-4 border-2 border-black rounded-full "
                 onClick={() => handleNavigation("/")}
@@ -112,7 +112,7 @@ const Navbar: React.FC = () => {
       </nav>
       {/* Drawer for smaller screens */}
       <div
-        className={`fixed top-0 right-0 w-64 h-full bg-[#C5B49E] transform ${
+        className={`fixed top-0 right-0 w-64 h-full bg-[#C5B49E] hover:cursor-pointer transform ${
           isDrawerOpen ? "translate-x-0" : "translate-x-full"
         } ${
           shouldTransition
