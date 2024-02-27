@@ -3,6 +3,7 @@ import React from "react";
 import Container from "../Container";
 import { useRouter } from "next/navigation";
 import { FaArrowUp } from "react-icons/fa";
+import Image from "next/image";
 
 const Hero: React.FC = () => {
   const router = useRouter();
@@ -46,9 +47,11 @@ const Hero: React.FC = () => {
 
         {/* Image Section */}
         <div className="md:w-2/3 pt-4 md:pt-0">
-          <img
+          <Image
             src="/images/IG-7.webp" // Replace with the actual path to your image
             alt="Photographer"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
             className="w-full h-full  rounded-3xl"
           />
         </div>

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Container from "../Container";
-
+import Image from "next/image";
 const FeaturedWorks: React.FC = () => {
   // Define your featured works data structure
   const works = [
@@ -32,9 +32,11 @@ const FeaturedWorks: React.FC = () => {
         <div className="grid grid-cols-1 gap-4">
           {works.map((work) => (
             <div key={work.id} className="relative ">
-              <img
+              <Image
                 src={work.imageUrl}
                 alt={work.title}
+                width={500} // Set appropriate width
+                height={100} // Set appropriate height
                 className="w-full object-cover rounded-3xl"
                 style={{ height: "25vh" }} // Set image height to 50% of the viewport height
               />
