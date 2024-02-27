@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
         {/* Image Section */}
         <div className="md:w-2/3 pt-4 md:pt-0">
           <img
-            src="/images/IG-7.jpg" // Replace with the actual path to your image
+            src="/images/IG-7.webp" // Replace with the actual path to your image
             alt="Photographer"
             className="w-full h-full  rounded-3xl"
           />

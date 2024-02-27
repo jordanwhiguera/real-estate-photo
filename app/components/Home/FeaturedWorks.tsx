@@ -9,17 +9,17 @@ const FeaturedWorks: React.FC = () => {
       id: 1,
       title: "Photographer",
 
-      imageUrl: "/images/1.png", // Replace with your image path
+      imageUrl: "/images/1.webp", // Replace with your image path
     },
     {
       id: 2,
       title: "Videographer",
-      imageUrl: "/images/2.png", // Replace with your image path
+      imageUrl: "/images/2.webp", // Replace with your image path
     },
     {
       id: 3,
       title: "Drone Services",
-      imageUrl: "/images/3.png", // Replace with your image path
+      imageUrl: "/images/3.webp", // Replace with your image path
     },
   ];
 

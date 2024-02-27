@@ -10,94 +10,94 @@ const PhotographyShowcase: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {/* Replace the src attribute with the actual paths to your images */}
           <img
-            src="/images/IG-7.jpg"
+            src="/images/IG-7.webp"
             alt="Home exterior"
             className="w-full h-full  rounded-3xl"
           />
           <img
-            src="/images/IG-6.jpg"
+            src="/images/IG-6.webp"
             alt="Living room"
             className="w-full h-full  rounded-3xl"
           />
           <img
-            src="/images/IG-3.jpg"
+            src="/images/IG-3.webp"
             alt="Kitchen"
             className="w-full h-full  rounded-3xl"
           />
           <img
-            src="/images/IG-5.jpg"
+            src="/images/IG-5.webp"
             alt="Kitchen"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/IG-1.jpg"
+            src="/images/IG-1.webp"
             alt="Backyard pool"
             className="w-full h-full r rounded-3xl"
           />
 
           <img
-            src="/images/IG-2.jpg"
+            src="/images/IG-2.webp"
             alt="Sunset view"
             className="w-full h-auto rounded-3xl"
           />
 
           <img
-            src="/images/Lofgren-HD-2.jpg"
+            src="/images/Lofgren-HD-2.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Lofgren-HD-3.jpg"
+            src="/images/Lofgren-HD-3.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Lofgren-HD-6.jpg"
+            src="/images/Lofgren-HD-6.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Lofgren-HD-7.jpg"
+            src="/images/Lofgren-HD-7.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Lofgren-HD-8.jpg"
+            src="/images/Lofgren-HD-8.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Deville-HD-2.jpg"
+            src="/images/Deville-HD-2.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Deville-HD-3.jpg"
+            src="/images/Deville-HD-3.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Deville-HD-4.jpg"
+            src="/images/Deville-HD-4.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Deville-HD-5.jpg"
+            src="/images/Deville-HD-5.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Deville-HD-6.jpg"
+            src="/images/Deville-HD-6.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Deville-HD-9.jpg"
+            src="/images/Deville-HD-9.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
           <img
-            src="/images/Deville-HD-8.jpg"
+            src="/images/Deville-HD-8.webp"
             alt="Sunset view"
             className="w-full h-auto  rounded-3xl"
           />
