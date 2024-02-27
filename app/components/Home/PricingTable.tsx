@@ -68,7 +68,7 @@ const PricingTable: React.FC = () => {
     "6-8 Drone Photos - $90",
     "Vertical Social Media Drone Video - $145",
     "Vertical Social Media Walkthrough Video - $120",
-    "Vertical Social Media Walkthrough Video - $120",
+    "Vertical Social Media Highlights Video - $120",
     "3D Matterport Virtual Tour - $150",
     "Floor Plan w/ Measurements - $75",
 
