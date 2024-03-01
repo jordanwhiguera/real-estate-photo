@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Open Home Media: REAL ESTATE PHOTOGRAPHY & VIDEOGRAPHY SERVICES IN PORT ST. LUCIE",
+    "Open Home Media: REAL ESTATE PHOTOGRAPHY & VIDEOGRAPHY SERVICES IN PORT ST. LUCIE, FL",
   description:
     "Real estate photography and videography services in the PSL AND SURROUNDING AREAS",
 };
