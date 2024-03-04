@@ -21,7 +21,7 @@ const PricingTable: React.FC = () => {
     },
     {
       name: "Pro Package",
-      price: "$275",
+      price: "$295",
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "6 Drone Photos",
@@ -32,7 +32,7 @@ const PricingTable: React.FC = () => {
     },
     {
       name: "Plus Package",
-      price: "$375",
+      price: "$395",
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "6 Drone Photos",
@@ -44,7 +44,7 @@ const PricingTable: React.FC = () => {
     },
     {
       name: "Ultimate Package",
-      price: "$575",
+      price: "$595",
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "6 Drone Photos",
