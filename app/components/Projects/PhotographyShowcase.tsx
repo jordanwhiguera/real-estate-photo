@@ -11,14 +11,63 @@ const PhotographyShowcase: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {/* Replace the src attribute with the actual paths to your images */}
           <Image
-            src="/images/IG-7.webp"
+            src="/images/lago hd-1.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/IG-6.webp"
+            src="/images/lago hd-3.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full h-full"
+          />
+          <Image
+            src="/images/lago hd-4.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full h-full"
+          />
+          <Image
+            src="/images/lago hd-5.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full h-full"
+          />
+          <Image
+            src="/images/lago hd-6.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full h-full"
+          />
+          <Image
+            src="/images/lago hd-7.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full h-full"
+          />
+          <Image
+            src="/images/lago hd-8.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full h-full"
+          />
+          <Image
+            src="/images/lago hd-2.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full h-full"
+          />
+          <Image
+            src="/images/IG-7.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -33,21 +82,6 @@ const PhotographyShowcase: React.FC = () => {
           />
           <Image
             src="/images/IG-5.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
-          />
-          <Image
-            src="/images/IG-1.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
-          />
-
-          <Image
-            src="/images/IG-2.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -103,13 +137,7 @@ const PhotographyShowcase: React.FC = () => {
             height={100} // Set appropriate height
             className="rounded-3xl w-full h-full"
           />
-          <Image
-            src="/images/Deville-HD-4.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
-          />
+
           <Image
             src="/images/Deville-HD-5.webp"
             alt="Home exterior"
@@ -126,13 +154,6 @@ const PhotographyShowcase: React.FC = () => {
           />
           <Image
             src="/images/Deville-HD-9.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
-          />
-          <Image
-            src="/images/Deville-HD-8.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
