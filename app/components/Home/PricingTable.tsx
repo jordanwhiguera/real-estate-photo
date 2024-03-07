@@ -15,13 +15,13 @@ const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
       name: "Base Package",
-      price: "$195",
+      price: "$200",
       features: ["25 Photos of the Interior and Exterior", "6 Drone Photos"],
       icon: FaHome, // Pass the FaHome icon here
     },
     {
       name: "Pro Package",
-      price: "$295",
+      price: "$300",
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "6 Drone Photos",
@@ -32,7 +32,7 @@ const PricingTable: React.FC = () => {
     },
     {
       name: "Plus Package",
-      price: "$395",
+      price: "$400",
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "6 Drone Photos",
@@ -44,7 +44,7 @@ const PricingTable: React.FC = () => {
     },
     {
       name: "Ultimate Package",
-      price: "$595",
+      price: "$600",
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "6 Drone Photos",
@@ -59,8 +59,8 @@ const PricingTable: React.FC = () => {
     // ... include other plans if any
   ];
   const additionalServices = [
-    "25 Photos of Interior and Exterior - $145 (Drone Photos +$50)",
-    "40 Photos of Interior and Exterior - $195 (Drone Photos +$50)",
+    "25 Photos of Interior and Exterior - $150 (Drone Photos +$50)",
+    "40 Photos of Interior and Exterior - $200 (Drone Photos +$50)",
     "Drone Photos Only - $125",
     "Vertical Social Media w/ Drone Footage - $145",
     "Vertical Social Media Video - $120",
