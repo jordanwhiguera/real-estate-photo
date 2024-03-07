@@ -62,7 +62,7 @@ const PricingTable: React.FC = () => {
     "25 Photos of Interior and Exterior - $145",
     "40 Photos of Interior and Exterior - $195 (Drone Photos +$50)",
     "Drone Photos Only - $125",
-    "Vertical Social Media Drone Video - $145",
+    "Vertical Social Media w/ Drone Footage - $145",
     "Vertical Social Media Video - $120",
     "3D Matterport Virtual Tour - $150",
     "Floor Plan w/ Measurements - $75",
