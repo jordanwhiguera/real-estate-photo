@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Open Home Media: REAL ESTATE PHOTOGRAPHY & VIDEOGRAPHY SERVICES IN PORT ST. LUCIE, FL",
+    "Open Home Media: Real Estate Photography & Videography Services in the Treasure Coast, FL.",
   description:
-    "Real estate photography and videography services in the PSL AND SURROUNDING AREAS",
+    "Open Home Media is a premier real estate media company based in Port Saint Lucie . Catering to the expansive Treasure Coast, our expert team offers a comprehensive suite of services designed to elevate real estate listings. From captivating professional photography and dynamic videography to immersive virtual tours and precise floor plans, we provide everything you need to showcase properties in their best light. Our offerings extend to agent branding solutions, ensuring that brokers and agents stand out in the competitive real estate landscape with high-quality visual content that captures attention and accelerates sales.",
 };
 
 export default function RootLayout({

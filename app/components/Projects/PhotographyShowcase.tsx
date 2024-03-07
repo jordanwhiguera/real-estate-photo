@@ -7,7 +7,7 @@ const PhotographyShowcase: React.FC = () => {
   return (
     <Container>
       <div className=" py-10">
-        <h2 className="text-3xl lg:text-5xl font-bold mb-8">PHOTOS</h2>
+        <h3 className="text-3xl lg:text-5xl font-bold mb-8">PHOTOS</h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {/* Replace the src attribute with the actual paths to your images */}
           <Image

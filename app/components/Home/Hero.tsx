@@ -16,21 +16,23 @@ const Hero: React.FC = () => {
           alt="Capturing"
           className="w-full object-contain " // Adjust the height as needed
         /> */}
-        <h1 className="text-3xl md:text-6xl font-bold text-black">
+        <h2 className="text-3xl md:text-6xl font-bold text-black">
           CAPTURING EVEY HOME IN THEIR BEST LIGHT
-        </h1>
+        </h2>
       </div>
 
       {/* About Us & Image Section */}
       <div className="flex flex-col md:flex-row items-stretch md:space-x-4 pb-16">
         {/* About Us Section */}
         <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
-          <p className="mb-4">
-            Jordan is a professional photographer based in Port Saint Lucie. He
-            specializes in real estate photography and videography, and
-            understands the importance of capturing the essence of a property.
-            He is dedicated to providing the best service to his clients.
-          </p>
+          <h1 className="mb-4">
+            Open Home Media is a real estate media company based in Port Saint
+            Lucie, Florida, that provides services to the entire Treasure Coast,
+            and surrounding areas. Our company understands the importance of
+            capturing the essence of a property. Open Home Media is founded by
+            Jordan, and he is dedicated to providing the best service to his
+            clients.
+          </h1>
           <button
             onClick={() =>
               window.open("https://openhomemedia.hd.pics/order", "_blank")
