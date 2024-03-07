@@ -59,7 +59,7 @@ const PricingTable: React.FC = () => {
     // ... include other plans if any
   ];
   const additionalServices = [
-    "25 Photos of Interior and Exterior - $145",
+    "25 Photos of Interior and Exterior - $145 (Drone Photos +$50)",
     "40 Photos of Interior and Exterior - $195 (Drone Photos +$50)",
     "Drone Photos Only - $125",
     "Vertical Social Media w/ Drone Footage - $145",
