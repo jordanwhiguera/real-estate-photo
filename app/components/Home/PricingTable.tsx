@@ -16,7 +16,10 @@ const PricingTable: React.FC = () => {
     {
       name: "Base Package",
       price: "$200",
-      features: ["25 Photos of the Interior and Exterior", "6 Drone Photos"],
+      features: [
+        "25 Photos of the Interior and Exterior (Ideal for Homes < 2000 sqft)",
+        "6 Drone Photos",
+      ],
       icon: FaHome, // Pass the FaHome icon here
     },
     {
