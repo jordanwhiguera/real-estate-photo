@@ -19,6 +19,7 @@ const PricingTable: React.FC = () => {
       features: [
         "25 Photos of the Interior and Exterior (Ideal for Homes < 2000 sqft)",
         "6 Drone Photos",
+        "Floor Plan w/ Measurements",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
