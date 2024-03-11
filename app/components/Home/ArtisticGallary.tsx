@@ -11,7 +11,7 @@ const ArtisticGallery: React.FC = () => {
         <div className="md:w-1/2 w-full">
           {/* Top image */}
           <Image
-            src="/images/Lofgren-HD-7.webp" // Replace with actual paths to your images
+            src="/images/lago hd-3.webp" // Replace with actual paths to your images
             alt="Interior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -20,7 +20,7 @@ const ArtisticGallery: React.FC = () => {
           />
           {/* Bottom image */}
           <Image
-            src="/images/Lofgren-HD-6.webp" // Replace with actual paths to your images
+            src="/images/lago hd-6.webp" // Replace with actual paths to your images
             alt="Exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
