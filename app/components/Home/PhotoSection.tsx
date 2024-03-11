@@ -10,7 +10,7 @@ const PhotoSection: React.FC = () => {
         {/* Assuming you have 3 images */}
         <div className="w-full">
           <Image
-            src="/images/model IG-1.webp" // Replace with actual paths to your images
+            src="/images/Model IG-1.webp" // Replace with actual paths to your images
             alt="home"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -19,7 +19,7 @@ const PhotoSection: React.FC = () => {
         </div>
         <div className="w-full">
           <Image
-            src="/images/model IG-2.webp"
+            src="/images/Model IG-2.webp"
             alt="Second"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -28,7 +28,7 @@ const PhotoSection: React.FC = () => {
         </div>
         <div className="w-full">
           <Image
-            src="/images/model IG-3.webp"
+            src="/images/Model IG-3.webp"
             alt="Third"
             width={500} // Set appropriate width
             height={100} // Set appropriate height

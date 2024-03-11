@@ -67,21 +67,21 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/model IG-1.webp"
+            src="/images/Model IG-1.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/model IG-2.webp"
+            src="/images/Model IG-2.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/model IG-3.webp"
+            src="/images/Model IG-3.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
