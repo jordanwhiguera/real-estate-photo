@@ -36,28 +36,35 @@ const PhotographyShowcase: React.FC = () => {
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
+            className="rounded-3xl w-full"
           />
           <Image
             src="/images/lago hd-6.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
+            className="rounded-3xl w-full"
+          />
+          <Image
+            src="/images/Model IG-1.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full"
           />
           <Image
             src="/images/lago hd-7.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
+            className="rounded-3xl w-full"
           />
           <Image
             src="/images/lago hd-8.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
+            className="rounded-3xl w-full"
           />
           <Image
             src="/images/lago hd-2.webp"
@@ -66,13 +73,7 @@ const PhotographyShowcase: React.FC = () => {
             height={100} // Set appropriate height
             className="rounded-3xl w-full h-full"
           />
-          <Image
-            src="/images/Model IG-1.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
-          />
+
           <Image
             src="/images/Model IG-2.webp"
             alt="Home exterior"
