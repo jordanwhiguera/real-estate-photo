@@ -24,7 +24,7 @@ const PricingTable: React.FC = () => {
       icon: FaHome, // Pass the FaHome icon here
     },
     {
-      name: "Homes > 2500 SQFT",
+      name: "Homes ≥ 2500 SQFT",
       price: "$250",
       features: [
         "Photos of the Interior and Exterior",
