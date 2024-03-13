@@ -66,7 +66,7 @@ const PricingTable: React.FC = () => {
         </div>
         <div className="flex justify-between items-center pt-4">
           <h3 className="text-2xl lg:text-3xl font-bold text-black ">
-            Stand-Alone Service Pricing:
+            Individual Service Pricing:
           </h3>
         </div>
         <div className="pt-4">
