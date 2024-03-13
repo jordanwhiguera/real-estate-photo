@@ -14,62 +14,34 @@ import { Plan } from "./PricingCard";
 const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
-      name: "Base Package",
+      name: "Homes < 2500 SQFT",
       price: "$200",
       features: [
-        "25 Photos of the Interior and Exterior (Ideal for Homes < 2000 sqft)",
-        "6 Drone Photos",
+        "Photos of the Interior and Exterior",
+        "Drone Photos",
         "Floor Plan w/ Measurements",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
     {
-      name: "Pro Package",
-      price: "$300",
+      name: "Homes > 2500 SQFT",
+      price: "$250",
       features: [
-        "Unlimited Photos of the Interior and Exterior",
-        "6 Drone Photos",
+        "Photos of the Interior and Exterior",
+        "Drone Photos",
         "Floor Plan w/ Measurements",
-        "Property Website",
       ],
       icon: GiFamilyHouse, // And here, if you want the same icon for all plans
     },
-    {
-      name: "Plus Package",
-      price: "$400",
-      features: [
-        "Unlimited Photos of the Interior and Exterior",
-        "6 Drone Photos",
-        "Floor Plan w/ Measurements",
-        "Property Website",
-        "1 Social Media Vertical Video",
-      ],
-      icon: FaBuilding, // Repeat for each plan as needed
-    },
-    {
-      name: "Ultimate Package",
-      price: "$600",
-      features: [
-        "Unlimited Photos of the Interior and Exterior",
-        "6 Drone Photos",
-        "Floor Plan w/ Measurements",
-        "Property Website",
-        "2 Social Media Vertical Videos (1 Video w/ Drone Footage)",
-        "Matterport 3D Virtual Tour",
-        "1 Virtual Twilight Photo",
-      ],
-      icon: BsFillBuildingsFill, // Repeat for each plan as needed
-    },
+
     // ... include other plans if any
   ];
   const additionalServices = [
-    "25 Photos of Interior and Exterior - $150 (Drone Photos +$50)",
-    "40 Photos of Interior and Exterior - $200 (Drone Photos +$50)",
+    "For Homes < 2500 SQFT: Photos of Interior and Exterior - $150",
+    "For Homes > 2500 SQFT: Photos of Interior and Exterior - $200",
     "Drone Photos Only - $125",
-    "Vertical Social Media w/ Drone Footage - $145",
     "Vertical Social Media Video - $120",
     "3D Matterport Virtual Tour - $150",
-    "Floor Plan w/ Measurements - $75",
 
     // Add more services as needed
   ];
@@ -87,7 +59,7 @@ const PricingTable: React.FC = () => {
             Package Pricing:
           </h3>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 pt-8 lg:pt-0">
+        <div className="grid md:grid-cols-2  gap-4 pt-8 lg:pt-0">
           {plans.map((plan, index) => (
             <PricingCard key={index} plan={plan} />
           ))}
