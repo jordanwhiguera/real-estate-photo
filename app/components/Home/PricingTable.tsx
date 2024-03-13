@@ -38,7 +38,7 @@ const PricingTable: React.FC = () => {
   ];
   const additionalServices = [
     "For Homes < 2500 SQFT: Photos of Interior and Exterior - $150",
-    "For Homes > 2500 SQFT: Photos of Interior and Exterior - $200",
+    "For Homes ≥ 2500 SQFT: Photos of Interior and Exterior - $200",
     "Drone Photos Only - $125",
     "Vertical Social Media Video - $120",
     "3D Matterport Virtual Tour - $150",
