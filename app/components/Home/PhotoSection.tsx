@@ -7,7 +7,7 @@ const PhotoSection: React.FC = () => {
   return (
     <Container>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-16">
-        {/* Assuming you have 3 images */}
+        {/* Assuming you have 3 ...images */}
         <div className="w-full">
           <Image
             src="/images/h1.webp" // Replace with actual paths to your images
