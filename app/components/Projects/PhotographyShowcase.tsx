@@ -67,7 +67,7 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/lago hd-2.webp"
+            src="/images/baoy twilight-2.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -75,14 +75,14 @@ const PhotographyShowcase: React.FC = () => {
           />
 
           <Image
-            src="/images/Model IG-2.webp"
+            src="/images/party-6.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/Model IG-3.webp"
+            src="/images/baoy twilight-1.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -96,14 +96,14 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/IG-3.webp"
+            src="/images/11.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/IG-5.webp"
+            src="/images/13.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -111,7 +111,7 @@ const PhotographyShowcase: React.FC = () => {
           />
 
           <Image
-            src="/images/Lofgren-HD-2.webp"
+            src="/images/14.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
