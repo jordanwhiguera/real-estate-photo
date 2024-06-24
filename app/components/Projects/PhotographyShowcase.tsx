@@ -10,13 +10,13 @@ const PhotographyShowcase: React.FC = () => {
         <h3 className="text-3xl lg:text-5xl font-bold mb-8">PHOTOS</h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {/* Replace the src attribute with the actual paths to your images */}
-          <Image
+          {/* <Image
             src="/images/lago hd-1.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full h-full"
-          />
+          /> */}
           <Image
             src="/images/lago hd-3.webp"
             alt="Home exterior"
@@ -103,7 +103,7 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/13.webp"
+            src="/images/violet-30.jpg"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height

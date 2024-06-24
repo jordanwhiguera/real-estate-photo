@@ -50,7 +50,8 @@ const Hero: React.FC = () => {
         {/* Image Section */}
         <div className="md:w-2/3 pt-4 md:pt-0">
           <Image
-            src="/images/lago hd-1.webp" // Replace with the actual path to your image
+            // src="/images/lago hd-1.webp" // Replace with the actual path to your image
+            src="/images/cool1.jpg"
             alt="Photographer"
             width={500} // Set appropriate width
             height={100} // Set appropriate height

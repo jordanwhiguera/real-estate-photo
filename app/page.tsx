@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <InfoSection />
       <PhotoSection />
-      <FeaturedWorks />
+      {/* <FeaturedWorks /> */}
       <ProjectHeader />
       <ArtisticGallery />
       <PricingTable />
