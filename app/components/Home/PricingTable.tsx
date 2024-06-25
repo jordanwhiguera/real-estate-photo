@@ -34,6 +34,7 @@ const PricingTable: React.FC = () => {
   ];
   const additionalServices = [
     "Add a Floor Plan - $50",
+    "Property Webiste - $25",
     "Drone Photos Only - $150",
     "Vertical Social Media Video (15-30s) - $150",
     "Horizontal Video (1-2 mins) - $400",
