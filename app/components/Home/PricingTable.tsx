@@ -34,10 +34,11 @@ const PricingTable: React.FC = () => {
   ];
   const additionalServices = [
     "Add a Floor Plan - $50",
+    "Community / Amenities Photos - $50",
     "Property Webiste - $25",
     "Drone Photos Only - $150",
-    "Vertical Social Media Video (15-30s) - $150",
-    "Horizontal Video (1-2 mins) - $400",
+    "Vertical Social Media Video (15-30s) - $120",
+    "Horizontal Video (1-2 mins) - $300",
     "3D Matterport Virtual Tour - $150",
     "Virtual Staging - $30/photo",
     "Virtual Twilight - $20/photo",
