@@ -14,8 +14,8 @@ import { Plan } from "./PricingCard";
 const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
-      name: "Homes Up to 3000 sqft",
-      price: "$175",
+      name: "Homes < 3000 sqft",
+      price: "$200",
       features: ["Photos of the Interior and Exterior", "Drone Photos"],
       icon: FaHome, // Pass the FaHome icon here
     },
@@ -33,9 +33,9 @@ const PricingTable: React.FC = () => {
     // ... include other plans if any
   ];
   const additionalServices = [
-    "Add a Floor Plan - $50",
-    "Community / Amenities Photos - $50",
+    "Add a Floor Plan - $25",
     "Property Webiste - $25",
+    "Community / Amenities Photos - $50",
     "Drone Photos Only - $150",
     "Social Media Video (15-30s) - $120",
     "Video (1-2 mins) - $300",
