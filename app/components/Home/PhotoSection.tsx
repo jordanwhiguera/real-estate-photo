@@ -28,7 +28,7 @@ const PhotoSection: React.FC = () => {
         </div>
         <div className="w-full">
           <Image
-            src="/images/Model IG-1.webp"
+            src="/images/3p4.webp"
             alt="Third"
             width={500} // Set appropriate width
             height={100} // Set appropriate height

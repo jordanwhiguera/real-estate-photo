@@ -18,85 +18,14 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full h-full"
           /> */}
           <Image
-            src="/images/lago hd-3.webp"
+            src="/images/3p2.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/lago hd-4.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
-          />
-          <Image
-            src="/images/lago hd-5.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full"
-          />
-          <Image
-            src="/images/lago hd-6.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full"
-          />
-          <Image
-            src="/images/Model IG-1.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full"
-          />
-          <Image
-            src="/images/lago hd-7.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full"
-          />
-          <Image
-            src="/images/lago hd-8.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full"
-          />
-          <Image
-            src="/images/baoy twilight-2.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
-          />
-
-          <Image
-            src="/images/party-6.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
-          />
-          <Image
-            src="/images/baoy twilight-1.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
-          />
-          <Image
-            src="/images/IG-7.webp"
-            alt="Home exterior"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
-          />
-          <Image
-            src="/images/11.webp"
+            src="/images/3p3.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -111,12 +40,70 @@ const PhotographyShowcase: React.FC = () => {
           />
 
           <Image
-            src="/images/14.webp"
+            src="/images/Model IG-1.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
-            className="rounded-3xl w-full h-full"
+            className="rounded-3xl w-full"
           />
+
+          <Image
+            src="/images/mon-3.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full"
+          />
+          <Image
+            src="/images/mon-4.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full"
+          />
+          <Image
+            src="/images/lago hd-8.webp"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full"
+          />
+          <Image
+            src="/images/norm-1.jpg"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full"
+          />
+          <Image
+            src="/images/re-1.jpg"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full"
+          />
+          <Image
+            src="/images/re-2.jpg"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full"
+          />
+          <Image
+            src="/images/re-3.jpg"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full"
+          />
+          <Image
+            src="/images/re-4.jpg"
+            alt="Home exterior"
+            width={500} // Set appropriate width
+            height={100} // Set appropriate height
+            className="rounded-3xl w-full"
+          />
+
           {/* <Image
             src="/images/Lofgren-HD-3.webp"
             alt="Home exterior"

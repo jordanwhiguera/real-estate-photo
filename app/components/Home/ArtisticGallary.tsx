@@ -10,7 +10,7 @@ const ArtisticGallery: React.FC = () => {
         {/* Image 1 */}
         <div>
           <Image
-            src="/images/lago hd-3.webp" // Replace with actual paths to your images
+            src="/images/mon-2.webp" // Replace with actual paths to your images
             alt="Image 1"
             layout="responsive"
             width={500} // These sizes are placeholders

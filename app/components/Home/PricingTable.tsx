@@ -35,10 +35,10 @@ const PricingTable: React.FC = () => {
   const additionalServices = [
     "Add a Floor Plan - $25",
     "Property Webiste - $25",
-    "Community / Amenities Photos - $50",
+    "Community Photos / Amenities Photos - $50",
     "Drone Photos Only - $150",
-    "Social Media Video (15-30s) - $120",
-    "Video (1-2 mins) - $300",
+    "Social Media Video or Drone Video (15-30s) - $120",
+    "Video with Drone Footage (1-2 mins) - $300",
     "Virtual Staging - $30/photo",
     "Virtual Twilight - $20/photo",
 
