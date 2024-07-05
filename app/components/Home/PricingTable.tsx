@@ -14,7 +14,7 @@ import { Plan } from "./PricingCard";
 const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
-      name: "Homes < 3000 sqft",
+      name: "Any Size Home",
       price: "$200",
       features: ["Photos of the Interior and Exterior", "Drone Photos"],
       icon: FaHome, // Pass the FaHome icon here
@@ -33,11 +33,14 @@ const PricingTable: React.FC = () => {
     // ... include other plans if any
   ];
   const additionalServices = [
-    "Add a Floor Plan - $25",
+    "Floor Plan - $25",
     "Property Webiste - $25",
-    "Community Photos / Amenities Photos - $50",
-    "Drone Photos Only - $150",
-    "Social Media Video or Drone Video (15-30s) - $120",
+    "Drone Photos of Amenities / Community- $25",
+    "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $25",
+    "Matterport Virtual Tour - $100",
+    "Drone Photos Only (Boundary Lines Included) - $150",
+    "Drone Video (15-30s) - $120",
+    "Drone Video (1 min) - $200",
     "Video with Drone Footage (1-2 mins) - $300",
     "Virtual Staging - $30/photo",
     "Virtual Twilight - $20/photo",
