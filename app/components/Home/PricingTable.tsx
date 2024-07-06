@@ -35,13 +35,14 @@ const PricingTable: React.FC = () => {
   const additionalServices = [
     "Floor Plan - $25",
     "Property Webiste - $25",
-    "Drone Photos of Amenities / Community- $25",
+    "Drone Photos of Amenities / Community - $25",
+    "Ground Photos of Amenities / Community (Gym Area, etc) - $25",
     "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $25",
-    "Matterport Virtual Tour - $100",
+    "Matterport Virtual Tour - $150",
     "Drone Photos Only (Boundary Lines Included) - $150",
     "Drone Video (15-30s) - $120",
     "Drone Video (1 min) - $200",
-    "Video with Drone Footage (1-2 mins) - $300",
+    "Video with Interiors + Drone Footage (1-2 mins) - $300",
     "Virtual Staging - $30/photo",
     "Virtual Twilight - $20/photo",
 
