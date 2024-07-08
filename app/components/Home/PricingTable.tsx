@@ -19,7 +19,7 @@ const PricingTable: React.FC = () => {
       features: [
         "Photos of the Interior and Exterior",
         "Drone Photos",
-        "Photos Delivered the Next Morning",
+        "Photos Delivered the Next Day",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
@@ -31,7 +31,7 @@ const PricingTable: React.FC = () => {
         "Drone Photos",
         "Extra Time on Site (up to 2 hrs) w/ More Images",
         "Premium Photo Editing w/ Enhanced Retouching",
-        "Photos Delivered the Next Morning",
+        "Photos Delivered the Next Day",
       ],
       icon: GiFamilyHouse, // Pass the FaHome icon here
     },
