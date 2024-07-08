@@ -15,10 +15,27 @@ const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
       name: "Any Size Home",
-      price: "$200",
-      features: ["Photos of the Interior and Exterior", "Drone Photos"],
+      price: "$175",
+      features: [
+        "Photos of the Interior and Exterior",
+        "Drone Photos",
+        "Photos Delivered the Next Morning",
+      ],
       icon: FaHome, // Pass the FaHome icon here
     },
+    {
+      name: "Luxury Home",
+      price: "$250",
+      features: [
+        "Photos of the Interior and Exterior for Large Luxury Homes",
+        "Drone Photos",
+        "Extra Time on Site (up to 2 hrs) w/ More Images",
+        "Premium Photo Editing w/ Enhanced Retouching",
+        "Photos Delivered the Next Morning",
+      ],
+      icon: GiFamilyHouse, // Pass the FaHome icon here
+    },
+
     // {
     //   name: "Homes ≥ 2500 SQFT",
     //   price: "$250",
@@ -33,7 +50,7 @@ const PricingTable: React.FC = () => {
     // ... include other plans if any
   ];
   const additionalServices = [
-    "Floor Plan - $25",
+    "Floor Plan (4500 SQFT MAX) - $25",
     "Property Webiste - $25",
     "Drone Photos of Amenities / Community - $25",
     "Ground Photos of Amenities / Community (Gym Area, etc) - $25",
