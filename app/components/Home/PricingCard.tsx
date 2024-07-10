@@ -7,7 +7,7 @@ import { FaCheck } from "react-icons/fa";
 
 export interface Plan {
   name: string;
-  price: string;
+  price?: string;
   features: string[];
   icon: IconType; // This matches the type of icons from react-icons
 }
