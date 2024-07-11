@@ -17,12 +17,9 @@ const PricingTable: React.FC = () => {
       name: "Photos",
       // price: "$175",
       features: [
-        "10-15 Photos: $125",
-        "25 Photos: $150",
-        "40 Photos: $175",
-        "55 Photos: $210",
-
-        "Add Drone Photos: + $50",
+        "10 Interior and Exterior Photos + 6 Drone Photos: $150",
+        "25 Interior and Exterior Photos + 6 Drone Photos: $175",
+        "35 Interior and Exterior Photos + 6 Drone Photos: $200",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
@@ -32,7 +29,7 @@ const PricingTable: React.FC = () => {
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "Drone Photos",
-        "Extra Time on Site (up to 2 hrs)",
+        "Extra Time on Site",
         "Premium Photo Editing w/ Enhanced Retouching",
       ],
       icon: GiFamilyHouse, // Pass the FaHome icon here
