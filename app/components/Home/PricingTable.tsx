@@ -28,7 +28,7 @@ const PricingTable: React.FC = () => {
       price: "$300",
       features: [
         "Unlimited Photos of the Interior and Exterior",
-        "Drone Photos",
+        "Unlimited Drone Photos",
         "Extra Time on Site",
         "Premium Photo Editing w/ Enhanced Retouching",
       ],
