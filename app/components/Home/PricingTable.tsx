@@ -24,11 +24,12 @@ const PricingTable: React.FC = () => {
       icon: FaHome, // Pass the FaHome icon here
     },
     {
-      name: "Luxury Home Package",
+      name: "Luxury Package",
       price: "$300",
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "Unlimited Drone Photos",
+        "2 Virtual Twilight Photos",
         "Extra Time on Site",
         "Premium Photo Editing w/ Enhanced Retouching",
       ],
@@ -49,7 +50,7 @@ const PricingTable: React.FC = () => {
     // ... include other plans if any
   ];
   const additionalServices = [
-    "Floor Plan (4000 SQFT MAX) - $25",
+    "Floor Plan w/ Room Measurements (4000 SQFT MAX) - $50",
     "Property Webiste - $25",
     "Drone Photos of Amenities / Community - $25",
     "Ground Photos of Amenities / Community (Gym Area, etc) - $25",
