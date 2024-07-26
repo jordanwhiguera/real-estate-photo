@@ -29,7 +29,7 @@ const PricingTable: React.FC = () => {
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "Unlimited Drone Photos",
-        "2 Virtual Twilight Photos",
+        "1 Virtual Twilight Photos",
         "Extra Time on Site",
         "Premium Photo Editing w/ Enhanced Retouching",
       ],
