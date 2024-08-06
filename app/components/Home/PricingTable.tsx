@@ -19,17 +19,18 @@ const PricingTable: React.FC = () => {
       features: [
         "10-15 Interior and Exterior Photos + 6 Drone Photos: $150",
         "25 Interior and Exterior Photos + 6 Drone Photos: $175",
-        "35 Interior and Exterior Photos + 6 Drone Photos: $200",
+        "35 Interior and Exterior Photos + 8 Drone Photos: $200",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
     {
       name: "Luxury Package",
-      price: "$300",
+      price: "$305",
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "Unlimited Drone Photos",
-        "1 Virtual Twilight Photos",
+        "Boundary Lines Included w/ a Few Drone Photos",
+        "2 Virtual Twilight Photos",
         "Extra Time on Site",
         "Premium Photo Editing w/ Enhanced Retouching",
       ],
@@ -51,17 +52,19 @@ const PricingTable: React.FC = () => {
   ];
   const additionalServices = [
     "Floor Plan w/ Room Measurements (4000 SQFT MAX) - $50",
-    "Property Webiste - $25",
     "Drone Photos of Amenities / Community - $25",
-    "Ground Photos of Amenities / Community (Gym Area, etc) - $25",
+    "Ground Photos of Amenities / Community (Gym, Lounge Area etc) - $25",
+    "Property Webiste - $25",
     "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $25",
     "Matterport Virtual Tour - $150",
     "Drone Photos Only (Boundary Lines Included) - $150",
-    "Drone Video (15-30s) - $120",
-    "Drone Video (1 min) - $200",
-    "Video with Interiors + Drone Footage (1-2 mins) - Varies",
+    "Drone Video (15-30s) - $150",
+    "Social Media Video (30-45s) w/ Drone Footage - $200",
+    "Property Video w/ Drone Footage (90s) - $350",
+    "Agent Appearance in Video - $100",
     "Virtual Staging - $30/photo",
     "Virtual Twilight - $20/photo",
+    "Real Twilight Photos - $175",
 
     // Add more services as needed
   ];
