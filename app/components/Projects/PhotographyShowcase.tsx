@@ -98,7 +98,7 @@ const PhotographyShowcase: React.FC = () => {
           />
           <Image
             src="/images/re-4.jpg"
-            alt="Home exterior"
+            alt="Home exteriofr"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full"
