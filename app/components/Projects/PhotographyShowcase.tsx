@@ -40,7 +40,7 @@ const PhotographyShowcase: React.FC = () => {
           />
 
           <Image
-            src="/images/Model IG-1.webp"
+            src="/images/Bella in-13.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -62,14 +62,14 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/lago hd-8.webp"
+            src="/images/mara ex-10.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/norm-1.jpg"
+            src="/images/mara in5.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
