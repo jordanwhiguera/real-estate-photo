@@ -19,7 +19,7 @@ const PricingTable: React.FC = () => {
       features: [
         "10-15 Interior and Exterior Photos + 6 Drone Photos: $150",
         "25 Interior and Exterior Photos + 6 Drone Photos: $175",
-        "40 Interior and Exterior Photos + 8 Drone Photos: $200",
+        "40 Interior and Exterior Photos + 10 Drone Photos: $195",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
@@ -55,7 +55,7 @@ const PricingTable: React.FC = () => {
     "Drone Photos of Amenities / Community - $25",
     "Ground Photos of Amenities / Community (Gym, Lounge Area etc) - $25",
     "Property Webiste - $25",
-    "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $25",
+    "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $15",
     "Matterport Virtual Tour - $150",
     "Drone Photos Only (Boundary Lines Included) - $150",
     "Drone Video (15-30s) - $150",
