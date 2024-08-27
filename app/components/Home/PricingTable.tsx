@@ -63,8 +63,8 @@ const PricingTable: React.FC = () => {
     "Property Video w/ Drone Footage (90s) - $350",
     "Agent Appearance in Video - $100",
     "Virtual Staging - $30/photo",
-    "Virtual Twilight - $20/photo",
-    "Real Twilight Photos - $175",
+    "Virtual Twilight - $15/photo",
+    "Real Twilight Photos - $150",
 
     // Add more services as needed
   ];
