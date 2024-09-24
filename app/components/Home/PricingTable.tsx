@@ -25,14 +25,13 @@ const PricingTable: React.FC = () => {
     },
     {
       name: "Luxury Package",
-      price: "$305",
+      price: "$350",
       features: [
         "Unlimited Photos of the Interior and Exterior",
         "Unlimited Drone Photos",
         "Boundary Lines Included w/ a Few Drone Photos",
-        "2 Virtual Twilight Photos",
+        "Real Twilight Photos",
         "Extra Time on Site",
-        "Premium Photo Editing w/ Enhanced Retouching",
       ],
       icon: GiFamilyHouse, // Pass the FaHome icon here
     },
@@ -64,7 +63,6 @@ const PricingTable: React.FC = () => {
     "Agent Appearance in Video - $100",
     "Virtual Staging - $30/photo",
     "Virtual Twilight - $15/photo",
-    "Real Twilight Photos - $150",
 
     // Add more services as needed
   ];
