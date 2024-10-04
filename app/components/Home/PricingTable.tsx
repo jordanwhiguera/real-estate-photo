@@ -15,40 +15,40 @@ import { Plan } from "./PricingCard";
 const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
-      name: "Photos",
+      name: "Listing Photos",
       features: [
-        "10-15 Interior/Exterior Photos + 5-8 Drone Photos: $150",
-
         "20-35 Interior/Exterior Photos + 5-8 Drone Photos: $175",
-        "(Most popular)",
-        "40-55 Interior/Exterior Photos + 5-8 Drone Photos: $200",
+
+        "40-55 Interior/Exterior Photos + 10-12 Drone Photos: $200",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
-    {
-      name: "Aerial Package",
-      price: "$240",
-      features: [
-        "30 Second Aerial Video",
-        "Interior and Exterior Photos",
-        "Drone Photos",
-      ],
-      icon: GiDeliveryDrone, // Pass the FaHome icon here
-    },
+    // {
+    //   name: "Additional Photo Sevices",
+    //   price: "$240",
+    //   features: [
+    //     "30 Second Aerial Video",
+    //     "Interior and Exterior Photos",
+    //     "Drone Photos",
+    //   ],
+    //   icon: GiDeliveryDrone, // Pass the FaHome icon here
+    // },
   ];
 
   const additionalServices = [
     "Drone Photos of Community/Amenities - $25",
     "Floor Plan w/ Room Measurements - $50",
-    "Zillow 3D Tour - $75",
+    "Zillow 3D Tour w/ Floor Plan - $75",
     "Matterport 3D Tour - $150",
-    "Drone Photos Only (Boundary Lines Included) - $150",
-    "1-2 min Property Video w/ Drone Footage - $225",
+    "20s Aerial Video - $75",
+    "60s Property Video w/ Drone Footage - $200",
     "Virtual Twilight - $20/photo",
-    "Real Twilight Photos - $150",
+    "Real Twilight Photos - $175",
     "Property Website - $25",
     "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $15",
-    "Virtual Staging - $30/photo",
+    "Virtual Staging - $25/photo",
+    "Aerial Only or Vacant Lot Photos - $150",
+    "Vacation Rental / Airbnb Photos- $200",
   ];
 
   return (
