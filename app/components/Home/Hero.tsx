@@ -50,12 +50,14 @@ const Hero: React.FC = () => {
         {/* Image Section */}
         <div className="md:w-2/3 pt-4 md:pt-0">
           <Image
-            // src="/images/lago hd-1.webp" // Replace with the actual path to your image
-            src="/images/cool1.jpg"
+            src="/images/5386 mara new-1.jpg"
             alt="Photographer"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
-            className="w-full h-full  rounded-3xl"
+            layout="responsive" // Responsive layout maintains aspect ratio
+            width={600} // Define width to keep the aspect ratio
+            height={600} // Define height to make it square
+            quality={100} // Keeps image at high resolution
+            objectFit="cover" // Ensures the image maintains its aspect ratio within the container
+            className="rounded-3xl"
           />
         </div>
       </div>

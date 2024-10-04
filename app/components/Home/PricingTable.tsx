@@ -24,14 +24,12 @@ const PricingTable: React.FC = () => {
       icon: FaHome, // Pass the FaHome icon here
     },
     {
-      name: "Luxury Package",
-      price: "$350",
+      name: "	Aerial Package",
+      price: "$240",
       features: [
-        "Unlimited Photos of the Interior and Exterior",
-        "Unlimited Drone Photos",
-        "Boundary Lines Included w/ a Few Drone Photos",
-        "Real Twilight Photos",
-        "Extra Time on Site",
+        "30 Second Aerial Video",
+        "Photos of the Interior and Exterior",
+        "Drone Photos",
       ],
       icon: GiFamilyHouse, // Pass the FaHome icon here
     },
@@ -50,19 +48,18 @@ const PricingTable: React.FC = () => {
     // ... include other plans if any
   ];
   const additionalServices = [
-    "Floor Plan w/ Room Measurements (4000 SQFT MAX) - $50",
-    "Drone Photos of Amenities / Community - $25",
-    "Ground Photos of Amenities / Community (Gym, Lounge Area etc) - $25",
+    "Drone Photos of Amenities / Community - FREE",
+    "Floor Plan w/ Room Measurements - $50",
+    "Zillow 3D Tour - $75",
+    "Matterport 3D Tour - $150",
+    "Drone Photos Only (Boundary Lines Included) - $150",
+    "1-2 min Property Video w/ Drone Footage - $200",
+    "2 Virtual Twilight - $25",
+    "4 Virtual Twilight - $40",
+    "Real Twilight Photos - $150",
     "Property Webiste - $25",
     "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $15",
-    "Matterport Virtual Tour - $150",
-    "Drone Photos Only (Boundary Lines Included) - $150",
-    "Drone Video (15-30s) - $150",
-    "Social Media Video (30-45s) w/ Drone Footage - $200",
-    "Property Video w/ Drone Footage (90s) - $350",
-    "Agent Appearance in Video - $100",
     "Virtual Staging - $30/photo",
-    "Virtual Twilight - $15/photo",
 
     // Add more services as needed
   ];
