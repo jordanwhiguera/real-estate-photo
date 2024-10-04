@@ -15,16 +15,18 @@ const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
       name: "Photos",
-      // price: "$175",
       features: [
         "10-15 Interior and Exterior Photos + 5-8 Drone Photos: $150",
+        "(Best for rentals or smaller properties)",
         "25-35 Interior and Exterior Photos + 5-8 Drone Photos: $175",
+        "(Most popular)",
         "45-55 Interior and Exterior Photos + 5-8 Drone Photos: $200",
+        "(Best for larger properties)",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
     {
-      name: "	Aerial Package",
+      name: "Aerial Package",
       price: "$240",
       features: [
         "30 Second Aerial Video",
@@ -33,20 +35,8 @@ const PricingTable: React.FC = () => {
       ],
       icon: GiFamilyHouse, // Pass the FaHome icon here
     },
-
-    // {
-    //   name: "Homes ≥ 2500 SQFT",
-    //   price: "$250",
-    //   features: [
-    //     "Photos of the Interior and Exterior",
-    //     "Drone Photos",
-    //     "Floor Plan w/ Measurements",
-    //   ],
-    //   icon: GiFamilyHouse, // And here, if you want the same icon for all plans
-    // },
-
-    // ... include other plans if any
   ];
+
   const additionalServices = [
     "Drone Photos of Amenities / Community - FREE",
     "Floor Plan w/ Room Measurements - $50",
@@ -57,27 +47,18 @@ const PricingTable: React.FC = () => {
     "2 Virtual Twilight - $25",
     "4 Virtual Twilight - $40",
     "Real Twilight Photos - $150",
-    "Property Webiste - $25",
+    "Property Website - $25",
     "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $15",
     "Virtual Staging - $30/photo",
-
-    // Add more services as needed
   ];
 
   return (
     <Container>
       <div id="pricing" className="pb-16">
         <div className="flex justify-between items-center">
-          <h2 className="text-3xl lg:text-5xl font-bold text-black ">
-            PRICING
-          </h2>
+          <h2 className="text-3xl lg:text-5xl font-bold text-black">PRICING</h2>
         </div>
-        {/* <div className="flex justify-between items-center pt-4">
-          <h3 className="text-2xl lg:text-3xl font-bold text-black ">
-            Package Pricing:
-          </h3>
-        </div> */}
-        <div className="grid md:grid-cols-2  gap-4 pt-8 lg:pt-0">
+        <div className="grid md:grid-cols-2 gap-4 pt-8 lg:pt-0">
           {plans.map((plan, index) => (
             <PricingCard key={index} plan={plan} />
           ))}

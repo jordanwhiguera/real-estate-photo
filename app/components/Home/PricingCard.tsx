@@ -21,8 +21,6 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
   const IconComponent = plan.icon;
   return (
     <div className="bg-black shadow-2xl overflow-hidden rounded-3xl flex flex-col items-center lg:my-8 relative">
-      {" "}
-      {/* Added relative here */}
       <div className="p-4 flex flex-col items-center">
         {IconComponent && (
           <div className="bg-[#c5b49e] p-4 rounded-full my-4 inline-block">
@@ -37,15 +35,33 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
               key={index}
               className="flex items-center text-white text-sm mb-2"
             >
-              <span className=" mr-2 text-black p-1 bg-[#c5b49e] rounded-full">
-                <FaCheck className="text-white " size={10} />
-              </span>
-
-              <p className="flex-grow">{feature}</p>
+              {/* Check mark for each feature in Aerial Package */}
+              {plan.name === "Aerial Package" ? (
+                <>
+                  <span className="mr-2 text-black p-1 bg-[#c5b49e] rounded-full">
+                    <FaCheck className="text-white" size={10} />
+                  </span>
+                  <p className="flex-grow">{feature}</p>
+                </>
+              ) : (
+                // Handle the Photos plan features with potential notes
+                <>
+                  {index % 2 === 0 ? ( // Check if it's a feature (even index)
+                    <>
+                      <span className="mr-2 text-black p-1 bg-[#c5b49e] rounded-full">
+                        <FaCheck className="text-white" size={10} />
+                      </span>
+                      <p className="flex-grow">{feature}</p>
+                    </>
+                  ) : (
+                    // If it's a description (odd index)
+                    <p className="flex-grow pl-6">{feature}</p> // Add padding to align properly
+                  )}
+                </>
+              )}
             </div>
           ))}
         </div>
-
         {/* Positioning the button at the bottom */}
         <div className="absolute bottom-0 w-full px-4 pb-4">
           <Button
