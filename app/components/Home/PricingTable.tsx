@@ -9,6 +9,7 @@ import { GiFamilyHouse } from "react-icons/gi";
 import { BsFillBuildingsFill } from "react-icons/bs";
 import { FaBuilding } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa";
+import { GiDeliveryDrone } from "react-icons/gi";
 
 import { Plan } from "./PricingCard";
 const PricingTable: React.FC = () => {
@@ -33,7 +34,7 @@ const PricingTable: React.FC = () => {
         "Photos of the Interior and Exterior",
         "Drone Photos",
       ],
-      icon: GiFamilyHouse, // Pass the FaHome icon here
+      icon: GiDeliveryDrone, // Pass the FaHome icon here
     },
   ];
 
@@ -58,13 +59,17 @@ const PricingTable: React.FC = () => {
         <div className="flex justify-between items-center">
           <h2 className="text-3xl lg:text-5xl font-bold text-black">PRICING</h2>
         </div>
+        {/* New Line for Photo Delivery Information */}
+        <p className="text-lg lg:text-xl text-black mt-2">
+          Photos delivered the next day by 12 PM (often much sooner)!
+        </p>
         <div className="grid md:grid-cols-2 gap-4 pt-8 lg:pt-0">
           {plans.map((plan, index) => (
             <PricingCard key={index} plan={plan} />
           ))}
         </div>
         <div className="flex justify-between items-center pt-4">
-          <h3 className="text-2xl lg:text-3xl font-bold text-black ">
+          <h3 className="text-2xl lg:text-3xl font-bold text-black">
             Additional Services:
           </h3>
         </div>
