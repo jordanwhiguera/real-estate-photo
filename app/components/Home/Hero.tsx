@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
             Lucie, FL. We proudly serve the following cities at no additional
             charge: <u>Port Saint Lucie</u>, <u>Fort Pierce</u>,{" "}
             <u>Vero Beach</u>, <u>Stuart</u>, <u>Palm City</u>,{" "}
-            <u>Jensen Beach</u>, <u>Hobe Sound</u>, and <u>Okeechobee</u>.
+            <u>Jensen Beach</u>,and <u>Hobe Sound</u>.
           </h1>
           <button
             onClick={() =>
