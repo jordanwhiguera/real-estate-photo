@@ -17,11 +17,11 @@ const PricingTable: React.FC = () => {
     {
       name: "Photos",
       features: [
-        "10-15 Interior and Exterior Photos + 5-8 Drone Photos: $150",
+        "10-15 Interior/Exterior Photos & Drone Photos: $150",
         "(Best for rentals or smaller properties)",
-        "25-35 Interior and Exterior Photos + 5-8 Drone Photos: $175",
+        "25-35 Interior/Exterior Photos & Drone Photos: $175",
         "(Most popular)",
-        "45-55 Interior and Exterior Photos + 5-8 Drone Photos: $200",
+        "45-55 Interior/Exterior Photos & Drone Photos: $200",
         "(Best for larger properties)",
       ],
       icon: FaHome, // Pass the FaHome icon here
@@ -39,14 +39,13 @@ const PricingTable: React.FC = () => {
   ];
 
   const additionalServices = [
-    "Drone Photos of Amenities / Community - FREE",
+    "Drone Photos of Community/Amenities - $25",
     "Floor Plan w/ Room Measurements - $50",
     "Zillow 3D Tour - $75",
     "Matterport 3D Tour - $150",
     "Drone Photos Only (Boundary Lines Included) - $150",
-    "1-2 min Property Video w/ Drone Footage - $200",
-    "2 Virtual Twilight - $25",
-    "4 Virtual Twilight - $40",
+    "1-2 min Property Video w/ Drone Footage - $225",
+    "Virtual Twilight - $20/photo",
     "Real Twilight Photos - $150",
     "Property Website - $25",
     "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $15",
