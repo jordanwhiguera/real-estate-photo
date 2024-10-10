@@ -16,7 +16,7 @@ const ProjectsHeader: React.FC = () => {
         className="flex items-center text-[#1e251f]"
       >
         <span className=" text-lg lg:text-2xl font-bold hover:underline">
-          SHOW ALL
+          SHOW MORE
         </span>
         <div className="ml-2 bg-black text-[#c5b49e] hover:text-white rounded-full p-2 rotate-45">
           <FaArrowUp /> {/* Icon itself is white, background is black */}

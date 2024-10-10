@@ -10,19 +10,9 @@ const Hero: React.FC = () => {
   return (
     <Container className="">
       {/* Text Section */}
-      <div className="pb-8  md:py-16">
-        {/* <img
-          src="/images/capture-big.png" // Replace with the actual path to the capturing image
-          alt="Capturing"
-          className="w-full object-contain " // Adjust the height as needed
-        /> */}
-        <h2 className="text-3xl md:text-6xl font-bold text-black">
-          CAPTURING EVERY HOME IN THEIR BEST LIGHT
-        </h2>
-      </div>
 
       {/* About Us & Image Section */}
-      <div className="flex flex-col md:flex-row items-stretch md:space-x-4 pb-16">
+      <div className="flex flex-col md:flex-row items-stretch md:space-x-4 py-8 md:py-12">
         {/* About Us Section */}
         <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
           <h1 className="mb-4">
