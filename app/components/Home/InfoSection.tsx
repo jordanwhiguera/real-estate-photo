@@ -13,8 +13,7 @@ const InfoSection: React.FC = () => {
       <div className="lg:w-2/3">
         <p className="text-base lg:text-lg mb-4 lg:pl-2">
           Open Home Media is a one-stop-shop Real Estate Photography Company
-          proudly serving the entire Treasure Coast and surrounding areas. We
-          offer high-quality media services at affordable prices, with all
+          that offers high-quality media services at affordable prices, with all
           photos delivered by the next morning. We are available Monday through
           Saturday, ready to help showcase your property with a variety of
           services:
