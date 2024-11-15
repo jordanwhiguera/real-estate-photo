@@ -17,11 +17,11 @@ const PricingTable: React.FC = () => {
     {
       name: "Photos",
       features: [
-        "10-15 Interior/Exterior Photos + Drone Photos: $150",
+        "10-15 Interior/Exterior Photos + 5-8 Drone Photos: $150",
 
-        "25-35 Interior/Exterior Photos + Drone Photos: $175",
+        "20-35 Interior/Exterior Photos + 5-8 Drone Photos: $175",
         "(Most popular)",
-        "45-55 Interior/Exterior Photos + Drone Photos: $200",
+        "40-55 Interior/Exterior Photos + 5-8 Drone Photos: $200",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
