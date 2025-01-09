@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 const ProjectsHeader: React.FC = () => {
   const router = useRouter();
   return (
-    <Container className="flex justify-between items-center pt-16 pb-8 bg-[#C5B49E]">
+    <Container className="flex justify-between items-center pt-16 pb-8 bg-[#e3d6c3;]">
       <h2 className="text-3xl lg:text-5xl font-bold text-[#1e251f]">
         PROJECTS
       </h2>
@@ -18,7 +18,7 @@ const ProjectsHeader: React.FC = () => {
         <span className=" text-lg lg:text-2xl font-bold hover:underline">
           SHOW MORE
         </span>
-        <div className="ml-2 bg-black text-[#c5b49e] hover:text-white rounded-full p-2 rotate-45">
+        <div className="ml-2 bg-black text-[#e3d6c3] hover:text-white rounded-full p-2 rotate-45">
           <FaArrowUp /> {/* Icon itself is white, background is black */}
         </div>
       </button>

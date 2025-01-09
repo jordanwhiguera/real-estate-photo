@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className=" w-full bg-[#C5B49E] text-[#1e251f] z-50 ">
+      <nav className=" w-full bg-[#e3d6c3] text-[#1e251f] z-50 ">
         <Container className="py-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
@@ -61,31 +61,31 @@ const Navbar: React.FC = () => {
             {/* <h1 className="text-5xl font-bold">Lumina Home Media</h1> */}
             <nav className="hidden md:flex space-x-4 hover:cursor-pointer">
               <a
-                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-bold py-2 px-4 border-2 border-black rounded-full "
+                className="bg-transparent hover:bg-[white] text-[#1e251f] font-bold py-2 px-4 border-2 border-black rounded-full "
                 onClick={() => handleNavigation("/")}
               >
                 Home
               </a>
               <a
-                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
+                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
                 onClick={(e) => scrollToSection(e, "pricing")}
               >
                 Pricing
               </a>
               <a
-                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
+                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
                 onClick={() => handleNavigation("/projects")}
               >
                 Projects
               </a>
               <a
-                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
+                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
                 onClick={() => handleNavigation("/contact")}
               >
                 Contact
               </a>
               <a
-                className="bg-transparent hover:bg-[#f0ebe6] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
+                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
                 onClick={() =>
                   window.open("https://openhomemedia.hd.pics/order", "_blank")
                 }

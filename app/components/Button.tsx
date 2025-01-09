@@ -28,18 +28,19 @@ const Button: React.FC<ButtonProps> = ({
   disabled:opacity-50
   disabled:cursor-not-allowed
   
-  hover:bg-[#ac9b84]
+  hover:bg-[white]
   transition
 
   border-black
  
-  text-md
+  text-lg
   border-2
   rounded-full
+  font-bold
 
-  ${outline ? "bg-white" : "bg-[#c5b49e]"}
+  ${outline ? "bg-white" : "bg-[#e3d6c3]"}
 
-  ${outline ? "text-black" : "text-white"}
+  ${outline ? "text-black" : "text-black"}
   ${small ? "py-1" : "py-3"}
   ${smallWidth ? "w-40" : "w-full"}
 

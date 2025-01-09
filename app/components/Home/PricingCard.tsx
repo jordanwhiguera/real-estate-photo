@@ -23,8 +23,8 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
     <div className="bg-black shadow-2xl overflow-hidden rounded-3xl flex flex-col items-center lg:my-8 relative">
       <div className="p-4 flex flex-col items-center">
         {IconComponent && (
-          <div className="bg-[#c5b49e] p-4 rounded-full my-4 inline-block">
-            <IconComponent size={32} className="text-white" />
+          <div className="bg-[#e3d6c3;] p-4 rounded-full my-4 inline-block">
+            <IconComponent size={32} className="text-black" />
           </div>
         )}
         <div className="font-bold text-xl mb-2 text-white">{plan.name}</div>
@@ -35,28 +35,11 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
               key={index}
               className="flex items-center text-white text-sm mb-2"
             >
-              {/* Display check mark only for main features in Photos plan, not side notes */}
-              {plan.name === "Photos" &&
-              !feature.includes("Best for") &&
-              !feature.includes("Most popular") ? (
-                <>
-                  <span className="mr-2 text-black p-1 bg-[#c5b49e] rounded-full">
-                    <FaCheck className="text-white" size={10} />
-                  </span>
-                  <p className="flex-grow">{feature}</p>
-                </>
-              ) : plan.name === "Aerial Package" ? (
-                // Display check mark for all items in Aerial Package
-                <>
-                  <span className="mr-2 text-black p-1 bg-[#c5b49e] rounded-full">
-                    <FaCheck className="text-white" size={10} />
-                  </span>
-                  <p className="flex-grow">{feature}</p>
-                </>
-              ) : (
-                // Side notes appear without check marks
-                <p className="flex-grow pl-6">{feature}</p>
-              )}
+              {/* Display check mark for all features */}
+              <span className="mr-2 text-black p-1 bg-[#c5b49e] rounded-full">
+                <FaCheck className="text-white" size={10} />
+              </span>
+              <p className="flex-grow">{feature}</p>
             </div>
           ))}
         </div>
