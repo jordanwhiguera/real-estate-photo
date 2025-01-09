@@ -18,14 +18,14 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full h-full"
           /> */}
           <Image
-            src="/images/3p2.webp"
+            src="/images/port house fin-2.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/3p3.webp"
+            src="/images/port other-12.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -56,14 +56,14 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/mon-4.webp"
+            src="/images/port other-1.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/mara ex-10.webp"
+            src="/images/port other-15.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
@@ -77,28 +77,28 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/re-1.jpg"
+            src="/images/port other-6.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/cool1.jpg"
+            src="/images/port other-3.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/re-3.jpg"
+            src="/images/port other-9.webp"
             alt="Home exterior"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/re-4.jpg"
+            src="/images/port other-2.webp"
             alt="Home exteriofr"
             width={500} // Set appropriate width
             height={100} // Set appropriate height

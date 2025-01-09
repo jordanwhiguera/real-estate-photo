@@ -10,7 +10,7 @@ const ArtisticGallery: React.FC = () => {
         {/* Image 1 */}
         <div>
           <Image
-            src="/images/mon-2.webp" // Replace with actual paths to your images
+            src="/images/port other-5.webp" // Replace with actual paths to your images
             alt="Image 1"
             layout="responsive"
             width={500} // These sizes are placeholders
@@ -32,7 +32,7 @@ const ArtisticGallery: React.FC = () => {
         {/* Image 3 */}
         <div>
           <Image
-            src="/images/lago hd-4.webp" // Replace with actual paths to your images
+            src="/images/port other-7.webp" // Replace with actual paths to your images
             alt="Image 3"
             layout="responsive"
             width={500}
@@ -43,7 +43,8 @@ const ArtisticGallery: React.FC = () => {
         {/* Image 4 */}
         <div>
           <Image
-            src="/images/lago hd-5.webp" // Replace with actual paths to your images
+            // src="/images/lago hd-5.webp" // Replace with actual paths to your images
+            src="/images/port other-8.webp"
             alt="Image 4"
             layout="responsive"
             width={500}
