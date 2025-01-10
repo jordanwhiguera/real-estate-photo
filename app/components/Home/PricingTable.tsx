@@ -43,12 +43,12 @@ const PricingTable: React.FC = () => {
     "20s Aerial Video - $75",
     "60s Property Video w/ Drone Footage - $200",
     "Virtual Twilight - $20/photo",
-    "Real Twilight Photos - $175",
+    "Virtual Staging - $30/photo",
     "Property Website - $25",
     "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $15",
-    "Virtual Staging - $25/photo",
     "Aerial Only or Vacant Lot Photos - $150",
     "Vacation Rental / Airbnb Photos- $200",
+    "Real Twilight Photos - $175",
   ];
 
   return (
