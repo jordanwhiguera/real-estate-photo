@@ -23,7 +23,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
     <div className="bg-black shadow-2xl overflow-hidden rounded-3xl flex flex-col items-center lg:my-8 relative">
       <div className="p-4 flex flex-col items-center">
         {IconComponent && (
-          <div className="bg-[#e3d6c3;] p-4 rounded-full my-4 inline-block">
+          <div className="bg-[#e3d6c3] p-4 rounded-full my-4 inline-block">
             <IconComponent size={32} className="text-black" />
           </div>
         )}
@@ -36,8 +36,8 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
               className="flex items-center text-white text-sm mb-2"
             >
               {/* Display check mark for all features */}
-              <span className="mr-2 text-black p-1 bg-[#c5b49e] rounded-full">
-                <FaCheck className="text-white" size={10} />
+              <span className="mr-2 text-black p-1 bg-[#e3d6c3] rounded-full">
+                <FaCheck className="text-black" size={10} />
               </span>
               <p className="flex-grow">{feature}</p>
             </div>

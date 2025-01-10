@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className=" w-full bg-[#e3d6c3] text-[#1e251f] z-50 ">
+      <nav className=" w-full bg-[#e3d6c3] text-[#1e251f] z-50">
         <Container className="py-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
@@ -112,7 +112,7 @@ const Navbar: React.FC = () => {
       </nav>
       {/* Drawer for smaller screens */}
       <div
-        className={`fixed top-0 right-0 w-64 h-full bg-[#C5B49E] hover:cursor-pointer transform ${
+        className={`fixed top-0 right-0 w-64 h-full bg-[#e3d6c3] hover:cursor-pointer transform ${
           isDrawerOpen ? "translate-x-0" : "translate-x-full"
         } ${
           shouldTransition

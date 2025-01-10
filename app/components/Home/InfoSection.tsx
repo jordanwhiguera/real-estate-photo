@@ -3,7 +3,7 @@ import React from "react";
 import Container from "../Container";
 const InfoSection: React.FC = () => {
   return (
-    <Container className="py-16 flex flex-col lg:flex-row">
+    <Container className="py-6 md:py-10 flex flex-col lg:flex-row">
       {/* Title Section */}
       <div className="lg:w-1/3 flex items-start lg:justify-start">
         <h2 className="text-3xl lg:text-5xl font-bold mb-6">SERVICES</h2>

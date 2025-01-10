@@ -53,12 +53,12 @@ const PricingTable: React.FC = () => {
 
   return (
     <Container>
-      <div id="pricing" className="pb-16">
+      <div id="pricing" className="pb-8 md:py-4">
         <div className="flex justify-between items-center">
           <h2 className="text-3xl lg:text-5xl font-bold text-black">PRICING</h2>
         </div>
         {/* New Line for Photo Delivery Information */}
-        <p className="text-lg lg:text-xl text-black mt-2">
+        <p className="text-lg lg:text-xl text-black mt-6">
           Photos delivered the next day by 12 PM (often much sooner)!
         </p>
         <div className="grid md:grid-cols-2 gap-4 pt-8 lg:pt-0">
@@ -66,7 +66,7 @@ const PricingTable: React.FC = () => {
             <PricingCard key={index} plan={plan} />
           ))}
         </div>
-        <div className="flex justify-between items-center pt-4">
+        <div className="flex justify-between items-center pt-6">
           <h3 className="text-2xl lg:text-3xl font-bold text-black">
             Additional Services:
           </h3>
