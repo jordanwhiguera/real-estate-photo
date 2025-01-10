@@ -10,7 +10,7 @@ const PhotoSection: React.FC = () => {
         {/* Assuming you have 3 ...images */}
         <div className="w-full">
           <Image
-            src="/images/h1.webp" // Replace with actual paths to your images
+            src="/images/port house fin-2.webp" // Replace with actual paths to your images
             alt="home"
             width={500} // Set appropriate width
             height={100} // Set appropriate height
