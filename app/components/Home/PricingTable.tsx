@@ -75,7 +75,7 @@ const PricingTable: React.FC = () => {
           {additionalServices.map((service, index) => (
             <div key={index} className="flex items-center text-black mb-2">
               <span className="mr-2 text-black p-1 bg-black rounded-full">
-                <FaCheck className="text-white" size={10} />
+                <FaCheck className="text-[#e3d6c3]" size={10} />
               </span>
               <p className="flex-grow">{service}</p>
             </div>
