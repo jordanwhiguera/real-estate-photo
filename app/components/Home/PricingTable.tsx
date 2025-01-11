@@ -46,7 +46,7 @@ const PricingTable: React.FC = () => {
     "Virtual Staging - $30/photo",
     "Property Website - $25",
     "Add Boundary Lines to Drone Photos (Note: Markers are Free) - $15",
-    "Aerial Only or Vacant Lot Photos - $150",
+    "Vacant Lot Photos - $150",
     "Vacation Rental / Airbnb Photos- $200",
     "Real Twilight Photos - $175",
   ];
