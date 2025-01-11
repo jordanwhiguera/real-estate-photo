@@ -58,19 +58,19 @@ const ContactSection: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center text-black">
                 <span className=" mr-2 text-black p-2 bg-black rounded-full">
-                  <FaMapMarkerAlt className="text-white" />
+                  <FaMapMarkerAlt className="text-[#e3d6c3]" />
                 </span>
                 Port Saint Lucie, FL
               </div>
               <div className="flex items-center text-black">
                 <span className=" mr-2 text-black p-2 bg-black rounded-full">
-                  <FaPhoneAlt className="text-white" />
+                  <FaPhoneAlt className="text-[#e3d6c3]" />
                 </span>
                 (772) 607-0620
               </div>
               <div className="flex items-center text-black">
                 <span className=" mr-2 text-black p-2 bg-black rounded-full">
-                  <MdEmail className="text-white" />
+                  <MdEmail className="text-[#e3d6c3]" />
                 </span>
                 openhomemedia@outlook.com
               </div>
