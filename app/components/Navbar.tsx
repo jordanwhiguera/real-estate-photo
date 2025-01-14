@@ -74,9 +74,9 @@ const Navbar: React.FC = () => {
               </a>
               <a
                 className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
-                onClick={() => handleNavigation("/projects")}
+                onClick={() => handleNavigation("/portfolio")}
               >
-                Projects
+                Portfolio
               </a>
               <a
                 className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
