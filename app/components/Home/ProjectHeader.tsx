@@ -9,7 +9,7 @@ const ProjectsHeader: React.FC = () => {
   return (
     <Container className="flex justify-between items-center pb-8 md:py-4 bg-[#e3d6c3;]">
       <h2 className="text-3xl lg:text-5xl font-bold text-[#1e251f]">
-        PROJECTS
+        Portfolio
       </h2>
       <button
         onClick={() => router.push("/projects")}

@@ -141,9 +141,9 @@ const Navbar: React.FC = () => {
         </a>
         <a
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
-          onClick={() => handleNavigation("/projects")}
+          onClick={() => handleNavigation("/portfolio")}
         >
-          Projects
+          Portfolio
         </a>
         <a
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
