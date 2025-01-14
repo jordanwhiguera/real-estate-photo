@@ -12,7 +12,7 @@ const ProjectsHeader: React.FC = () => {
         Portfolio
       </h2>
       <button
-        onClick={() => router.push("/projects")}
+        onClick={() => router.push("/portfolio")}
         className="flex items-center text-[#1e251f]"
       >
         <span className=" text-lg lg:text-2xl font-bold hover:underline">
