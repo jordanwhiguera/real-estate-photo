@@ -8,7 +8,9 @@ const PhotographyShowcase: React.FC = () => {
     <Container>
       <div className="py-10">
         {/* Photos Section */}
-        <h3 className="text-3xl lg:text-5xl font-bold mb-8">PHOTOS</h3>
+        <h3 className="text-3xl lg:text-5xl font-bold  mb-4 md:mb-8 -mt-4 md:mt-0">
+          PHOTO
+        </h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           <Image
             src="/images/mara in5.webp"
@@ -98,7 +100,7 @@ const PhotographyShowcase: React.FC = () => {
 
         {/* Video Section */}
         <div className="pt-10">
-          <h3 className="text-3xl lg:text-5xl font-bold ">VIDEOS</h3>
+          <h3 className="text-3xl lg:text-5xl font-bold mb-4 md:mb-6">VIDEO</h3>
           <p className="text-md font-medium my-4">Aerial Video</p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <a

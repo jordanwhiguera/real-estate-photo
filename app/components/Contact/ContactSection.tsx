@@ -41,7 +41,7 @@ const ContactSection: React.FC = () => {
   return (
     <Container className="">
       {/* Adjust lg:py-20 as needed */}
-      <div className=" flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 py-4 lg:py-20">
+      <div className=" flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 py-6 lg:py-20">
         {/* Text */}
         <div className="flex-1 space-y-4">
           <div className="md:pr-24">
