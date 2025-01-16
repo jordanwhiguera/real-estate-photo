@@ -4,28 +4,6 @@ import Container from "../Container";
 import Image from "next/image";
 
 const PhotographyShowcase: React.FC = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  const handlePlayPause = () => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    if (video.paused) {
-      video.play();
-      setIsPlaying(true);
-    } else {
-      video.pause();
-      setIsPlaying(false);
-    }
-  };
-
-  const handleVideoState = () => {
-    const video = videoRef.current;
-    if (!video) return;
-    setIsPlaying(!video.paused);
-  };
-
   return (
     <Container>
       <div className="py-10">
