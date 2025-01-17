@@ -12,16 +12,6 @@ const Footer = () => {
           Copyright © 2024 - Open Home Media LLC
         </span>
       </div>
-      <div className="flex space-x-4">
-        {/* Social icons */}
-        <a
-          href="https://www.instagram.com/openhome.media/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <AiFillInstagram size="28" aria-label="Instagram" />
-        </a>
-      </div>
     </Container>
   );
 };
