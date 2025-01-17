@@ -38,7 +38,7 @@ const PricingTable: React.FC = () => {
   const additionalServices = [
     "Drone Photos of Community/Amenities - $25",
     "Floor Plan w/ Room Measurements - $50",
-    "Zillow 3D Tour w/ Floor Plan - $75",
+    "Zillow 3D Tour w/ Interactive Floor Plan - $75",
     "Matterport 3D Tour - $150",
     "20s Aerial Video - $75",
     "60s Property Video w/ Drone Footage - $200",
