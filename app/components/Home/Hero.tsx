@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
           />
         </div>
       </div>
-      <hr />
+      <hr className="border-t-2 border-white w-full" />
     </Container>
   );
 };
