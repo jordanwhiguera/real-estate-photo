@@ -118,7 +118,7 @@ const ContactSection: React.FC = () => {
                 required
               ></textarea>
 
-              <Button label="Submit information" />
+              <Button label="Submit Information" />
             </form>
           </div>
         </div>
