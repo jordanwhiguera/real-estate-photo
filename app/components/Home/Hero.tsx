@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
             <span className=" text-xl font-bold hover:underline lg:text-3xl  ">
               Book Now
             </span>
-            <div className="ml-2 text-[white] hover:text-[#e3d6c3] lg:text-3xl rotate-45">
+            <div className="ml-2 text-[white] hover:text-[#e3d6c3] text-xl lg:text-3xl  rotate-45">
               <FaArrowUp /> {/* Icon itself is white, background is black */}
             </div>
             {/* Replace with an actual arrow icon */}

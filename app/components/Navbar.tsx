@@ -97,13 +97,13 @@ const Navbar: React.FC = () => {
             {isDrawerOpen ? (
               <IoMdClose
                 size={28}
-                className="cursor-pointer md:hidden hover:text-white self-end"
+                className="cursor-pointer md:hidden hover:text-white self-end "
                 onClick={() => setIsDrawerOpen(false)}
               />
             ) : (
               <IoMenu
                 size={28}
-                className="cursor-pointer md:hidden hover:text-white "
+                className="cursor-pointer md:hidden hover:text-white text-black"
                 onClick={() => setIsDrawerOpen(true)}
               />
             )}
