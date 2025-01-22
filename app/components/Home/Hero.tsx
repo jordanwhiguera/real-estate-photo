@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
       <div className="flex flex-col md:flex-row items-stretch md:space-x-4 py-8 md:py-12">
         {/* About Us Section */}
         <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
-          <h1 className="mb-4 lg:text-xl">
+          <h1 className="mb-4 lg:text-lg">
             Open Home Media is a real estate media company based in Port Saint
             Lucie, FL. We proudly serve the following cities at no additional
             charge: <u>Port Saint Lucie</u>, <u>Fort Pierce</u>,{" "}
