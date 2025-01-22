@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
             <img
               src="/images/open-3.webp"
               alt="Company Logo"
-              className="cursor-pointer h-20 md:h-36" // Adjust the h-24 to your preferred size on small screens and md:h-32 for rmedium screens and above
+              className="cursor-pointer h-16 md:h-32" // Adjust the h-24 to your preferred size on small screens and md:h-32 for rmedium screens and above
               onClick={() => handleNavigation("/")}
             />
             {/* Menu for larger screens */}

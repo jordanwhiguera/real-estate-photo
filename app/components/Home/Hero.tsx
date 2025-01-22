@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
       <div className="flex flex-col md:flex-row items-stretch md:space-x-4 py-8 md:py-12">
         {/* About Us Section */}
         <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
-          <h1 className="mb-4">
+          <h1 className="mb-4 lg:text-xl">
             Open Home Media is a real estate media company based in Port Saint
             Lucie, FL. We proudly serve the following cities at no additional
             charge: <u>Port Saint Lucie</u>, <u>Fort Pierce</u>,{" "}
@@ -28,8 +28,10 @@ const Hero: React.FC = () => {
             }
             className="flex items-center mt-4"
           >
-            <span className=" text-xl font-bold hover:underline">Book Now</span>
-            <div className="ml-2 text-[white] hover:text-[#e3d6c3] rotate-45">
+            <span className=" text-xl font-bold hover:underline lg:text-3xl">
+              Book Now
+            </span>
+            <div className="ml-2 text-[white] hover:text-[#e3d6c3] lg:text-3xl rotate-45">
               <FaArrowUp /> {/* Icon itself is white, background is black */}
             </div>
             {/* Replace with an actual arrow icon */}
