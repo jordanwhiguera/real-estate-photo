@@ -106,7 +106,7 @@ const ContactSection: React.FC = () => {
                 type="email"
                 name="email"
                 placeholder="Email address"
-                className="p-2  bg-white  text-black rpunded-lg"
+                className="p-2  bg-white  text-black rounded-lg"
                 required
               />
 
