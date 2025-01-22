@@ -26,9 +26,10 @@ const Hero: React.FC = () => {
             onClick={() =>
               window.open("https://openhomemedia.hd.pics/order", "_blank")
             }
+            style={{ cursor: "pointer" }}
             className="flex items-center mt-4"
           >
-            <span className=" text-xl font-bold hover:underline lg:text-3xl">
+            <span className=" text-xl font-bold hover:underline lg:text-3xl  ">
               Book Now
             </span>
             <div className="ml-2 text-[white] hover:text-[#e3d6c3] lg:text-3xl rotate-45">
