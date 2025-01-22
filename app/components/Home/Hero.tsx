@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
       {/* Text Section */}
 
       {/* About Us & Image Section */}
-      <div className="flex flex-col md:flex-row items-stretch md:space-x-4 py-8 md:py-12">
+      <div className="flex flex-col md:flex-row items-stretch md:space-x-4  pt-4 pb-8 md:py-12">
         {/* About Us Section */}
         <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
           <h1 className="mb-4 lg:text-lg">
