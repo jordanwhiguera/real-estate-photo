@@ -16,8 +16,8 @@ const Hero: React.FC = () => {
         {/* About Us Section */}
         <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
           <h1 className="mb-4 lg:text-lg">
-            Open Home Media is a real estate media company based in Port Saint
-            Lucie, FL. We proudly serve the following cities at no additional
+            Open Home Media is a real estate photography company based in Port
+            St Lucie, FL. We proudly serve the following cities at no additional
             charge: <u>Port Saint Lucie</u>, <u>Fort Pierce</u>,{" "}
             <u>Vero Beach</u>, <u>Stuart</u>, <u>Palm City</u>,{" "}
             <u>Jensen Beach</u>,and <u>Hobe Sound</u>.
