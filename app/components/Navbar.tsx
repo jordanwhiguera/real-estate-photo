@@ -123,12 +123,12 @@ const Navbar: React.FC = () => {
         {/* Close button */}
         <IoMdClose
           size={28}
-          className="cursor-pointer hover:text-white mb-4 self-end "
+          className="cursor-pointer hover:text-white mb-4 self-end fixed top-8 right-4"
           onClick={() => setIsDrawerOpen(false)}
         />
         {/* Drawer Links */}
         <a
-          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center "
+          className="text-[#1e251f] mt-12 py-2 rounded hover:bg-[#f0ebe6] font-bold text-center "
           onClick={() => handleNavigation("/")}
         >
           Home

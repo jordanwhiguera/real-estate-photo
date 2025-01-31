@@ -32,7 +32,7 @@ const ArtisticGallery: React.FC = () => {
         {/* Image 3 */}
         <div>
           <Image
-            src="/images/port other-7.webp" // Replace with actual paths to your images
+            src="/images/cro km-1.webp" // Replace with actual paths to your images
             alt="Image 3"
             layout="responsive"
             width={500}

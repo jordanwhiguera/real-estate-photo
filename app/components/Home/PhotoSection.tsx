@@ -12,8 +12,8 @@ const PhotoSection: React.FC = () => {
           <Image
             src="/images/port house fin-2.webp" // Replace with actual paths to your images
             alt="home"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
+            width={400} // Set appropriate width
+            height={300} // Set appropriate height
             className="w-full h-full rounded-3xl"
           />
         </div>
@@ -22,8 +22,8 @@ const PhotoSection: React.FC = () => {
             src="/images/cro ex new-1.webp"
             //  src="/images/mar conc n-1.webp"
             alt="Second"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
+            width={400} // Set appropriate width
+            height={300} // Set appropriate height
             className="w-full h-full  rounded-3xl"
           />
         </div>
@@ -31,8 +31,8 @@ const PhotoSection: React.FC = () => {
           <Image
             src="/images/port house fin-3.webp"
             alt="Third"
-            width={500} // Set appropriate width
-            height={100} // Set appropriate height
+            width={400} // Set appropriate width
+            height={300} // Set appropriate height
             className="w-full h-full rounded-3xl"
           />
         </div>
