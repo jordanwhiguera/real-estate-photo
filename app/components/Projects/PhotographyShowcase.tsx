@@ -13,14 +13,14 @@ const PhotographyShowcase: React.FC = () => {
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           <Image
-            src="/images/cro kn-1.webp"
+            src="/images/cro v2-3.webp"
             alt="Home exterior"
             width={500}
             height={100}
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/cro in-11.webp"
+            src="/images/cro v2-1.webp"
             alt="Home exterior"
             width={500}
             height={100}
@@ -83,7 +83,7 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/cro ex new kit-1.webp"
+            src="/images/cro v2-2.webp"
             alt="Home exterior"
             width={500}
             height={100}
