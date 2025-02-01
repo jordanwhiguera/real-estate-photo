@@ -7,32 +7,39 @@ const PhotoSection: React.FC = () => {
   return (
     <Container>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-16">
-        {/* Assuming you have 3 ...images */}
         <div className="w-full">
           <Image
-            src="/images/port house fin-2.webp" // Replace with actual paths to your images
+            src="/images/aspect-1.webp"
             alt="home"
-            width={400} // Set appropriate width
-            height={300} // Set appropriate height
+            width={600} // Increased resolution
+            height={400}
+            quality={100} // Ensures high-quality rendering
+            layout="intrinsic" // Maintains original quality and aspect ratio
+            objectFit="cover" // Prevents distortion while filling the space
             className="w-full h-full rounded-3xl"
           />
         </div>
         <div className="w-full">
           <Image
-            src="/images/cro v1-1.webp"
-            //  src="/images/mar conc n-1.webp"
+            src="/images/aspect-3.webp"
             alt="Second"
-            width={400} // Set appropriate width
-            height={300} // Set appropriate height
-            className="w-full h-full  rounded-3xl"
+            width={600}
+            height={400}
+            quality={100}
+            layout="intrinsic"
+            objectFit="cover"
+            className="w-full h-full rounded-3xl"
           />
         </div>
         <div className="w-full">
           <Image
-            src="/images/port house fin-3.webp"
+            src="/images/aspect-2.webp"
             alt="Third"
-            width={400} // Set appropriate width
-            height={300} // Set appropriate height
+            width={600}
+            height={400}
+            quality={100}
+            layout="intrinsic"
+            objectFit="cover"
             className="w-full h-full rounded-3xl"
           />
         </div>
