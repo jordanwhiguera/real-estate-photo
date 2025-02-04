@@ -6,7 +6,7 @@ const InfoSection: React.FC = () => {
     <Container className="py-6 md:py-10 flex flex-col lg:flex-row">
       {/* Title Section */}
       <div className="lg:w-1/3 flex items-start lg:justify-start">
-        <h2 className="text-3xl lg:text-5xl font-bold mb-6">SERVICES</h2>
+        <h2 className="text-3xl lg:text-5xl font-bold mb-4">SERVICES</h2>
       </div>
 
       {/* Text Block Section */}
