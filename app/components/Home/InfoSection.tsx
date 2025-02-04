@@ -18,7 +18,7 @@ const InfoSection: React.FC = () => {
           Saturday, ready to help showcase your property with a variety of
           services:
         </p>
-        <ul className="list-disc pl-4 lg:pl-8 space-y-2">
+        <ul className="list-disc pl-4 lg:pl-8 space-y-2 lg:text-lg ">
           <li>
             <strong>Photography:</strong> Capture interiors and exteriors with
             aerial photos included.

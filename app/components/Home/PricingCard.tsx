@@ -27,19 +27,21 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
             <IconComponent size={32} className="text-black" />
           </div>
         )}
-        <div className="font-bold text-xl mb-2 text-white">{plan.name}</div>
-        <p className="text-white text-4xl mb-4 font-bold">{plan.price}</p>
+        <div className="font-bold text-lg lg:text-2xl mb-2 text-white">
+          {plan.name}
+        </div>
+        <p className="text-white mb-4 font-bold">{plan.price}</p>
         <div className="w-full px-2 mb-2 pb-14">
           {plan.features.map((feature, index) => (
             <div
               key={index}
-              className="flex items-center text-white text-sm mb-2"
+              className="flex items-center text-white text-sm  mb-2"
             >
               {/* Display check mark for all features */}
               <span className="mr-2 text-black p-1 bg-[#e3d6c3] rounded-full">
                 <FaCheck className="text-black" size={10} />
               </span>
-              <p className="flex-grow">{feature}</p>
+              <p className="flex-grow lg:text-lg">{feature}</p>
             </div>
           ))}
         </div>

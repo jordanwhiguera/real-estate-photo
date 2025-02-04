@@ -58,7 +58,7 @@ const PricingTable: React.FC = () => {
           <h2 className="text-3xl lg:text-5xl font-bold text-black">PRICING</h2>
         </div>
         {/* New Line for Photo Delivery Information */}
-        <p className="text-lg lg:text-xl text-black mt-6">
+        <p className="text-base lg:text-lg text-black mt-6">
           Photos delivered the next day by 12 PM (often much sooner)!
         </p>
         <div className="grid md:grid-cols-2 gap-4 pt-8 lg:pt-0">
@@ -67,7 +67,7 @@ const PricingTable: React.FC = () => {
           ))}
         </div>
         <div className="flex justify-between items-center pt-6">
-          <h3 className="text-2xl lg:text-3xl font-bold text-black">
+          <h3 className="text-lg lg:text-2xl font-bold text-black">
             Additional Services:
           </h3>
         </div>
@@ -80,7 +80,7 @@ const PricingTable: React.FC = () => {
               <span className="mr-2 text-black p-1 bg-black rounded-full">
                 <FaCheck className="text-[#e3d6c3]" size={10} />
               </span>
-              <p className="flex-grow">{service}</p>
+              <p className="flex-grow lg:text-lg ">{service}</p>
             </div>
           ))}
         </div>
