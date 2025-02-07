@@ -79,7 +79,8 @@ const ContactSection: React.FC = () => {
                 <span className=" mr-2 text-black p-2 bg-black rounded-full">
                   <FaClock className="text-[#e3d6c3]" />
                 </span>
-                Mon to Fri: 8AM to 8PM / Sat: 8AM to 6PM.
+                Monday to Friday: 8AM to 8PM <br />
+                Saturday: 8AM to 6PM
               </div>
             </div>
           </div>
