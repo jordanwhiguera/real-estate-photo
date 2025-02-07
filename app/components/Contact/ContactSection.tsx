@@ -5,6 +5,7 @@ import Button from "../Button";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaClock } from "react-icons/fa";
 import { toast } from "react-hot-toast";
 const ContactSection: React.FC = () => {
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = async (e) => {
@@ -66,13 +67,19 @@ const ContactSection: React.FC = () => {
                 <span className=" mr-2 text-black p-2 bg-black rounded-full">
                   <FaPhoneAlt className="text-[#e3d6c3]" />
                 </span>
-                (772) 607-0620
+                772-607-0620
               </div>
               <div className="flex items-center text-black">
                 <span className=" mr-2 text-black p-2 bg-black rounded-full">
                   <MdEmail className="text-[#e3d6c3]" />
                 </span>
-                openhomemedia@outlook.com
+                info@openhome.media
+              </div>
+              <div className="flex items-center text-black">
+                <span className=" mr-2 text-black p-2 bg-black rounded-full">
+                  <FaClock className="text-[#e3d6c3]" />
+                </span>
+                Mon to Fri: 8AM to 8PM / Sat: 8AM to 6PM.
               </div>
             </div>
           </div>
