@@ -34,7 +34,7 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/cro in-18.webp"
+            src="/images/2-a1a in-32.webp"
             alt="Home exterior"
             width={500}
             height={100}
@@ -48,7 +48,7 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/cro in-7.webp"
+            src="/images/7-a1a in-3.webp"
             alt="Home exterior"
             width={500}
             height={100}
@@ -83,7 +83,7 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/cro v2-2.webp"
+            src="/images/port other-8.webp"
             alt="Home exterior"
             width={500}
             height={100}

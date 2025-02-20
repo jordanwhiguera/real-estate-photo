@@ -37,18 +37,18 @@ const PricingTable: React.FC = () => {
 
   const additionalServices = [
     "Drone Photos of Community/Amenities - $25",
-    "Floor Plan w/ Room Measurements - $50",
+    "Floor Plan - $50",
     "Zillow 3D Tour w/ Interactive Floor Plan - $75",
-    "Matterport 3D Tour - $150",
     "20s Aerial Video - $75",
     "60s Property Video w/ Drone Footage - $200",
+    "Add Boundary Lines to Drone Photos - $15",
     "Virtual Twilight - $20/photo",
     "Virtual Staging - $30/photo",
     "Property Website - $25",
-    "Add Boundary Lines to Drone Photos - $15",
     "Drone/Exterior Photos - $150",
     "Vacation Rental Photos (Aerial Included) - $200",
     "Real Twilight Photos - $175",
+    "Same Day Delivery - $75",
   ];
 
   return (

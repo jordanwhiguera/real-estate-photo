@@ -29,8 +29,7 @@ const InfoSection: React.FC = () => {
           </li>
           <li>
             <strong>3D Tours:</strong> Interactive 3D virtual tours powered by
-            Zillow or Matterport, offering a detailed and immersive property
-            experience.
+            Zillow, offering a detailed and immersive property experience.
           </li>
           <li>
             <strong>Floor Plans:</strong> Accurate layouts to give a clear sense
