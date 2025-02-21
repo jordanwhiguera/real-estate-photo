@@ -109,7 +109,7 @@ const PhotographyShowcase: React.FC = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/Drone Play-1.webp"
+                src="/images/drone play1-1.webp"
                 alt="Video thumbnail"
                 width={500}
                 height={100}
