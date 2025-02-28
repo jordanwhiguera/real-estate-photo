@@ -40,7 +40,7 @@ const PricingTable: React.FC = () => {
     "Floor Plan - $50",
     "Zillow 3D Tour w/ Interactive Floor Plan - $75",
     "20s Aerial Video - $75",
-    "60s Property Video w/ Drone Footage - $200",
+    "60s Property Video w/ Drone Footage - $175",
     "Add Boundary Lines to Drone Photos - $15",
     "Virtual Twilight - $20/photo",
     "Virtual Staging - $30/photo",
