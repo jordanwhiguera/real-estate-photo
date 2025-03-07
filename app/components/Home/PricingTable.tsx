@@ -15,11 +15,12 @@ import { Plan } from "./PricingCard";
 const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
-      name: "Listing Photos",
+      name: "Photos + Drone Photos",
       features: [
-        "20-30 Photos + 5-8 Drone Photos: $175",
+        "Home < 3000 SqFt: $175",
 
-        "40-50 Photos + 5-8 Drone Photos: $200",
+        "Home < 4000 SqFt: $225",
+        "Home < 5000 SqFt: $275",
       ],
       icon: FaHome, // Pass the FaHome icon here
     },
@@ -36,19 +37,18 @@ const PricingTable: React.FC = () => {
   ];
 
   const additionalServices = [
+    "Drone/Exterior Photos - $150",
+    "Add Boundary Lines to Drone Photos - $15",
     "Drone Photos of Community/Amenities - $25",
     "Floor Plan - $50",
     "Zillow 3D Tour w/ Interactive Floor Plan - $75",
+    "Same Day Delivery - $75",
     "20s Aerial Video - $75",
     "60s Property Video w/ Drone Footage - $200",
-    "Add Boundary Lines to Drone Photos - $15",
     "Virtual Twilight - $20/photo",
     "Virtual Staging - $30/photo",
     "Property Website - $25",
-    "Drone/Exterior Photos - $150",
-    "Vacation Rental Photos (Aerial Included) - $200",
     "Real Twilight Photos - $175",
-    "Same Day Delivery - $75",
   ];
 
   return (
