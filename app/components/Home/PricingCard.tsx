@@ -28,7 +28,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
           {plan.name}
         </div>
         <p className="text-white mb-4 font-bold">{plan.price}</p>
-        <div className="w-full px-2 mb-2 pb-14">
+        <div className="w-full px-2 mb-4 pb-14">
           {plan.features.map((feature, index) => (
             <div
               key={index}
