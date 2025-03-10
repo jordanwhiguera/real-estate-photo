@@ -50,10 +50,10 @@ const ContactSection: React.FC = () => {
               GET IN TOUCH
             </h2>
             <p className="mb-6 text-black">
-              Hi! I&apos;m Jordan, and below, you&apos;ll find all the ways you
-              can reach me. Whether you have questions or need to schedule an
-              appointment, I&apos;m just a message away. Don&apos;t hesitate to
-              get in touch.
+              Hi! I&apos;m Jordan Higuera, and below, you&apos;ll find all the
+              ways you can reach me. Whether you have questions or need to
+              schedule an appointment, I&apos;m just a message away. Don&apos;t
+              hesitate to get in touch.
             </p>
             {/* Contact details and social icons */}
             <div className="space-y-4">
