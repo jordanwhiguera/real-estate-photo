@@ -54,7 +54,7 @@ const PricingTable: React.FC = () => {
         </div>
 
         <p className="text-sm lg:text-base  mt-7 lg:mt-0 lg:mb-2  ">
-          <em>Note: Please contact for homes larger than 5000 SQFT.</em>
+          <em>Note: Please contact for homes {">"} 5000 SQFT.</em>
         </p>
 
         <div className="flex justify-between items-center pt-6">
