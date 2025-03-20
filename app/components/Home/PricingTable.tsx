@@ -1,52 +1,37 @@
 "use client";
-// PricingTable.tsx
 import React from "react";
-import PricingCard from "./PricingCard"; // Adjust the import path as necessary
+import PricingCard from "./PricingCard";
 import Container from "../Container";
-
 import { FaHome } from "react-icons/fa";
-import { GiFamilyHouse } from "react-icons/gi";
-import { BsFillBuildingsFill } from "react-icons/bs";
-import { FaBuilding } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa";
-import { GiDeliveryDrone } from "react-icons/gi";
-
 import { Plan } from "./PricingCard";
+
 const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
-      name: "Photos + Drone Photos",
-      features: [
-        "Home < 3000 SqFt: $175",
+      name: "Listing Photos",
 
-        "Home < 4000 SqFt: $225",
-        "Home < 5000 SqFt: $275",
+      features: ["Interior and Exterior Photos", "Drone Photos"],
+      pricingTiers: [
+        { size: "Up to 2,999 SQFT", price: "$175" },
+        { size: "3,000 - 3,999 SQFT", price: "$225" },
+        { size: "4,000 - 4,999 SQFT", price: "$300" },
       ],
-      icon: FaHome, // Pass the FaHome icon here
+      icon: FaHome,
     },
-    // {
-    //   name: "Additional Photo Sevices",
-    //   price: "$240",
-    //   features: [
-    //     "30 Second Aerial Video",
-    //     "Interior and Exterior Photos",
-    //     "Drone Photos",
-    //   ],
-    //   icon: GiDeliveryDrone, // Pass the FaHome icon here
-    // },
   ];
 
   const additionalServices = [
-    "Drone/Exterior Photos - $150",
+    "Stand-Alone Drone Photos - $150",
     "Add Boundary Lines to Drone Photos - $15",
     "Drone Photos of Community/Amenities - $25",
     "Floor Plan - $50",
     "Zillow 3D Tour w/ Interactive Floor Plan - $75",
     "Same Day Delivery - $75",
-    "20s Aerial Video - $75",
+    "30s Drone Video - $100",
     "60s Property Video w/ Drone Footage - $200",
-    "Virtual Twilight - $20/photo",
-    "Virtual Staging - $30/photo",
+    "Virtual Twilight - $20 per photo",
+    "Virtual Staging - $30 per photo",
     "Property Website - $25",
     "Real Twilight Photos - $175",
   ];
@@ -59,7 +44,6 @@ const PricingTable: React.FC = () => {
             PRICING
           </h2>
         </div>
-        {/* New Line for Photo Delivery Information */}
         <p className="text-base lg:text-lg text-black mt-6 -mb-2">
           Photos delivered the next day by 12 PM (often much sooner)!
         </p>
@@ -68,6 +52,14 @@ const PricingTable: React.FC = () => {
             <PricingCard key={index} plan={plan} />
           ))}
         </div>
+
+        <p className="text-sm lg:text-base  mb-2 ">
+          <em>
+            Note: For homes 5,000 SQFT and larger, please contact for a custom
+            quote.
+          </em>
+        </p>
+
         <div className="flex justify-between items-center pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
             Additional Services:
@@ -77,12 +69,12 @@ const PricingTable: React.FC = () => {
           {additionalServices.map((service, index) => (
             <div
               key={index}
-              className="flex items-center text-sm md:text-base text-black mb-2"
+              className="flex items-center text-base text-black mb-2"
             >
               <span className="mr-2 text-black p-1 bg-black rounded-full">
                 <FaCheck className="text-[#e3d6c3]" size={10} />
               </span>
-              <p className="flex-grow lg:text-lg ">{service}</p>
+              <p className="flex-grow lg:text-lg">{service}</p>
             </div>
           ))}
         </div>
