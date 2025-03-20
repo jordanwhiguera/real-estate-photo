@@ -53,11 +53,8 @@ const PricingTable: React.FC = () => {
           ))}
         </div>
 
-        <p className="text-sm lg:text-base  mb-2 ">
-          <em>
-            Note: For homes 5,000 SQFT and larger, please contact for a custom
-            quote.
-          </em>
+        <p className="text-sm lg:text-base  mt-7 lg:mt-0 lg:mb-2  ">
+          <em>Note: Please contact for homes larger than 5000 SQFT.</em>
         </p>
 
         <div className="flex justify-between items-center pt-6">
@@ -69,7 +66,7 @@ const PricingTable: React.FC = () => {
           {additionalServices.map((service, index) => (
             <div
               key={index}
-              className="flex items-center text-base text-black mb-2"
+              className="flex items-center sm:text-sm text-base text-black mb-2"
             >
               <span className="mr-2 text-black p-1 bg-black rounded-full">
                 <FaCheck className="text-[#e3d6c3]" size={10} />

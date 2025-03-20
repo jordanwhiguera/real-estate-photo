@@ -32,14 +32,14 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
         <div className="font-bold text-xl lg:text-2xl mb-1 text-white">
           {plan.name}
         </div>
-        <p className="text-white mb-4 font-bold">{plan.price}</p>
+        <p className="text-white mb-4 font-bold ">{plan.price}</p>
 
         {/* Features list */}
-        <div className="w-full px-12 mb-4">
+        <div className="w-full px-6 md:px-12 mb-4">
           {plan.features.map((feature, index) => (
             <div
               key={index}
-              className="flex items-center text-white text-base mb-2"
+              className="flex items-center text-white  text-sm md:text-base mb-2 "
             >
               <span className="mr-2 text-black p-1 bg-[#e3d6c3] rounded-full">
                 <FaCheck className="text-black" size={10} />
@@ -52,7 +52,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
         {/* Pricing tiers */}
         <div className="w-full px-4 mb-20  rounded-xl bg-[#e3d6c3;]">
           {/* Column Headers */}
-          <div className="flex justify-between text-black text-base lg:text-lg font-semibold border-b border-black  py-1">
+          <div className="flex justify-between text-black text-sm md:text-base lg:text-lg font-semibold border-b border-black  py-1">
             <span>SQFT</span>
             <span>Pricing</span>
           </div>
@@ -61,7 +61,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
           {plan.pricingTiers.map((tier, index) => (
             <div
               key={index}
-              className="flex justify-between text-black text-base lg:text-lg  py-2"
+              className="flex justify-between text-black text-sm md:text-base lg:text-lg  py-2"
             >
               <span>{tier.size}</span>
               <span className="font-bold">{tier.price}</span>
