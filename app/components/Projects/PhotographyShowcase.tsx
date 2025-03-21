@@ -101,7 +101,7 @@ const PhotographyShowcase: React.FC = () => {
         {/* Video Section */}
         <div className="pt-10">
           <h3 className="text-3xl lg:text-5xl font-bold mb-4 md:mb-6">VIDEO</h3>
-          <p className="text-md font-medium my-4">Aerial Video</p>
+          <p className="text-md font-medium my-4">Drone Video</p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <a
               href="https://vimeo.com/1047355337?share=copy"
