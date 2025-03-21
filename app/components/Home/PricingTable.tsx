@@ -15,7 +15,7 @@ const PricingTable: React.FC = () => {
       pricingTiers: [
         { size: "Up to 2,999 SQFT", price: "$175" },
         { size: "3,000 - 3,999 SQFT", price: "$225" },
-        { size: "4,000 - 4,999 SQFT", price: "$275" },
+        { size: "4,000 - 4,999 SQFT", price: "$300" },
       ],
       icon: FaHome,
     },
