@@ -11,7 +11,7 @@ const PricingTable: React.FC = () => {
     {
       name: "Listing Photos",
 
-      features: ["Interior and Exterior Photos", "Drone Photos"],
+      features: ["Interior and Exterior Photos", "5-8 Drone Photos"],
       pricingTiers: [
         { size: "Up to 2,999 SQFT", price: "$175" },
         { size: "3,000 - 3,999 SQFT", price: "$225" },
