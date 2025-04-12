@@ -33,7 +33,7 @@ const PhotoSection: React.FC = () => {
         </div>
         <div className="w-full">
           <Image
-            src="/images/aspect-2.webp"
+            src="/images/1-thumb ex-4.webp"
             alt="Third"
             width={600}
             height={400}

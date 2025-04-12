@@ -13,7 +13,7 @@ const PhotographyShowcase: React.FC = () => {
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           <Image
-            src="/images/cro v2-3.webp"
+            src="/images/cro v2-4.webp"
             alt="Home exterior"
             width={500}
             height={100}
@@ -27,7 +27,7 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/port other-7.webp"
+            src="/images/4-thumb IN-28.webp"
             alt="Home exterior"
             width={500}
             height={100}
@@ -41,14 +41,14 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/port other-12.webp"
+            src="/images/6-thumb IN-33.webp"
             alt="Home exterior"
             width={500}
             height={100}
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/Rivella pool-1.webp"
+            src="/images/thumb d-1.webp"
             alt="Home exterior"
             width={500}
             height={100}
@@ -62,7 +62,7 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/violet-14.webp"
+            src="/images/7-thumb IN-21.webp"
             alt="Home exterior"
             width={500}
             height={100}
