@@ -11,11 +11,15 @@ const PricingTable: React.FC = () => {
     {
       name: "Listing Photos",
 
-      features: ["Interior and Exterior Photos", "5-8 Drone Photos"],
+      features: [
+        "Interior and Exterior Photos",
+        "5-8 Drone Photos",
+        "Community Amenity Photos",
+      ],
       pricingTiers: [
-        { size: "Up to 2,999 SQFT", price: "$175" },
-        { size: "3,000 - 3,999 SQFT", price: "$225" },
-        { size: "4,000 - 4,999 SQFT", price: "$275" },
+        { size: "Up to 2,500 SQFT", price: "$175" },
+        { size: "2501 - 3,500 SQFT", price: "$225" },
+        { size: "3501 - 4,500 SQFT", price: "$275" },
       ],
       icon: FaHome,
     },
@@ -24,11 +28,10 @@ const PricingTable: React.FC = () => {
   const additionalServices = [
     "Stand-Alone Drone Photos - $150",
     "Add Boundary Lines to Drone Photos - $15",
-    "Drone Photos of Community/Amenities - $25",
     "Floor Plan w/ Room Measurements - $50",
     "Zillow 3D Tour w/ Interactive Floor Plan - $75",
     "Same Day Delivery - $75",
-    "30s Drone Video - $100",
+    "Drone Video - $100",
     "Vertical Property Video w/ Drone Footage - $125",
     "Virtual Twilight - $20 per photo",
     "Virtual Staging - $30 per photo",
@@ -53,7 +56,7 @@ const PricingTable: React.FC = () => {
         </div>
 
         <p className="text-sm lg:text-base  mt-7 lg:mt-0 lg:mb-2  ">
-          <em>Note: Please contact for homes {">"} 5000 SQFT.</em>
+          <em>Note: Please contact for homes {">"} 4500 SQFT.</em>
         </p>
 
         <div className="flex justify-between items-center pt-6">
