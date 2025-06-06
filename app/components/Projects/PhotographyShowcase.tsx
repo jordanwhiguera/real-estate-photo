@@ -13,14 +13,14 @@ const PhotographyShowcase: React.FC = () => {
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           <Image
-            src="/images/cro v2-4.webp"
+            src="/images/6-thumb IN-33.webp"
             alt="Home exterior"
             width={500}
             height={100}
-            className="rounded-3xl w-full h-full"
+            className="rounded-3xl w-full"
           />
           <Image
-            src="/images/flag blue-1.webp"
+            src="/images/7-thumb IN-21.webp"
             alt="Home exterior"
             width={500}
             height={100}
@@ -34,19 +34,21 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full h-full"
           />
           <Image
+            src="/images/port other-6.webp"
+            alt="Home exterior"
+            width={500}
+            height={100}
+            className="rounded-3xl w-full"
+          />
+
+          <Image
             src="/images/2-a1a in-32.webp"
             alt="Home exterior"
             width={500}
             height={100}
             className="rounded-3xl w-full h-full"
           />
-          <Image
-            src="/images/6-thumb IN-33.webp"
-            alt="Home exterior"
-            width={500}
-            height={100}
-            className="rounded-3xl w-full"
-          />
+
           <Image
             src="/images/thumb d-1.webp"
             alt="Home exterior"
@@ -62,19 +64,13 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/7-thumb IN-21.webp"
+            src="/images/2-thumb IN-27.webp"
             alt="Home exterior"
             width={500}
             height={100}
             className="rounded-3xl w-full"
           />
-          <Image
-            src="/images/port other-6.webp"
-            alt="Home exterior"
-            width={500}
-            height={100}
-            className="rounded-3xl w-full"
-          />
+
           <Image
             src="/images/port other-3.webp"
             alt="Home exterior"
@@ -88,6 +84,13 @@ const PhotographyShowcase: React.FC = () => {
             width={500}
             height={100}
             className="rounded-3xl w-full"
+          />
+          <Image
+            src="/images/flag blue-1.webp"
+            alt="Home exterior"
+            width={500}
+            height={100}
+            className="rounded-3xl w-full h-full"
           />
           <Image
             src="/images/port other-2.webp"
