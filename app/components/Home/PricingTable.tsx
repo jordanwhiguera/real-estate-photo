@@ -9,7 +9,7 @@ import { Plan } from "./PricingCard";
 const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
-      name: "Listing Photos",
+      name: "Base Package",
 
       features: [
         "Interior and Exterior Photos",
@@ -26,16 +26,21 @@ const PricingTable: React.FC = () => {
   ];
 
   const additionalServices = [
-    "Stand-Alone Drone Photos - $150",
     "Add Boundary Lines to Drone Photos - $15",
     "Floor Plan w/ Room Measurements - $50",
     "Zillow 3D Tour w/ Interactive Floor Plan - $75",
     "Same Day Delivery - $75",
     "Drone Video - $100",
     "Vertical Property Video w/ Drone Footage - $125",
+    "Horizontal Property Video w/ Drone Footage - $125",
     "Virtual Twilight - $20 per photo",
     "Virtual Staging - $30 per photo",
     "Property Website - $25",
+  ];
+  const photosOnlyPricing = [
+    "Up to 2500 SQFT - $150",
+    "2501 - 3500 SQFT - $200",
+    "3501 - 4500 SQFT - $250",
   ];
 
   return (
@@ -58,10 +63,27 @@ const PricingTable: React.FC = () => {
         <p className="text-sm lg:text-base  mt-7 lg:mt-0 lg:mb-2  ">
           <em>Note: Please contact for homes {">"} 4500 SQFT.</em>
         </p>
-
         <div className="flex justify-between items-center pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
-            Additional Services:
+            Listing Photos Pricing:
+          </h3>
+        </div>
+        <div className="pt-4">
+          {photosOnlyPricing.map((item, index) => (
+            <div
+              key={index}
+              className="flex items-center text-sm md:text-base text-black mb-2"
+            >
+              <span className="mr-2 text-black p-1 bg-black rounded-full">
+                <FaCheck className="text-[#e3d6c3]" size={10} />
+              </span>
+              <p className="flex-grow lg:text-lg">{item}</p>
+            </div>
+          ))}
+        </div>
+        <div className="flex justify-between items-center pt-6">
+          <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
+            Add-On Pricing:
           </h3>
         </div>
         <div className="pt-4">
