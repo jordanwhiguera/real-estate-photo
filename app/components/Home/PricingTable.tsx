@@ -62,7 +62,7 @@ const PricingTable: React.FC = () => {
         <p className="text-sm lg:text-base  mt-7 lg:mt-0 lg:mb-2  ">
           <em>Note: Please contact for homes {">"} 4500 SQFT.</em>
         </p>
-        <div className="flex justify-between items-center pt-6">
+        {/* <div className="flex justify-between items-center pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
             Listing Photos Pricing:
           </h3>
@@ -79,7 +79,7 @@ const PricingTable: React.FC = () => {
               <p className="flex-grow lg:text-lg">{item}</p>
             </div>
           ))}
-        </div>
+        </div> */}
         <div className="flex justify-between items-center pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
             Add-On Pricing:
