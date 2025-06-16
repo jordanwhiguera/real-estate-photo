@@ -12,14 +12,14 @@ const PricingTable: React.FC = () => {
       name: "Base Package",
 
       features: [
-        "Interior and Exterior Photos",
+        " Unlimited Interior & Exterior Photos",
         "5-8 Drone Photos",
         "Aerial Amenity Photos",
       ],
       pricingTiers: [
         { size: "Up to 2,500 SQFT", price: "$175" },
-        { size: "2501 - 3,500 SQFT", price: "$215" },
-        { size: "3501 - 4,500 SQFT", price: "$255" },
+        { size: "2,501 - 3,500 SQFT", price: "$215" },
+        { size: "3,501 - 4,500 SQFT", price: "$255" },
       ],
       icon: FaHome,
     },
@@ -37,9 +37,9 @@ const PricingTable: React.FC = () => {
     "Property Website - $25",
   ];
   const photosOnlyPricing = [
-    "Up to 2500 SQFT - $150",
-    "2501 - 3500 SQFT - $190",
-    "3501 - 4500 SQFT - $230",
+    "Up to 2,500 SQFT - $150",
+    "2,501 - 3,500 SQFT - $190",
+    "3,501 - 4,500 SQFT - $230",
   ];
   const droneOnlyPricing = ["Stand-Alone Drone Photos - $150"];
 
@@ -61,12 +61,15 @@ const PricingTable: React.FC = () => {
         </div>
 
         <p className="text-sm lg:text-base  mt-7 lg:mt-0 lg:mb-2  ">
-          <em>Note: Please contact for homes {">"} 4500 SQFT.</em>
+          <em>Note: Please contact for homes {">"} 4,500 SQFT.</em>
         </p>
-        <div className="flex justify-between items-center pt-6">
+        <div className="pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
-            Property Photos:
+            Unlimited Photos
           </h3>
+          <p className="text-sm lg:text-base text-black italic pt-2">
+            Interior & Exterior Photos Only
+          </p>
         </div>
         <div className="pt-4">
           {photosOnlyPricing.map((item, index) => (
@@ -83,7 +86,7 @@ const PricingTable: React.FC = () => {
         </div>
         <div className="flex justify-between items-center pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
-            Add-On Services:
+            Add-On Services
           </h3>
         </div>
         <div className="pt-4">
@@ -101,7 +104,7 @@ const PricingTable: React.FC = () => {
         </div>
         <div className="flex justify-between items-center pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
-            Drone Photos:
+            Drone Photos
           </h3>
         </div>
         <div className="pt-4">
