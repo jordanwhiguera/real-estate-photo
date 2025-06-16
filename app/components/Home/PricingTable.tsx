@@ -18,8 +18,8 @@ const PricingTable: React.FC = () => {
       ],
       pricingTiers: [
         { size: "Up to 2,500 SQFT", price: "$175" },
-        { size: "2501 - 3,500 SQFT", price: "$225" },
-        { size: "3501 - 4,500 SQFT", price: "$275" },
+        { size: "2501 - 3,500 SQFT", price: "$215" },
+        { size: "3501 - 4,500 SQFT", price: "$255" },
       ],
       icon: FaHome,
     },
@@ -38,9 +38,10 @@ const PricingTable: React.FC = () => {
   ];
   const photosOnlyPricing = [
     "Up to 2500 SQFT - $150",
-    "2501 - 3500 SQFT - $200",
-    "3501 - 4500 SQFT - $250",
+    "2501 - 3500 SQFT - $190",
+    "3501 - 4500 SQFT - $230",
   ];
+  const droneOnlyPricing = ["Stand-Alone Drone Photos - $150"];
 
   return (
     <Container>
@@ -62,9 +63,9 @@ const PricingTable: React.FC = () => {
         <p className="text-sm lg:text-base  mt-7 lg:mt-0 lg:mb-2  ">
           <em>Note: Please contact for homes {">"} 4500 SQFT.</em>
         </p>
-        {/* <div className="flex justify-between items-center pt-6">
+        <div className="flex justify-between items-center pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
-            Listing Photos Pricing:
+            Property Photos:
           </h3>
         </div>
         <div className="pt-4">
@@ -79,10 +80,10 @@ const PricingTable: React.FC = () => {
               <p className="flex-grow lg:text-lg">{item}</p>
             </div>
           ))}
-        </div> */}
+        </div>
         <div className="flex justify-between items-center pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
-            Add-On Pricing:
+            Add-On Services:
           </h3>
         </div>
         <div className="pt-4">
@@ -95,6 +96,24 @@ const PricingTable: React.FC = () => {
                 <FaCheck className="text-[#e3d6c3]" size={10} />
               </span>
               <p className="flex-grow lg:text-lg">{service}</p>
+            </div>
+          ))}
+        </div>
+        <div className="flex justify-between items-center pt-6">
+          <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
+            Drone Photos:
+          </h3>
+        </div>
+        <div className="pt-4">
+          {droneOnlyPricing.map((item, index) => (
+            <div
+              key={index}
+              className="flex items-center text-sm md:text-base text-black mb-2"
+            >
+              <span className="mr-2 text-black p-1 bg-black rounded-full">
+                <FaCheck className="text-[#e3d6c3]" size={10} />
+              </span>
+              <p className="flex-grow lg:text-lg">{item}</p>
             </div>
           ))}
         </div>
