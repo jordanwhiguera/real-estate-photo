@@ -86,7 +86,7 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full"
           />
           <Image
-            src="/images/flag blue-1.webp"
+            src="/images/flag-1.webp"
             alt="Home exterior"
             width={500}
             height={100}
