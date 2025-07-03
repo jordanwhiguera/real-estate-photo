@@ -12,7 +12,7 @@ const PricingTable: React.FC = () => {
       name: "Base Package",
 
       features: [
-        " Unlimited Interior & Exterior Photos",
+        "Interior & Exterior Photos",
         "5-8 Drone Photos",
         "Aerial Amenity Photos",
       ],
@@ -65,11 +65,11 @@ const PricingTable: React.FC = () => {
         </p>
         <div className="pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
-            Unlimited Photos
+            Photos Only
           </h3>
-          <p className="text-sm lg:text-base text-black italic pt-2">
+          {/* <p className="text-sm lg:text-base text-black italic pt-2">
             Interior & Exterior Photos Only
-          </p>
+          </p> */}
         </div>
         <div className="pt-4">
           {photosOnlyPricing.map((item, index) => (
