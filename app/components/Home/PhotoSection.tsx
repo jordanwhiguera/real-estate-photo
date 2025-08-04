@@ -21,7 +21,7 @@ const PhotoSection: React.FC = () => {
         </div>
         <div className="w-full">
           <Image
-            src="/images/aspect-3.jpg"
+            src="/images/1-tram twi-1.webp"
             alt="Second"
             width={600}
             height={400}
