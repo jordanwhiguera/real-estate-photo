@@ -13,7 +13,7 @@ const PhotographyShowcase: React.FC = () => {
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           <Image
-            src="/images/cro new-1.webp" // Replace with actual paths to your images
+            src="/images/cro-1.webp" // Replace with actual paths to your images
             alt="Image 3"
             layout="responsive"
             width={500}
@@ -28,7 +28,7 @@ const PhotographyShowcase: React.FC = () => {
             className="rounded-3xl w-full h-full"
           />
           <Image
-            src="/images/1-tram twi cen-1.webp"
+            src="/images/coosa ex-5.webp"
             alt="Home exterior"
             width={500}
             height={100}
