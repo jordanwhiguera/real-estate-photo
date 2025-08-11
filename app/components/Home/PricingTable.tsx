@@ -41,7 +41,7 @@ const PricingTable: React.FC = () => {
     "2,501 - 3,500 SQFT - $190",
     "3,501 - 4,500 SQFT - $230",
   ];
-  const droneOnlyPricing = ["Stand-Alone Drone Photos - $150"];
+  const droneOnlyPricing = ["Stand-Alone Drone Photos - $125"];
 
   return (
     <Container>
