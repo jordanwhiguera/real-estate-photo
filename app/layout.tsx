@@ -6,7 +6,7 @@ import Script from "next/script"; // Import the Script component
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Open Home Media: Real Estate Photography in Port St Lucie, FL.",
+  title: "Open Home Media | Real Estate Photography in Port St Lucie, FL.",
   description:
     "Open Home Media provides premier real estate photography, videography, drone, 3D virtual tours, and floor plans at an affordable price. We service Port St Lucie, Fort Pierce, Vero Beach, Stuart, Palm City, Jensen Beach, Hobe Sound, and more! ",
 };
