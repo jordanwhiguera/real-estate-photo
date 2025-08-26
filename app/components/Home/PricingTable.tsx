@@ -27,7 +27,7 @@ const PricingTable: React.FC = () => {
 
   const additionalServices = [
     "Add Boundary Lines to Drone Photos - $15",
-    "Green Grass Replacement - $25",
+
     "Floor Plan w/ Room Measurements - $50",
     "Zillow 3D Tour w/ Interactive Floor Plan - $75",
     "Same Day Delivery - $75",
