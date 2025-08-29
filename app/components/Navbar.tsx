@@ -86,9 +86,26 @@ const Navbar: React.FC = () => {
               </a>
               <a
                 className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
-                onClick={() =>
-                  window.open("https://openhomemedia.hd.pics/order", "_blank")
-                }
+                onClick={() => {
+                  if (typeof window !== "undefined" && (window as any).gtag) {
+                    (window as any).gtag("event", "conversion", {
+                      send_to: "AW-17517967547/ChWyCIeYqZAbELvxm6FB",
+                      value: 1.0,
+                      currency: "USD",
+                      event_callback: () => {
+                        window.open(
+                          "https://openhomemedia.hd.pics/order",
+                          "_blank"
+                        );
+                      },
+                    });
+                  } else {
+                    window.open(
+                      "https://openhomemedia.hd.pics/order",
+                      "_blank"
+                    );
+                  }
+                }}
               >
                 Book Online
               </a>
@@ -153,9 +170,20 @@ const Navbar: React.FC = () => {
         </a>
         <a
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
-          onClick={() =>
-            window.open("https://openhomemedia.hd.pics/order", "_blank")
-          }
+          onClick={() => {
+            if (typeof window !== "undefined" && (window as any).gtag) {
+              (window as any).gtag("event", "conversion", {
+                send_to: "AW-17517967547/ChWyCIeYqZAbELvxm6FB",
+                value: 1.0,
+                currency: "USD",
+                event_callback: () => {
+                  window.open("https://openhomemedia.hd.pics/order", "_blank");
+                },
+              });
+            } else {
+              window.open("https://openhomemedia.hd.pics/order", "_blank");
+            }
+          }}
         >
           Book Online
         </a>

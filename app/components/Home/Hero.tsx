@@ -23,19 +23,35 @@ const Hero: React.FC = () => {
             <u>Jensen Beach</u>,and <u>Hobe Sound</u>.
           </h1>
           <button
-            onClick={() =>
-              window.open("https://openhomemedia.hd.pics/order", "_blank")
-            }
+            onClick={() => {
+              // Fire conversion event
+              if (typeof window !== "undefined" && (window as any).gtag) {
+                (window as any).gtag("event", "conversion", {
+                  send_to: "AW-17517967547/ChWyCIeYqZAbELvxm6FB",
+                  value: 1.0,
+                  currency: "USD",
+                  event_callback: () => {
+                    // After reporting, open the booking link
+                    window.open(
+                      "https://openhomemedia.hd.pics/order",
+                      "_blank"
+                    );
+                  },
+                });
+              } else {
+                // Fallback: just open if gtag isn’t ready
+                window.open("https://openhomemedia.hd.pics/order", "_blank");
+              }
+            }}
             style={{ cursor: "pointer" }}
             className="flex items-center mt-4"
           >
-            <span className=" text-xl font-bold hover:underline lg:text-3xl  ">
+            <span className="text-xl font-bold hover:underline lg:text-3xl">
               Book Now
             </span>
-            <div className="ml-2 text-[white] hover:text-[#e3d6c3] text-xl lg:text-3xl  rotate-45">
-              <FaArrowUp /> {/* Icon itself is white, background is black */}
+            <div className="ml-2 text-[white] hover:text-[#e3d6c3] text-xl lg:text-3xl rotate-45">
+              <FaArrowUp />
             </div>
-            {/* Replace with an actual arrow icon */}
           </button>
         </div>
 
