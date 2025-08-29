@@ -27,7 +27,7 @@ export default function RootLayout({
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'AW-11475977860');
+         gtag('config', 'AW-17517967547');
         `}
       </Script>
       <body className={inter.className}>{children}</body>
