@@ -56,16 +56,13 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Image Section */}
-        <div className="md:w-2/3 pt-4 md:pt-0">
+        <div className="md:w-2/3 pt-4 md:pt-0 relative h-[400px] md:h-[600px] lg:h-[700px]">
           <Image
             src="/images/port house fin-1.webp"
             alt="Photographer"
-            layout="responsive" // Responsive layout maintains aspect ratio
-            width={600} // Define width to keep the aspect ratio
-            height={600} // Define height to make it square
-            quality={100} // Keeps image at high resolution
-            objectFit="cover" // Ensures the image maintains its aspect ratio within the container
-            className="rounded-3xl"
+            fill // use fill instead of layout="responsive"
+            quality={100}
+            style={{ objectFit: "cover", borderRadius: "1.5rem" }} // rounded-3xl
           />
         </div>
       </div>
