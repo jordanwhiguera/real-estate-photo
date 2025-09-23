@@ -72,7 +72,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
         {/* Book Now button */}
         <div className="absolute bottom-0 w-full px-4 pb-4 ">
           <a
-            href="https://openhomemedia.hd.pics/order"
+            href="https://book.openhomemedia.net/order"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full relative 
