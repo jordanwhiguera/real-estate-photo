@@ -71,27 +71,28 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
 
         {/* Book Now button */}
         <div className="absolute bottom-0 w-full px-4 pb-4 ">
-          <Button
-            label="Book Now"
-            onClick={() => {
-              if (typeof window !== "undefined" && (window as any).gtag) {
-                (window as any).gtag("event", "conversion", {
-                  send_to: "AW-17517967547/ChWyCIeYqZAbELvxm6FB", // your conversion ID/label
-                  value: 1.0,
-                  currency: "USD",
-                  event_callback: () => {
-                    window.open(
-                      "https://openhomemedia.hd.pics/order",
-                      "_blank"
-                    );
-                  },
-                });
-              } else {
-                // fallback if gtag isn’t loaded
-                window.open("https://openhomemedia.hd.pics/order", "_blank");
-              }
-            }}
-          />
+          <a
+            href="https://openhomemedia.hd.pics/order"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full relative 
+            disabled:opacity-50
+            disabled:cursor-not-allowed
+            hover:bg-white
+            transition
+            border-black
+            border-2
+            rounded-full
+            font-bold
+            bg-[#e3d6c3]
+            text-black
+            py-3
+            text-lg
+            text-center
+            block"
+          >
+            Book Now
+          </a>
         </div>
       </div>
     </div>
