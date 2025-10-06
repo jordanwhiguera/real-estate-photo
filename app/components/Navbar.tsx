@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
                 href="https://book.openhomemedia.net/order"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-transparent hover:bg-[white] hover:text-[#1e251f] bg-[#1e251f] text-[white] font-semibold py-4 px-6 rounded-full"
+                className="bg-transparent hover:bg-[white] hover:text-[#1e251f] bg-[black] text-[white] font-semibold py-4 px-6 rounded-full"
               >
                 Book Now
               </a>
