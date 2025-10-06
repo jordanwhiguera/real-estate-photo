@@ -29,11 +29,14 @@ const PricingTable: React.FC = () => {
     "Add Boundary Lines to Drone Photos - $15",
 
     "Floor Plan w/ Room Measurements - $50",
-    "Zillow 3D Tour w/ Interactive Floor Plan - $75",
+    "Zillow 3D Tour w/ Floor Plan - $85",
     "Same Day Delivery - $75",
-    "Drone Video - $100",
-    "Walkthrough Video w/ Drone Footage - $125",
+
+    "Vertical Video w/ Drone Footage - $150",
+    "Walkthrough Video w/ Drone Footage - $150",
+    "Agent Intro (Appear at Start of Video) - $50",
     "Virtual Twilight - $20 per photo",
+    "Item Removal - $20 per photo",
     "Virtual Staging - $30 per photo",
     "Property Website - $25",
     "Real Twilight Photos - $250",
@@ -43,7 +46,10 @@ const PricingTable: React.FC = () => {
     "2,501 - 3,500 SQFT - $190",
     "3,501 - 4,500 SQFT - $230",
   ];
-  const droneOnlyPricing = ["Stand-Alone Drone Photos - $125"];
+  const droneOnlyPricing = [
+    "Drone Photos - $125",
+    "Drone Video - $100 (Add-On)",
+  ];
 
   return (
     <Container>
@@ -106,7 +112,7 @@ const PricingTable: React.FC = () => {
         </div>
         <div className="flex justify-between items-center pt-6">
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
-            Drone Photos
+            Drone Services
           </h3>
         </div>
         <div className="pt-4">
