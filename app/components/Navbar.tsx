@@ -61,25 +61,25 @@ const Navbar: React.FC = () => {
             {/* <h1 className="text-5xl font-bold">Lumina Home Media</h1> */}
             <nav className="hidden md:flex space-x-4 hover:cursor-pointer">
               <a
-                className="bg-transparent hover:bg-[white] text-[#1e251f] font-bold py-2 px-4 border-2 border-black rounded-full "
+                className="bg-transparent hover:bg-[white] text-[#1e251f] font-bold py-4 px-4  border-black rounded-full "
                 onClick={() => handleNavigation("/")}
               >
                 Home
               </a>
               <a
-                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
+                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-4 px-4  border-black rounded-full"
                 onClick={(e) => scrollToSection(e, "pricing")}
               >
                 Pricing
               </a>
               <a
-                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
+                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-4 px-4  border-black rounded-full"
                 onClick={() => handleNavigation("/portfolio")}
               >
                 Portfolio
               </a>
               <a
-                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
+                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-4 px-4  border-black rounded-full"
                 onClick={() => handleNavigation("/contact")}
               >
                 Contact
@@ -88,9 +88,9 @@ const Navbar: React.FC = () => {
                 href="https://book.openhomemedia.net/order"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
+                className="bg-transparent hover:bg-[white] hover:text-[#1e251f] bg-[#1e251f] text-[white] font-semibold py-4 px-6 rounded-full"
               >
-                Book Online
+                Book Now
               </a>
             </nav>
             {/* Hamburger Icon */}
@@ -157,7 +157,7 @@ const Navbar: React.FC = () => {
           rel="noopener noreferrer"
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
         >
-          Book Online
+          Book Now
         </a>
       </div>
       {/* Overlay to close drawer */}
