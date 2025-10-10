@@ -29,7 +29,7 @@ const PricingTable: React.FC = () => {
     "Add Boundary Lines to Drone Photos - $15",
 
     "Floor Plan w/ Room Measurements - $50",
-    "Zillow 3D Tour w/ Floor Plan - $85",
+    "Zillow 3D Tour w/ Floor Plan - $75",
     "Same Day Delivery - $75",
 
     "Vertical Video w/ Drone Footage - $150",
