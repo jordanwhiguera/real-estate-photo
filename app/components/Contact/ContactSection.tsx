@@ -7,7 +7,31 @@ import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
 import { toast } from "react-hot-toast";
+
+declare global {
+  interface Window {
+    dataLayer: any[];
+  }
+}
+
 const ContactSection: React.FC = () => {
+  const phoneNumberDisplay = "772-607-0620";
+  const phoneNumberLink = "tel:7726070620";
+
+  const handlePhoneClick = () => {
+    console.log(
+      "Phone number clicked. Pushing 'phone_call_click' event to DataLayer."
+    );
+    // This is the crucial part for GTM tracking:
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "phone_call_click", // <-- Use this name for your GTM Trigger
+        element_type: "phone_link",
+        phone_number: phoneNumberDisplay,
+      });
+    }
+  };
+
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
     const form = e.currentTarget;
@@ -63,11 +87,20 @@ const ContactSection: React.FC = () => {
                 </span>
                 Port Saint Lucie, FL
               </div>
+              {/* PHONE NUMBER LINK WITH GTM TRACKING */}
               <div className="flex items-center text-black">
                 <span className=" mr-2 text-black p-2 bg-black rounded-full">
                   <FaPhoneAlt className="text-[#e3d6c3]" />
                 </span>
-                772-607-0620
+                {/* Anchor tag wraps the phone number text, fires GTM event on click */}
+                <a
+                  href={phoneNumberLink}
+                  onClick={handlePhoneClick}
+                  className="text-black hover:underline transition"
+                  aria-label={`Call ${phoneNumberDisplay}`}
+                >
+                  {phoneNumberDisplay}
+                </a>
               </div>
               <div className="flex items-center text-black">
                 <span className=" mr-2 text-black p-2 bg-black rounded-full">
