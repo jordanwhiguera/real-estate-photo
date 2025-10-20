@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react"; // <-- ADDED useEffect
 import Container from "../Container";
 import Button from "../Button";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -8,15 +8,45 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
 import { toast } from "react-hot-toast";
 
+// ADDED: Declaration for the global Google Ads function
 declare global {
   interface Window {
     dataLayer: any[];
+    // Declaring the Google Website Call Conversion function
+    _googWcmGet: (
+      callback: (formattedNumber: string, mobileNumber: string) => void,
+      conversionId: string
+    ) => void;
   }
 }
 
 const ContactSection: React.FC = () => {
   const phoneNumberDisplay = "772-607-0620";
   const phoneNumberLink = "tel:7726070620";
+
+  // ADDED: This hook runs after the component renders to fix the GFN replacement timing issue.
+  useEffect(() => {
+    // Check if the Google function is available (it's loaded by the GTM tag)
+    if (
+      typeof window !== "undefined" &&
+      typeof window._googWcmGet === "function"
+    ) {
+      // Call the Google function, passing a callback to execute
+      window._googWcmGet((formattedNumber, mobileNumber) => {
+        // FIX for TypeScript error: Cast the element to HTMLAnchorElement
+        const targetElement = document.getElementById(
+          "gads-phone-target"
+        ) as HTMLAnchorElement | null;
+
+        if (targetElement) {
+          // Replace the displayed text with the Google Forwarding Number (GFN)
+          targetElement.innerText = formattedNumber;
+          // Update the link's destination (href) to the mobile GFN
+          targetElement.href = `tel:${mobileNumber}`;
+        }
+      }, "17517967547"); // <--- CRITICAL: Your Conversion ID
+    }
+  }, []); // Empty array ensures it only runs once after mount
 
   const handlePhoneClick = () => {
     console.log(
@@ -49,17 +79,14 @@ const ContactSection: React.FC = () => {
       if (response.ok) {
         console.log("Form successfully submitted");
         toast.success("Form successfully submitted.");
-        // Handle successful submission (e.g., redirect or show success message)
         form.reset(); // Reset the form fields
       } else {
         console.error("Form submission error");
         toast.error("Something went wrong.");
-        // Handle submission error
       }
     } catch (error) {
       console.error("Network error:", error);
       toast.error("Something went wrong.");
-      // Handle network error
     }
   };
 
@@ -87,17 +114,18 @@ const ContactSection: React.FC = () => {
                 </span>
                 Port Saint Lucie, FL
               </div>
-              {/* PHONE NUMBER LINK WITH GTM TRACKING */}
+              {/* PHONE NUMBER LINK WITH GTM TRACKING AND GFN TARGET ID */}
               <div className="flex items-center text-black">
                 <span className=" mr-2 text-black p-2 bg-black rounded-full">
                   <FaPhoneAlt className="text-[#e3d6c3]" />
                 </span>
-                {/* Anchor tag wraps the phone number text, fires GTM event on click */}
+                {/* ID added here to allow the useEffect hook to target this element */}
                 <a
                   href={phoneNumberLink}
                   onClick={handlePhoneClick}
                   className="text-black hover:underline transition"
                   aria-label={`Call ${phoneNumberDisplay}`}
+                  id="gads-phone-target"
                 >
                   {phoneNumberDisplay}
                 </a>
