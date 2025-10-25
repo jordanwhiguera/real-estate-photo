@@ -60,7 +60,7 @@ const PricingTable: React.FC = () => {
           </h2>
         </div>
         <p className="text-base lg:text-lg text-black mt-6 -mb-2">
-          Photos delivered the next day by 12 PM (often much sooner)!
+          Photos delivered the next day by 10 AM (often sooner)!
         </p>
         <div className="grid md:grid-cols-2 gap-4 pt-8 lg:pt-0">
           {plans.map((plan, index) => (
