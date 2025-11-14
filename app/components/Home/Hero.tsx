@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
         {/* Image Section */}
         <div className="md:w-2/3 pt-4 md:pt-0">
           <Image
-            src="/images/port house fin-1.jpg"
+            src="/images/rioh-1.jpg"
             alt="Photographer"
             layout="responsive" // Responsive layout maintains aspect ratio
             width={600} // Define width to keep the aspect ratio
