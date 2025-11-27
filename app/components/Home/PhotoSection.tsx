@@ -9,7 +9,7 @@ const PhotoSection: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-16">
         <div className="w-full">
           <Image
-            src="/images/aspect-1.webp"
+            src="/images/fas-1.webp"
             alt="home"
             width={600} // Increased resolution
             height={400}

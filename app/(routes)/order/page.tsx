@@ -1,10 +1,11 @@
-import ThankYou from "@/app/components/Thank/ThankYou";
+import AgreementPage from "@/app/components/Thank/AgreementPage";
+import ThankYou from "@/app/components/Thank/AgreementPage";
 import React from "react";
 
 const page = () => {
   return (
     <>
-      <ThankYou />
+      <AgreementPage />
     </>
   );
 };
