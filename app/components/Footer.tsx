@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
         {/* <a href="/agreement" className="hover:underline">
-          Media Agreemeent
+          Media Agreement
         </a> */}
       </div>
     </Container>
