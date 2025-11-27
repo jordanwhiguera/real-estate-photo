@@ -5,11 +5,8 @@ import Container from "../Container";
 const TermSection: React.FC = () => {
   return (
     <Container>
-      {" "}
       <div className="py-10">
-        {" "}
         <h1 className="text-3xl lg:text-5xl font-bold mb-4 md:mb-8 -mt-8 md:mt-0">
-          {" "}
           TERMS & CONDITIONS
         </h1>
         <div className="text-sm md:text-base text-black space-y-4">
@@ -17,18 +14,22 @@ const TermSection: React.FC = () => {
             <strong>Last Updated:</strong> November 2025
           </p>
 
+          {/* === FIXED INTRODUCTION (Option 1) & ESCAPED QUOTES === */}
           <p>
-            This document constitutes the **Terms & Conditions** and **Media
-            Agreement** (the "Agreement"), setting out the rules under which
-            <strong> Open Home Media LLC</strong> ("Open Home Media" or
-            "Licensor") provides photos, videos, virtual tours, drone footage,
-            or any other media (collectively, "Media") to any person or entity
-            ("Client"). This Agreement governs the service relationship, ensures
-            clear ownership, usage rights, and legal protections for both
-            parties.
+            These **Terms & Conditions** govern your use of the Open Home Media
+            website and services. By accessing or using our website, purchasing
+            services, downloading, or using any Media provided by **Open Home
+            Media LLC** (&quot;Open Home Media&quot;), you agree to be bound by
+            these terms. This document sets out the rules for the service
+            relationship and details the specific **Media Agreement** (the
+            &quot;Agreement&quot;) regarding ownership and usage rights for all
+            photos, videos, and other media (collectively, &quot;Media&quot;).
           </p>
+          {/* ======================================================= */}
 
-          <h2 className="font-semibold mt-4">1. Ownership</h2>
+          <h2 className="font-semibold mt-4">
+            1. Media Ownership and Licensing
+          </h2>
           <p>
             Upon purchase, the{" "}
             <strong>Client becomes the full owner of the Media</strong>{" "}
@@ -82,7 +83,8 @@ const TermSection: React.FC = () => {
           <p>
             The Client is <strong>not required</strong> to provide credit or
             attribution to Open Home Media LLC or its photographers. There are
-            no restrictions on the Client’s use of the Media.
+            no restrictions on the Client&apos;s use of the Media.
+            {/* Apostrophe fixed here */}
           </p>
 
           <h2 className="font-semibold mt-4">
@@ -140,17 +142,19 @@ const TermSection: React.FC = () => {
           <ul className="list-disc list-outside ml-6">
             <li>How or where the Client or third parties use the Media.</li>
             <li>
-              Any claims or disputes arising from the Client's use, resale, or
-              distribution of the Media.
+              Any claims or disputes arising from the Client&apos;s use, resale,
+              or distribution of the Media.
+              {/* Apostrophe fixed here */}
             </li>
           </ul>
 
-          <h2 className="font-semibold mt-4">7. Acceptance</h2>
+          <h2 className="font-semibold mt-4">7. Acceptance of Terms</h2>
           <p>
             By purchasing, downloading, receiving, or using any Media from Open
             Home Media LLC, the Client acknowledges and agrees to all terms in
-            this Agreement, including Open Home Media LLC’s retained rights to
-            use, distribute, and relicense the Media.
+            this Agreement, including Open Home Media LLC&apos;s retained rights
+            to use, distribute, and relicense the Media.
+            {/* Apostrophe fixed here */}
           </p>
         </div>
       </div>
