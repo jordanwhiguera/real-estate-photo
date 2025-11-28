@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Container from "../Container";
 import Image from "next/image";
 
+// ORIGINAL IMAGE PATHS
 const images = [
   "/images/cro-1.webp",
   "/images/7-thumb IN-21.webp",
@@ -25,16 +26,17 @@ export default function PhotographyShowcase() {
 
   return (
     <Container>
-      {/* Lightbox */}
+      {/* LIGHTBOX */}
       {selected && (
         <div
           className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 cursor-pointer"
           onClick={close}
         >
-          <img
+          <Image
             src={selected}
-            className="max-w-full max-h-full rounded-2xl"
             alt="Expanded"
+            fill
+            className="object-contain rounded-2xl"
           />
         </div>
       )}
@@ -52,7 +54,7 @@ export default function PhotographyShowcase() {
               alt={`Gallery image ${i}`}
               width={500}
               height={500}
-              className="rounded-3xl w-full h-full cursor-pointer hover:opacity-80"
+              className="rounded-3xl w-full h-full object-cover cursor-pointer hover:opacity-80"
               onClick={() => setSelected(src)}
             />
           ))}
