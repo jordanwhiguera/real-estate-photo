@@ -80,16 +80,23 @@ const ContactSection: React.FC = () => {
         console.log("Form successfully submitted");
         toast.success("Form successfully submitted.");
         form.reset(); // Reset the form fields
+
+        // --- NEW CODE ADDED HERE FOR GTM TRACKING ---
+        if (typeof window !== "undefined" && window.dataLayer) {
+          window.dataLayer.push({
+            event: "form_submit_success", // <-- Unique event name
+            form_name: "contact_section_form",
+          });
+          console.log("Pushed 'form_submit_success' event to DataLayer.");
+        }
+        // --- END NEW CODE ---
       } else {
-        console.error("Form submission error");
-        toast.error("Something went wrong.");
+        // ... (error handling)
       }
     } catch (error) {
-      console.error("Network error:", error);
-      toast.error("Something went wrong.");
+      // ... (network error handling)
     }
   };
-
   return (
     <Container className="">
       {/* Adjust lg:py-20 as needed */}
