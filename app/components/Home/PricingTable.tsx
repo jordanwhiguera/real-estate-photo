@@ -75,9 +75,9 @@ const PricingTable: React.FC = () => {
           <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
             Photos Only
           </h3>
-          {/* <p className="text-sm lg:text-base text-black italic pt-2">
+          <p className="text-sm lg:text-base text-black italic pt-2">
             Interior & Exterior Photos Only
-          </p> */}
+          </p>
         </div>
         <div className="pt-4">
           {photosOnlyPricing.map((item, index) => (
