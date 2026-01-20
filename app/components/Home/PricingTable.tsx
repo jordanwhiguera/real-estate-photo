@@ -32,14 +32,14 @@ const PricingTable: React.FC = () => {
     "Zillow 3D Tour w/ Floor Plan - $75",
     "Same Day Delivery - $75",
 
-    "Vertical Video w/ Drone Footage - $150",
-    "Walkthrough Video w/ Drone Footage - $150",
+    "Property Video w/ Drone Footage - $150",
     "Agent Intro (Appear at Start of Video) - $50",
     "Virtual Twilight - $20 per photo",
     "Item Removal - $20 per photo",
     "Virtual Staging - $30 per photo",
     "Property Website - $25",
     "Real Twilight Photos - $250",
+    "Airbnb / Vacation Rental Shoot - $100",
   ];
   const photosOnlyPricing = [
     "Up to 2,500 SQFT - $150",
