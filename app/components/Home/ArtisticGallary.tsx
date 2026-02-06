@@ -44,7 +44,7 @@ const ArtisticGallery: React.FC = () => {
           <Image
             // src="/images/lago hd-5.webp" // Replace with actual paths to your images
 
-            src="/images/port other-8.webp"
+            src="/images/6-via in-74.webp"
             alt="Image 4"
             layout="responsive"
             width={500}

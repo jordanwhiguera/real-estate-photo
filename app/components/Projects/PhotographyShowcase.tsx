@@ -5,17 +5,18 @@ import Image from "next/image";
 
 // 1. ORIGINAL PHOTO IMAGES
 const photoImages = [
-  "/images/cro-1.webp",
+  "/images/3-via in-28.webp",
+
   "/images/7-thumb IN-21.webp",
   "/images/coosa ex-5.webp",
   "/images/4-thumb IN-28.webp",
   "/images/or in-29.webp",
   "/images/kes port-1.webp",
   "/images/kitch-1.webp",
-  "/images/4-tram exterior new-6.webp",
+  "/images/cro-1.webp",
   "/images/kit-1.webp",
   "/images/be-1.webp",
-  "/images/5-tram exterior new-8.webp",
+  "/images/4-inlet in-35.webp",
   "/images/be-2.webp",
 ];
 
