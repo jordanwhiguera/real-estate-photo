@@ -37,7 +37,6 @@ const PricingTable: React.FC = () => {
     "Virtual Twilight - $20 per photo",
     "Item Removal - $20 per photo",
     "Virtual Staging - $30 per photo",
-    "Virtual Staging Package (5 Photos): $100",
 
     "Property Website - $25",
     "Real Twilight Photos - $250",
