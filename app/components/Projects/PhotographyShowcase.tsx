@@ -5,7 +5,7 @@ import Image from "next/image";
 
 // 1. ORIGINAL PHOTO IMAGES
 const photoImages = [
-  "/images/3-via in-28.webp",
+  "/images/6-via in-74.webp",
 
   "/images/7-thumb IN-21.webp",
   "/images/coosa ex-5.webp",
