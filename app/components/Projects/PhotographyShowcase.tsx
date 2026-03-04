@@ -76,7 +76,7 @@ export default function PhotographyShowcase() {
         </div>
 
         {/* --- SECTION 2: VIRTUAL STAGING --- */}
-        <h3 className="text-3xl lg:text-5xl font-bold mb-4 md:mb-8 mt-16 uppercase">
+        {/* <h3 className="text-3xl lg:text-5xl font-bold mb-4 md:mb-8 mt-16 uppercase">
           Virtual Staging
         </h3>
 
@@ -92,7 +92,7 @@ export default function PhotographyShowcase() {
               onClick={() => setSelected(src)} // This now works exactly like the photo section
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </Container>
   );
