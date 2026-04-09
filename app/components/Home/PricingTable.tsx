@@ -91,7 +91,7 @@ const PricingTable: React.FC = () => {
           ))}
         </div>
         <div className="flex justify-between items-center pt-6">
-          <h3 className="text-lg lg:text-2xl font-bold text-black lg:-mt-4">
+          <h3 className="text-lg lg:t ext-2xl font-bold text-black lg:-mt-4">
             Add-On Services
           </h3>
         </div>
