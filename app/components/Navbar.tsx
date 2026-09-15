@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
   };
   const scrollToSection = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    sectionId: string
+    sectionId: string,
   ) => {
     setIsDrawerOpen(false);
     const section = document.getElementById(sectionId);
@@ -51,9 +51,9 @@ const Navbar: React.FC = () => {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <img
-              src="/images/open-3.webp"
+              src="/images/openhome.png"
               alt="Company Logo"
-              className="cursor-pointer h-16 md:h-32" // Adjust the h-24 to your preferred size on small screens and md:h-32 for rmedium screens and above
+              className="cursor-pointer h-12 md:h-18 lg:h-24" // Adjust the h-24 to your preferred size on small screens and md:h-32 for rmedium screens and above
               onClick={() => handleNavigation("/")}
             />
             {/* Menu for larger screens */}
