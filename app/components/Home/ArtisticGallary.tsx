@@ -33,10 +33,11 @@ const ArtisticGallery: React.FC = () => {
         <div>
           <Image
             src="/images/ocean in-12.webp"
-            alt="Home exterior"
+            alt="Image 3"
+            layout="responsive"
             width={500}
             height={500}
-            className="rounded-3xl w-full h-full"
+            className="rounded-3xl"
           />
         </div>
         {/* Image 4 */}
