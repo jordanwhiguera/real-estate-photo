@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className=" w-full bg-[#e3d6c3] text-[#1e251f] z-50">
+      <nav className=" w-full bg-[#e3d6c3;] text-[#1e251f] z-50">
         <Container className="py-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
                 href="https://book.openhomemedia.net/order"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" hover:bg-[white] hover:text-[#1e251f] bg-[black] text-[white] font-semibold py-4 px-6 rounded-full"
+                className=" hover:bg-[white] hover:text-[#1e251f] bg-black text-[white] font-semibold py-4 px-6 rounded-full"
               >
                 Book Now
               </a>
