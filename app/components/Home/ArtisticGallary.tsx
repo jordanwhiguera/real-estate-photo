@@ -32,7 +32,7 @@ const ArtisticGallery: React.FC = () => {
         {/* Image 3 */}
         <div>
           <Image
-            src="/images/1-ocean in-12.jpg"
+            src="/images/rio-1.webp"
             alt="Home exterior"
             width={500}
             height={100}
